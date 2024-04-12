@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>polymorfisme &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/polymorfisme/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Fri, 12 Apr 2024 10:25:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>polymorfisme &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Latihan Soal Pewarisan, Overriding, dan Polymorfisme</title>
+		<link>/2016/03/30/latihan-soal-penggunaan-pewarisan/</link>
+					<comments>/2016/03/30/latihan-soal-penggunaan-pewarisan/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Wed, 30 Mar 2016 06:00:25 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Berorientasi Objek (Java)]]></category>
+		<category><![CDATA[agregasi]]></category>
+		<category><![CDATA[class]]></category>
+		<category><![CDATA[diagram]]></category>
+		<category><![CDATA[dosen]]></category>
+		<category><![CDATA[gaji]]></category>
+		<category><![CDATA[hitung]]></category>
+		<category><![CDATA[inheritance]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[kampus]]></category>
+		<category><![CDATA[latihan]]></category>
+		<category><![CDATA[overriding]]></category>
+		<category><![CDATA[pegawai]]></category>
+		<category><![CDATA[pewarisan]]></category>
+		<category><![CDATA[polymorfisme]]></category>
+		<category><![CDATA[soal]]></category>
+		<category><![CDATA[staf]]></category>
+		<guid isPermaLink="false">/?p=116</guid>
+
+					<description><![CDATA[STUDI KASUS: Hitung Gaji di Sebuah Universitas ?Terdapat dua golongan pegawai di universitas, yaitu Dosen dan Staf biasa. Semua pegawai mendapatkan gaji awal yang sama, <a class="mh-excerpt-more" href="/2016/03/30/latihan-soal-penggunaan-pewarisan/" title="Latihan Soal Pewarisan, Overriding, dan Polymorfisme">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p><strong>STUDI KASUS: Hitung Gaji di Sebuah Universitas</strong></p>
+<ul>
+<li>?Terdapat dua golongan pegawai di universitas, yaitu Dosen dan Staf biasa. Semua pegawai mendapatkan gaji awal yang sama, yaitu 1.500.000</li>
+<li>?Gaji tambahan dosen dihitung dari jumlah sks yang diampu</li>
+<li>?Gaji tambahan staf dihitung dari jumlah kehadiran per bulan</li>
+<li>?Buatlah program untuk mencetak semua gaji pegawai</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>JAWAB:</strong></p>
+<p>Dari requirement di atas, kita bisa mendesain diagram class sebagai berikut:</p>
+<figure id="attachment_117" aria-describedby="caption-attachment-117" style="width: 1447px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/03/diagram_class_kampus.png"><img fetchpriority="high" decoding="async" class="size-full wp-image-117" src="/wp-content/uploads/2016/03/diagram_class_kampus.png" alt="Diagram Class" width="1447" height="920" srcset="/wp-content/uploads/2016/03/diagram_class_kampus.png 1447w, /wp-content/uploads/2016/03/diagram_class_kampus-300x191.png 300w, /wp-content/uploads/2016/03/diagram_class_kampus-1024x651.png 1024w, /wp-content/uploads/2016/03/diagram_class_kampus-550x350.png 550w" sizes="(max-width: 1447px) 100vw, 1447px" /></a><figcaption id="caption-attachment-117" class="wp-caption-text">Diagram Class</figcaption></figure>
+<p>&nbsp;</p>
+<p><b>IMPLEMENTASI DALAM BAHASA JAVA</b></p>
+<p>Class Pegawai:</p>
+<pre class="lang:default decode:true" title="Pegawai.java">package penggajian;
+
+/**
+ *
+ * @author AryaDharmaadi
+ */
+public class Pegawai {
+
+    private String nip;
+    private String nama;
+    private String alamat;
+    
+    public Pegawai(){
+        
+    }
+
+    public Pegawai(String nip, String nama, String alamat) {
+        this.nip = nip;
+        this.nama = nama;
+        this.alamat = alamat;
+    }
+    
+    public void setNama(String nama){
+        this.nama = nama;
+    }
+    
+    public String getNama(){
+        return this.nama;
+    }
+    
+    public int getGaji(){        
+        return 1500000;
+    }
+}</pre>
+<p>Class Staf:</p>
+<pre class="lang:default decode:true">package penggajian;
+
+/**
+ *
+ * @author AryaDharmaadi
+ */
+public class Staf extends Pegawai{
+    
+    private int jumlah_kehadiran;
+    private final int TARIF_HARIAN = 50000;
+    
+    public Staf(){
+        
+    }
+
+    public Staf(String nip, String nama, String alamat) {
+        super(nip, nama, alamat);
+    }    
+    
+    public void setKehadiran(int jumlah_kehadiran){
+        this.jumlah_kehadiran = jumlah_kehadiran;
+    }
+    
+    @Override
+    public int getGaji(){
+        int total_gaji = jumlah_kehadiran*TARIF_HARIAN;       
+        return total_gaji+super.getGaji();
+    }
+}</pre>
+<p>Class Dosen:</p>
+<pre class="lang:default decode:true" title="Dosen.java">package penggajian;
+
+/**
+ *
+ * @author AryaDharmaadi
+ */
+public class Dosen extends Pegawai{
+
+    private int jumlahSKS;
+    private final int TARIF_SKS = 120000;
+    
+    public Dosen(){
+        
+    }
+
+    public Dosen(String nip, String nama, String alamat) {
+        super(nip, nama, alamat);
+    }
+    
+    public void setSKS(int SKS){
+        this.jumlahSKS = SKS;
+    }
+    
+    @Override
+    public int getGaji(){
+        int total_gaji = jumlahSKS*TARIF_SKS;
+        return total_gaji+super.getGaji();
+    }
+}</pre>
+<p>Class DaftarGaji:</p>
+<pre class="lang:default decode:true " title="DaftarGaji.java">package penggajian;
+
+/**
+ *
+ * @author AryaDharmaadi
+ */
+public class DaftarGaji {
+    
+    private Pegawai[] listPegawai;
+    private int jumlahPegawaiSekarang = 0;
+    
+    public DaftarGaji(int jumlah_pegawai){
+        listPegawai = new Pegawai[jumlah_pegawai];
+    }
+    
+    public void addPegawai(Pegawai p){
+        listPegawai[jumlahPegawaiSekarang] = p;
+        jumlahPegawaiSekarang++;
+    }
+    
+    public void printSemuaGaji(){
+        for (int i=0;i&lt;jumlahPegawaiSekarang;i++){
+            System.out.print(listPegawai[i].getNama()+" mendapatkan gaji ");
+            System.out.println(listPegawai[i].getGaji());
+        }
+    }
+}</pre>
+<p>Class ProgramUtama:</p>
+<pre class="lang:default decode:true " title="ProgramUtama.java">package penggajian;
+
+/**
+ *
+ * @author AryaDharmaadi
+ */
+public class ProgramUtama {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        Staf s1 = new Staf();
+        s1.setNama("Putu");
+        s1.setKehadiran(20);
+        
+        Dosen d1 = new Dosen();
+        d1.setNama("Dharmadi");
+        d1.setSKS(12);
+        
+        Pegawai p1 = new Pegawai();
+        p1.setNama("Kadek");
+        
+        DaftarGaji daftar_gaji = new DaftarGaji(3);
+        daftar_gaji.addPegawai(s1);
+        daftar_gaji.addPegawai(d1);
+        daftar_gaji.addPegawai(p1);
+        daftar_gaji.printSemuaGaji();
+    }    
+}</pre>
+<p>&nbsp;</p>
+<p>Hasil Running:</p>
+<figure id="attachment_119" aria-describedby="caption-attachment-119" style="width: 240px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/03/running.jpg"><img decoding="async" class="size-full wp-image-119" src="/wp-content/uploads/2016/03/running.jpg" alt="Hasil Running" width="240" height="47" /></a><figcaption id="caption-attachment-119" class="wp-caption-text">Hasil Running</figcaption></figure>
+<p>&nbsp;</p>
+<p>Selamat mencoba. Happy Coding <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/03/30/latihan-soal-penggunaan-pewarisan/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Konsep Dasar Pemrograman Berorientasi Objek</title>
+		<link>/2016/02/05/konsep-dasar-pemrograman-berorientasi-objek/</link>
+					<comments>/2016/02/05/konsep-dasar-pemrograman-berorientasi-objek/#comments</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Fri, 05 Feb 2016 06:44:13 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Berorientasi Objek (Java)]]></category>
+		<category><![CDATA[abstraksi]]></category>
+		<category><![CDATA[berorientasi]]></category>
+		<category><![CDATA[enkapsulasi]]></category>
+		<category><![CDATA[inheritansi]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[kelas]]></category>
+		<category><![CDATA[objek]]></category>
+		<category><![CDATA[overloading]]></category>
+		<category><![CDATA[overriding]]></category>
+		<category><![CDATA[pemrograman]]></category>
+		<category><![CDATA[penurunan]]></category>
+		<category><![CDATA[pewarisan]]></category>
+		<category><![CDATA[polymorfisme]]></category>
+		<category><![CDATA[top=pick]]></category>
+		<guid isPermaLink="false">/?p=72</guid>
+
+					<description><![CDATA[PENDAHULUAN: PEMROGRAMAN PROSEDURAL Pada kuliah pemrograman dengan menggunakan bahasa C, telah diajarkan pembuatan program secara prosedural. Pemrograman prosedural adalah pembuatan program dengan memberikan serangkaian instruksi yang <a class="mh-excerpt-more" href="/2016/02/05/konsep-dasar-pemrograman-berorientasi-objek/" title="Konsep Dasar Pemrograman Berorientasi Objek">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p><strong>PENDAHULUAN: PEMROGRAMAN PROSEDURAL</strong></p>
+<p>Pada kuliah pemrograman dengan menggunakan bahasa C, telah diajarkan pembuatan program secara prosedural. Pemrograman prosedural adalah pembuatan program dengan memberikan serangkaian instruksi yang berurutan secara top-down. Pada pemrograman procedural, program dibedakan antara bagian data dengan bagian instruksi.</p>
+<p><strong>PRINSIP PEMROGRAMAN PROSEDURAL</strong></p>
+<p>Penekanan utama pada sesuatu yang harus dikerjakan secara berurutan. Jika program cukup besar, maka dibagi-bagi menjadi sub-sub program (fungsi atau prosedur) yang lebih kecil. Sebagian besar fungsi atau prosedur mengakses variabel global.</p>
+<p><strong>Contoh: Alat Counter</strong></p>
+<figure style="width: 400px" class="wp-caption aligncenter"><a href="http://i00.i.aliimg.com/wsphoto/v0/32295210842/Sports-Clear-Band-Light-Blue-Plastic-Shell-LCD-Display-Finger-Counter-Tool.jpg"><img decoding="async" class="" src="http://i00.i.aliimg.com/wsphoto/v0/32295210842/Sports-Clear-Band-Light-Blue-Plastic-Shell-LCD-Display-Finger-Counter-Tool.jpg" alt="" width="400" height="400" /></a><figcaption class="wp-caption-text">Alat counter</figcaption></figure>
+<pre class="lang:default decode:true" title="counter.c">#include &lt;stdio.h&gt;
+
+int value=0;
+void next();
+void reset();
+void display();
+
+int main(){
+	int menu;
+	
+	scanf("%d",&amp;menu);
+	if (menu==1){
+		next();
+	}else if (menu==2){
+		reset();
+	}	
+	display();
+}
+
+void next(){
+	value++;
+}
+
+void reset(){
+	value=0;
+}
+
+void display(){
+	printf("%d",value);
+}</pre>
+<p>Pada contoh kasus alat counter di atas, dikerjakan dengan pendekatan top-down, yaitu:</p>
+<ol>
+<li>identifikasi program counter tersebut memiliki fungsi-fungsi apa saja. Fungsi yang dimiliki adalah:
+<ol>
+<li>next (untuk menjalankan nilai counter)</li>
+<li>reset (untuk mengembalikan nilai counter menjadi nol)</li>
+<li>display (untuk menampilkan nilai counter di layar)</li>
+</ol>
+</li>
+<li>identifikasi program counter tersebut memiliki data apa saja. Data yang dimiliki adalah:
+<ol>
+<li>value (untuk menampung nilai counter saat ini)</li>
+<li>menu (untuk menampung tombol mana yang dipilih oleh user)</li>
+</ol>
+</li>
+<li>deklarasi data dan fungsi-fungsi tersebut sebagai variabel dan prosedur (baris 3 sampai baris 7)</li>
+<li>buat kerangka program seperti code di atas (baris 8 sampai baris 18) yang berfungsi sebagai alur berjalannya program</li>
+<li>buat detail dari tiap-tiap prosedur (baris 19 sampai baris akhir)</li>
+</ol>
+<p>Pada kasus lain yang lebih kompleks, dari tiap-tiap fungsi umum yang diidentifikasi (seperti point nomor 1), dimungkinkan untuk membuat sub-sub fungsi yang mendukung fungsi umum tersebut. Pembuatan program dari fungsi general ke fungsi-fungsi spesifik tersebut dinamakan pendekatan top-down.</p>
+<p><strong>PARADIGMA PEMROGRAMAN BERORIENTASI OBJEK</strong></p>
+<p>Pemrograman Berorientasi Objek (PBO) <b>BUKAN</b> merupakan bahasa pemrograman, tetapi merupakan sebuah paradigma (cara berpikir) baru dalam pembuatan sebuah program. PBO menitikberatkan pada identifikasi objek-objek yang terlibat dalam sebuah program dan bagaimana objek-objek tersebut berinteraksi.</p>
+<p>Pada PBO, program yang dibangun akan dibagi-bagi menjadi objek-objek. Perlu diidentifikasi tentang:</p>
+<ul>
+<li>Objek yang apa yang akan digunakan,</li>
+<li>Data apa saja yang dibutuhkan oleh objek tersebut,</li>
+<li>Bagaimana perilaku dari objek tersebut,</li>
+<li>Bagaimana komunikasi objek satu dengan objek yang lainnya sehingga bisa memecahkan masalah yang diinginkan</li>
+</ul>
+<p><strong>Contoh: Sistem Perpustakaan</strong></p>
+<figure id="attachment_77" aria-describedby="caption-attachment-77" style="width: 1280px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/02/diagram_class_perpus.png"><img loading="lazy" decoding="async" class="size-full wp-image-77" src="/wp-content/uploads/2016/02/diagram_class_perpus.png" alt="Class Diagram" width="1280" height="647" srcset="/wp-content/uploads/2016/02/diagram_class_perpus.png 1280w, /wp-content/uploads/2016/02/diagram_class_perpus-300x152.png 300w, /wp-content/uploads/2016/02/diagram_class_perpus-1024x518.png 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></a><figcaption id="caption-attachment-77" class="wp-caption-text">Class Diagram</figcaption></figure>
+<p>Keterangan:</p>
+<ul>
+<li>Anggota dan Buku adalah objek yang ada pada sistem (asumsi sistem informasi perpustakaan sederhana)</li>
+<li>Objek Anggota memiliki data nomor_anggota, nama, alamat, telp, dan daftar peminjaman</li>
+<li>Objek Buku memiliki data nomor_buku, judul, penerbit, dan kategori</li>
+<li>Objek Anggota memiliki method (perilaku): meminjam dan mengembalikan, sedangkan objek Buku tidak memiliki method (objek pasif)</li>
+</ul>
+<p><strong>DEFINISI <strong>PEMROGRAMAN BERORIENTASI OBJEK</strong></strong></p>
+<p><b>[Meyer98]: </b>Sebuah sistem yang dibangun berdasarkan metoda berorientasi objek adalah sebuah sistem yang komponennya di-enkapsulasi menjadi kelompok data dan fungsi, yang dapat mewarisi atribut dan sifat dari komponen lainnya, dan komponen-komponen tersebut saling berinteraksi satu sama lain.</p>
+<p>Pemrograman berorientasi objek adalah metode pemrograman berdasarkan hirarki kelas, dimana kelas-kelas tersebut didefinisikan dengan baik dan bisa saling bekerja sama untuk memecahkan masalah.</p>
+<p><strong><i>CLASS</i> (KELAS)</strong></p>
+<p>Merupakan definisi statik (kerangka dasar) dari objek yang akan diciptakan, berupa struktur yang mendefinisikan data (property) dan method dari objek. Bisa disebut cetak biru dari objek atau bisa disebut gambaran umum dari benda.?</p>
+<p>Contoh penamaan kelas: Mobil, Laptop, Anggota, Buku, dll</p>
+<p><strong>PROPERTY</strong></p>
+<p>Merupakan data atau <i>state </i>yang dimiliki oleh class. Contoh pada class Mobil, memiliki property:</p>
+<ul>
+<li>Warna</li>
+<li>Model</li>
+<li>Produsen</li>
+</ul>
+<p>Contoh lain, class Anggota, memiliki property: nomor anggota, nama, alamat, telp, daftar buku yang dipinjam.</p>
+<p><strong>METHOD</strong></p>
+<p>Merupakan behavior (perilaku) sebuah class. Bisa dikatakan sebagai aksi atau tindakan yang bisa dilakukan oleh suatu class. Contoh pada class Mobil, memiliki method:</p>
+<ul>
+<li>Start, method untuk menjalankan mobil</li>
+<li>Stop, method untuk menghentikan laju mobil</li>
+<li>Change Gear, method untuk ganti gigi persneling</li>
+<li>Turn, method untuk belok kanan atau kiri</li>
+</ul>
+<p><strong>Contoh Pembuatan Class, Property, dan Method pada Bahasa Pemrograman Java</strong></p>
+<pre class="lang:default decode:true " title="Car.java">public class Car{
+	String color;
+	String model;
+	private int current_gear;
+	
+	public void start(){
+	
+	}
+	
+	public void stop(){
+	
+	}
+	
+	public void changeGear(int gear){
+	
+	}
+}</pre>
+<p><strong>OBJECT</strong></p>
+<p>Merupakan abstraksi dari sesuatu yang mewakili sesuatu pada dunia nyata. Pada bahasa pemrograman, object adalah komponen yang diciptakan dari class (<i>instance of class</i>). Object merupakan entitas pada saat RUN TIME. Object memiliki siklus <i>creation, manipulation, </i>dan <i>destruction. </i>Satu class bisa menghasil banyak object.</p>
+<p>Contoh Object pada Bahasa Java:</p>
+<pre class="lang:default decode:true " title="MainProgram.java">public class MainProgram {
+	public static void main(String[] args){		
+		Car myCar = new Car();
+		Car yourCar = new Car();
+	}
+}</pre>
+<p>Dua baris (baris 3-4) di atas merupakan contoh pembuatan object <i>myCar</i> dan <i>yourCar</i> dari kelas <i>Car.</i></p>
+<p><strong>KARAKTERISTIK UTAMA <strong><strong>PEMROGRAMAN BERORIENTASI OBJEK</strong></strong></strong></p>
+<ul>
+<li><strong>Abstraksi</strong></li>
+</ul>
+<p>Menunjukkan  karakteristik atau sesuatu yang khas dari sebuah objek yang bisa membedakannya  dengan objek yang lain. Dengan demikian akan terlihat batasan konseptual dari sebuah objek dari sudut pandang tertentu.</p>
+<p>Contoh:</p>
+<ol>
+<li>Pada sistem informasi perpustakaan, apakah membuat class Mahasiswa dan class Dosen atau membuat class Member saja?</li>
+<li>Kasus toko sepeda, apakah membuat Class Sepeda atau Class Sepeda Balap dan Class Sepeda Gunung?</li>
+</ol>
+<p>Dalam pengembangan aplikasi, abstraksi difokuskan pada:</p>
+<ol>
+<li>Hal atau sesuatu yang mana saja yang akan menjadi object?</li>
+<li>Apa ciri-ciri pembeda (property) yang dimiliki object tersebut?</li>
+<li>Bagaimana kelakuan (method) dari object tersebut?</li>
+</ol>
+<ul>
+<li><strong>Enkapsulasi</strong></li>
+</ul>
+<p>Merupakan proses untuk menutupi semua detail dari sebuah object yang tidak menyokong karakteristik khas dari object. Artinya, data property dan method-method dari object hasil abstraksi dibungkus oleh struktur class agar terlindungi.</p>
+<p>Rincian implementasi internal suatu object dibuat tersembunyi sehingga tidak bisa diketahui dan diakses oleh object lain. Object lain hanya bisa berkomunikasi dengan object tersebut melalui antarmuka (interface) yang disediakan oleh object tersebut.</p>
+<p>Misal pada class <i>Car</i>, data variabel <i>current_gear</i> dibuat <i>private</i> sehingga object lain tidak bisa mengakses variabel tersebut. Object lain hanya bisa menjalankan method <i>changeGear</i><i>(</i><i>int</i><i> gear)</i> tanpa mengetahui posisi gear saat sebelum diganti.</p>
+<p>Contoh:</p>
+<pre class="lang:default decode:true " title="MainProgram.java">public class MainProgram {
+	public static void main(String[] args){		
+		Car myCar = new Car();
+		
+		/* INI TIDAK BISA DILAKUKAN */
+		myCar.currentGear = 1;
+		
+		/* SEDANGKAN INI BISA DILAKUKAN */
+		myCar.changeGear(2);
+	}
+}</pre>
+<ul>
+<li><strong>Inheritance (pewarisan)</strong></li>
+</ul>
+<p>Sebuah class bisa mewariskan atribut property-nya dan method-nya ke class yang lain. Class yang mewarisi disebut superclass (kelas induk). Class yang diberi warisan disebut subclass (kelas turunan).</p>
+<p>Pewarisan memungkinkan kita untuk menciptakan kelas baru (kelas turunan) yang merupakan perluasan atau spesialisasi dari kelas lain yang telah ada (kelas induk).</p>
+<p>Kelas turunan akan memiliki property dan method yang sama dengan kelas induk, dimana pada kelas turunan memungkinkan untuk menambahkan property atau method-method baru. Kelas turunan bisa melakukan definisi ulang terhadap method-method yang sudah ada di kelas induknya (<i>overriding</i>).</p>
+<p>Contoh: anda bisa membuat class <i>ModernCar</i> yang merupakan turunan dari class <i>Car. </i>Artinya, class <i>ModernCar</i> memiliki property dan method yang sama dengan induknya tanpa perlu dideklarasikan ulang. ?Agar menjadi unik, class <i>ModernCar</i> menambahkan method <i>retreat()</i> pada definisi class-nya.</p>
+<pre class="lang:default decode:true" title="ModernCar.java">public class ModernCar extends Car {
+	public void retreat(){
+	   // Implementasi method untuk memundurkan mobil
+	}
+}</pre>
+<ul>
+<li><strong>Polymorphism</strong></li>
+</ul>
+<p>Merupakan kemampuan suatu object untuk melakukan hal yang berbeda-beda dengan menggunakan interface yang sama. Hal ini tercermin dengan menggunakan teknik overriding dan overloading. Overriding adalah penulisan ulang method warisan dari kelas induk. Overloading adalah penulisan method yang sama dengan parameter input yang berbeda.</p>
+<p>Contoh overriding:</p>
+<pre class="lang:default decode:true " title="contoh overriding">public class Animal {
+	String nama;
+	
+	public void walk(){
+		System.out.println("Walk with 2 legs");
+	}
+}
+
+public class Dog extends Animal {
+	// overriding method walk() yang sudah ada di class Animal
+	public void walk(){
+		System.out.println("Walk with 4 legs");
+	}
+}
+
+public class Fish extends Animal {
+        // overriding method walk() yang sudah ada di class Animal
+	public void walk(){
+		System.out.println("Sorry can't walk");
+	}
+}</pre>
+<p>Contoh overloading:</p>
+<pre class="lang:default decode:true " title="contoh overloading">public class Dog extends Animal {
+	
+	public void walk(){
+		System.out.println("Walk with 4 legs");
+	}
+
+	// overloading method walk() di atas dengan penambahan parameter integer
+	public void walk(int leg){
+		if ((leg&lt;=4) &amp;&amp; (leg&gt;0)){
+			System.out.println("Walk with "+leg+" legs");
+		}
+	}
+}</pre>
+<p><strong>PENUTUP</strong></p>
+<p>Pemrograman Berorientasi Objek merupakan paradigma pemrograman yang sangat berbeda dengan Pemrograman Prosedural. Disamping fokus pada pemecahan masalah, Pemrograman Berorientasi Objek menitikberatkan pada identifikasi objek-objek yang terlibat dan bagaimana interaksi antar objek tersebut.</p>
+<p><b>NEXT</b></p>
+<p>Pengenalan bahasa pemrograman Java</p>
+<p><strong>DOWNLOAD PDF</strong></p>
+<p>Jika anda ingin membaca materi ini dalam format PDF, silahkan download secara gratis di <a href="http://adf.ly/1WW0eA" target="_blank" rel="noopener noreferrer">link ini</a>.</p>
+<p><strong>REFERENSI</strong></p>
+<p>Tjokorda Agung Budi Wirayuda. (2007) <i>Slide </i><i>Kuliah</i><i>: CS3123 </i><i>Pemrograman</i> <i>Berorientasi</i> <i>Objek</i>. Institut Teknologi Telkom, Bandung</p>
+<p>Sierra, K., &amp; Bates, B. (2005) “A Brain-Friendly Guide: Head First Java 2nd Edition”. O’Reilly</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/02/05/konsep-dasar-pemrograman-berorientasi-objek/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

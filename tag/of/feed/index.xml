@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>of &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/of/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Mon, 24 Oct 2016 04:00:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>of &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Teknik Penulisan Tugas Akhir (Bab II)</title>
+		<link>/2016/10/23/teknik-penulisan-tugas-akhir-bab-ii/</link>
+					<comments>/2016/10/23/teknik-penulisan-tugas-akhir-bab-ii/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Sun, 23 Oct 2016 15:17:56 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Penulisan Ilmiah]]></category>
+		<category><![CDATA[akhir]]></category>
+		<category><![CDATA[art]]></category>
+		<category><![CDATA[kajian]]></category>
+		<category><![CDATA[landasan]]></category>
+		<category><![CDATA[literature]]></category>
+		<category><![CDATA[map]]></category>
+		<category><![CDATA[of]]></category>
+		<category><![CDATA[penelitian]]></category>
+		<category><![CDATA[pustaka]]></category>
+		<category><![CDATA[state]]></category>
+		<category><![CDATA[teori]]></category>
+		<category><![CDATA[the]]></category>
+		<category><![CDATA[tugas]]></category>
+		<guid isPermaLink="false">/?p=194</guid>
+
+					<description><![CDATA[PENDAHULUAN Penelitian ilmiah yang baik adalah penelitian yang memiliki kontribusi nyata terhadap ilmu pengetahuan. Kontribusi bisa berupa: Sebuah solusi spesifik yang dihasilkan melalui penerapan metode <a class="mh-excerpt-more" href="/2016/10/23/teknik-penulisan-tugas-akhir-bab-ii/" title="Teknik Penulisan Tugas Akhir (Bab II)">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p><strong>PENDAHULUAN</strong></p>
+<p>Penelitian ilmiah yang baik adalah penelitian yang memiliki kontribusi nyata terhadap ilmu pengetahuan. Kontribusi bisa berupa:</p>
+<ul>
+<li>Sebuah solusi spesifik yang dihasilkan melalui penerapan metode ilmiah tertentu yang menyelesaikan masalah di sebuah organisasi atau instansi. Solusi ini belum pernah dikerjakan oleh orang lain</li>
+<li>Penyempurnaan dari solusi atau penelitian yang sudah ada</li>
+</ul>
+<p><strong>HAKEKAT PENELITIAN</strong></p>
+<p>Idealnya, penelitian ilmiah haruslah unik, tidak boleh sama persis dengan penelitian yang lainnya, dilihat dari segi rumusan masalah dan metode pemecahan masalah yang digunakan. Artinya, rumusan masalah boleh sama, namun metode yang digunakan atau dihasilkan harus berbeda. Untuk itulah peneliti membuat pemetaan penelitian sehingga bisa memposisikan originalitas penelitiannya.</p>
+<p><strong>STATE OF THE ART</strong></p>
+<p>Hasil pemetaan penelitian terdahulu beserta penjabaran posisi penelitian yang akan diangkat sering disebut dengan istilah “State of the Art”. Isi dari state of the art menjadi acuan sudah sampai sejauh mana topik penelitian telah dieksplorasi dan sudah sampai sejauh mana masalah-masalah penelitian pada topik tersebut dicarikan solusinya. Dengan adanya state of the art, rumusan masalah penelitian yang sudah dikaji dan sudah menghasilkan solusi yang tepat guna tidak usah diteliti kembali.</p>
+<p>Dengan membuat state of the art yang baik dan lengkap, bisa dipastikan tidak akan terjadi duplikasi, plagiarisme, atau redudancy penelitian. Dari state of the art, peneliti bisa menentukan dimana posisi kontribusi yang akan dihasilkan, apakah akan memperdalam suatu metode ataukah memperlebar (memperluas) topik dengan mengangkat metode baru. Sehingga dengan memperjelas state of the art, kebaharuan (novelty) dari kontribusi penelitian menjadi jelas dan terarah.</p>
+<p><strong>TIPS MENGUMPULKAN PAPER</strong></p>
+<ul>
+<li>Peneliti menentukan topik besar penelitian dan masalah apa yang akan diangkat</li>
+<li>Dari topik besar dan masalah tersebut, carilah paper-paper yang relevan melalui google scholar, science direct, ieee explorer, dll</li>
+<li>Temukanlah minimal 10 paper yang paling menarik minat anda</li>
+<li>Dari 10 paper tersebut, lakukan traceback penelitian, artinya carilah paper-paper lain yang digunakan sebagai rujukan oleh 10 paper tersebut</li>
+</ul>
+<p><strong>MEMBUAT RINGKASAN PENELITIAN</strong></p>
+<p>Setelah paper-paper berhasil dikumpulkan, buatlah ringkasan atau intisari terhadap paper-paper tersebut. Dengan mencatat dan merangkum hal-hal penting dari sebuah paper, maka itu akan memudahkan peneliti dalam memetakan paper dan mempercepat peneliti untuk menemukan paper tertentu yang diinginkan dari sekian banyak paper yang sudah dikumpulkan.</p>
+<p>Yang perlu dicatat dan diperhatikan dalam pembuatan ringkasan penelitian sebuah paper:</p>
+<ul>
+<li>Research keyword</li>
+<li>Research problem</li>
+<li>Research goal</li>
+<li>Research methodology</li>
+<li>Result</li>
+<li>Future study</li>
+</ul>
+<p><strong>LITERATURE MAP</strong></p>
+<p>Setelah membuat ringkasan, peneliti membuat literature map untuk memetakan posisi penelitian-penelitian sebelumnya. Literature map diawali dengan topik besar penelitian anda sebagai root atau sentral, kemudian dilanjutkan dengan membuat cabang-cabang yang relevan dari root tersebut beserta paper-paper yang membahasnya. Dari cabang, bisa dibuat lagi anak cabang atau ranting yang relevan dari cabang tersebut beserta paper-paper yang membahasnya.</p>
+<figure id="attachment_195" aria-describedby="caption-attachment-195" style="width: 797px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/10/Literature-Map.jpg"><img fetchpriority="high" decoding="async" class="size-full wp-image-195" src="/wp-content/uploads/2016/10/Literature-Map.jpg" alt="Contoh Literature Map" width="797" height="331" srcset="/wp-content/uploads/2016/10/Literature-Map.jpg 797w, /wp-content/uploads/2016/10/Literature-Map-300x125.jpg 300w, /wp-content/uploads/2016/10/Literature-Map-768x319.jpg 768w" sizes="(max-width: 797px) 100vw, 797px" /></a><figcaption id="caption-attachment-195" class="wp-caption-text">Contoh Literature Map</figcaption></figure>
+<p>&nbsp;</p>
+<p><strong>LANDASAN TEORI</strong></p>
+<p>Selain menuliskan state of the art pada Bab II penelitian Tugas Akhir, perlu juga memasukkan landasan teori yang digunakan dalam pengerjaan Tugas Akhir tersebut. Landasan teori merupakan kumpulan definisi, konsep, rujukan atau acuan yang digunakan dalam penelitian.</p>
+<p>Penulisan dasar teori mirip seperti penulisan latar belakang, yaitu mengalir dari istilah-istilah yang umum kemudian berlanjut ke teori-teori yang spesifik. Contoh Judul: Sistem Reputasi berbasis Kedekatan Hubungan Penjual dan Pembeli pada E-Commerce. Isi landasan teori: E-Commerce, Sistem Reputasi, Metric Penyusun Sistem Reputasi, dan Hubungan Kedekatan Penjual dan Pembeli.</p>
+<p>&nbsp;</p>
+<p><strong>SELAMAT MENGERJAKAN <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></strong></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/10/23/teknik-penulisan-tugas-akhir-bab-ii/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Kolaborasi jQuery + AJAX +  PHP + MySQL	</title>
+	<atom:link href="/2015/11/15/kolaborasi-jquery-ajax-php-mysql/feed/" rel="self" type="application/rss+xml" />
+	<link>/2015/11/15/kolaborasi-jquery-ajax-php-mysql/</link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Mon, 01 Nov 2021 09:45:04 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+	<item>
+		<title>
+		By: aryadharmaadi		</title>
+		<link>/2015/11/15/kolaborasi-jquery-ajax-php-mysql/#comment-37</link>
+
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Sun, 29 Dec 2019 02:36:07 +0000</pubDate>
+		<guid isPermaLink="false">/?p=35#comment-37</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2015/11/15/kolaborasi-jquery-ajax-php-mysql/#comment-34&quot;&gt;jesse&lt;/a&gt;.
+
+Link untuk download source code nya sudah saya post di bagian penutup.
+File js, css dan font nya memang tidak ada panduannya karena fokus kita ada pada AJAX. 
+Diasumsikan pembaca sudah memahami dasar-dasar JS dan CSS.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2015/11/15/kolaborasi-jquery-ajax-php-mysql/#comment-34">jesse</a>.</p>
+<p>Link untuk download source code nya sudah saya post di bagian penutup.<br />
+File js, css dan font nya memang tidak ada panduannya karena fokus kita ada pada AJAX.<br />
+Diasumsikan pembaca sudah memahami dasar-dasar JS dan CSS.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: jesse		</title>
+		<link>/2015/11/15/kolaborasi-jquery-ajax-php-mysql/#comment-34</link>
+
+		<dc:creator><![CDATA[jesse]]></dc:creator>
+		<pubDate>Tue, 20 Aug 2019 14:09:57 +0000</pubDate>
+		<guid isPermaLink="false">/?p=35#comment-34</guid>
+
+					<description><![CDATA[gan boleh share source code lengkapnya ga gan?
+untuk file js, css dan font nya ga ada guidancenya.]]></description>
+			<content:encoded><![CDATA[<p>gan boleh share source code lengkapnya ga gan?<br />
+untuk file js, css dan font nya ga ada guidancenya.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: yuliyani		</title>
+		<link>/2015/11/15/kolaborasi-jquery-ajax-php-mysql/#comment-27</link>
+
+		<dc:creator><![CDATA[yuliyani]]></dc:creator>
+		<pubDate>Wed, 19 Sep 2018 09:37:28 +0000</pubDate>
+		<guid isPermaLink="false">/?p=35#comment-27</guid>
+
+					<description><![CDATA[terimakasih ilmunya fungsi dari ready() berfungsi untuk pengecek event, jadi apabila semua elemen pada dokumen HTML sudah di-load semua, maka script di dalam blok fungsi $(document).ready() akan dijalankan.? pd Kolaborasi jQuery +  PHP + MySQL sy akan mempelajarinya dr artikel ini. 
+Kunjungi blog sy ya:https://yuliyani.mahasiswa.atmaluhur.ac.id/
+Kunjungi jg website kampus sy:http/:www.atmaluhur.ac.id]]></description>
+			<content:encoded><![CDATA[<p>terimakasih ilmunya fungsi dari ready() berfungsi untuk pengecek event, jadi apabila semua elemen pada dokumen HTML sudah di-load semua, maka script di dalam blok fungsi $(document).ready() akan dijalankan.? pd Kolaborasi jQuery +  PHP + MySQL sy akan mempelajarinya dr artikel ini.<br />
+Kunjungi blog sy ya:<a href="https://yuliyani.mahasiswa.atmaluhur.ac.id/" rel="nofollow ugc">https://yuliyani.mahasiswa.atmaluhur.ac.id/</a><br />
+Kunjungi jg website kampus sy:http/:www.atmaluhur.ac.id</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: saubha karmakar		</title>
+		<link>/2015/11/15/kolaborasi-jquery-ajax-php-mysql/#comment-23</link>
+
+		<dc:creator><![CDATA[saubha karmakar]]></dc:creator>
+		<pubDate>Mon, 07 May 2018 11:42:26 +0000</pubDate>
+		<guid isPermaLink="false">/?p=35#comment-23</guid>
+
+					<description><![CDATA[very nice post. it is very useful.]]></description>
+			<content:encoded><![CDATA[<p>very nice post. it is very useful.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: aryadharmaadi		</title>
+		<link>/2015/11/15/kolaborasi-jquery-ajax-php-mysql/#comment-21</link>
+
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Mon, 02 Apr 2018 14:22:13 +0000</pubDate>
+		<guid isPermaLink="false">/?p=35#comment-21</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2015/11/15/kolaborasi-jquery-ajax-php-mysql/#comment-20&quot;&gt;Ardi&lt;/a&gt;.
+
+Iya tetap bisa digunakan asalkan film html ajax dan js dijalankan melalui localhost, bukan melalui klik 2x file .htmlnya.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2015/11/15/kolaborasi-jquery-ajax-php-mysql/#comment-20">Ardi</a>.</p>
+<p>Iya tetap bisa digunakan asalkan film html ajax dan js dijalankan melalui localhost, bukan melalui klik 2x file .htmlnya.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Ardi		</title>
+		<link>/2015/11/15/kolaborasi-jquery-ajax-php-mysql/#comment-20</link>
+
+		<dc:creator><![CDATA[Ardi]]></dc:creator>
+		<pubDate>Tue, 20 Feb 2018 09:29:56 +0000</pubDate>
+		<guid isPermaLink="false">/?p=35#comment-20</guid>
+
+					<description><![CDATA[Maaf mau tanya . Misalkan file php nya berada di server . Dan file html ajax dan js nya di lokal . Apakah bisa di gunakan n]]></description>
+			<content:encoded><![CDATA[<p>Maaf mau tanya . Misalkan file php nya berada di server . Dan file html ajax dan js nya di lokal . Apakah bisa di gunakan n</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: ssl murah		</title>
+		<link>/2015/11/15/kolaborasi-jquery-ajax-php-mysql/#comment-15</link>
+
+		<dc:creator><![CDATA[ssl murah]]></dc:creator>
+		<pubDate>Tue, 11 Jul 2017 04:30:54 +0000</pubDate>
+		<guid isPermaLink="false">/?p=35#comment-15</guid>
+
+					<description><![CDATA[terimakasih infromasinya sangat bermanfaat]]></description>
+			<content:encoded><![CDATA[<p>terimakasih infromasinya sangat bermanfaat</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

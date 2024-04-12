@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>code &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/code/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Sun, 05 Apr 2020 14:52:17 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>code &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Data Link Layer: Error Management</title>
+		<link>/2020/04/05/data-link-layer-error-management/</link>
+					<comments>/2020/04/05/data-link-layer-error-management/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Sun, 05 Apr 2020 14:52:10 +0000</pubDate>
+				<category><![CDATA[Jaringan Komputer]]></category>
+		<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[checksum]]></category>
+		<category><![CDATA[code]]></category>
+		<category><![CDATA[data]]></category>
+		<category><![CDATA[error]]></category>
+		<category><![CDATA[hamming]]></category>
+		<category><![CDATA[link]]></category>
+		<category><![CDATA[management]]></category>
+		<category><![CDATA[parity]]></category>
+		<guid isPermaLink="false">/?p=608</guid>
+
+					<description><![CDATA[Berikut adalah materi keenam dari mata kuliah Jaringan Komputer dan Komunikasi. Versi Youtube: Versi PDF:]]></description>
+										<content:encoded><![CDATA[
+<p>Berikut adalah materi keenam dari mata kuliah Jaringan Komputer dan Komunikasi.</p>
+
+
+
+<p>Versi Youtube:</p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Data Link Layer: Error Management" width="678" height="509" src="https://www.youtube.com/embed/Ktujsege6do?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>Versi PDF:</p>
+
+
+<div class="ead-preview"><div class="ead-document" style="position: relative;"><div class="ead-iframe-wrapper"><iframe src="//docs.google.com/viewer?url=%2Fwp-content%2Fuploads%2F2020%2F04%2F6.-Data-Link-Layer-Error-Management.pdf&amp;embedded=true&amp;hl=en" title="Embedded Document" class="ead-iframe" style="width: 100%;height: 500px;border: none;visibility: hidden;"></iframe></div>			<div class="ead-document-loading" style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;">
+				<div class="ead-loading-wrap">
+					<div class="ead-loading-main">
+						<div class="ead-loading">
+							<img decoding="async" src="/wp-content/plugins/embed-any-document/images/loading.svg" width="55" height="55" alt="Loader">
+							<span>Loading&#8230;</span>
+						</div>
+					</div>
+					<div class="ead-loading-foot">
+						<div class="ead-loading-foot-title">
+							<img decoding="async" src="/wp-content/plugins/embed-any-document/images/EAD-logo.svg" alt="EAD Logo" width="36" height="23"/>
+							<span>Taking too long?</span>
+						</div>
+						<p>
+							<div class="ead-document-btn ead-reload-btn" role="button">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/reload.svg" alt="Reload" width="12" height="12"/> Reload document							</div>
+							<span>|</span>
+							<a href="/wp-content/uploads/2020/04/6.-Data-Link-Layer-Error-Management.pdf" class="ead-document-btn" target="_blank">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/open.svg" alt="Open" width="12" height="12"/> Open in new tab							</a>
+					</div>
+				</div>
+			</div>
+		</div></div>]]></content:encoded>
+					
+					<wfw:commentRss>/2020/04/05/data-link-layer-error-management/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Latihan Soal 2</title>
+		<link>/2017/03/08/latihan-soal-2/</link>
+					<comments>/2017/03/08/latihan-soal-2/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Wed, 08 Mar 2017 07:08:46 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Berorientasi Objek (Java)]]></category>
+		<category><![CDATA[code]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[kelas]]></category>
+		<category><![CDATA[latihan]]></category>
+		<category><![CDATA[mahasiswa]]></category>
+		<category><![CDATA[matakuliah]]></category>
+		<category><![CDATA[objek]]></category>
+		<category><![CDATA[soal]]></category>
+		<guid isPermaLink="false">/?p=227</guid>
+
+					<description><![CDATA[Studi Kasus: Buatlah sebuah program untuk menampilkan IPK yang diraih oleh seorang mahasiswa. Input: Nama Mahasiswa NIM Jumlah matakuliah Kode Matkul: CS1423 -&#62; angka terakhir <a class="mh-excerpt-more" href="/2017/03/08/latihan-soal-2/" title="Latihan Soal 2">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p><strong>Studi Kasus:</strong></p>
+<p>Buatlah sebuah program untuk menampilkan IPK yang diraih oleh seorang mahasiswa.</p>
+<p>Input:</p>
+<ul>
+<li>Nama Mahasiswa</li>
+<li>NIM</li>
+<li>Jumlah matakuliah</li>
+<li>Kode Matkul: CS1423 -&gt; angka terakhir menunjukkan sks</li>
+<li>Nama Matkul</li>
+<li>Nilai : A,B,C,D,E</li>
+</ul>
+<p>Output:</p>
+<p>Nama, NIM, dan IPK</p>
+<p>&nbsp;</p>
+<p><strong>Jawaban:</strong></p>
+<p>Dari studi kasus di atas, bisa dirancang 2 buah kelas, yaitu Mahasiswa dan MataKuliah.</p>
+<p>Berikut adalah hasil coding untuk kelas Mahasiswa.</p>
+<pre class="lang:default decode:true " title="Mahasiswa.java">public class Mahasiswa {
+	private String nama;
+	private String nim;
+	private float ipk;
+	MataKuliah[] mataKuliah = new MataKuliah[100];
+	private int jumlahMatkul = 0;
+
+	public Mahasiswa(String nama, String nim){
+		setNama(nama);
+		setNim(nim);
+	}
+
+	public void tambahMatkul(int index, String kodeMatkul, String namaMatkul, char nilaiMatkul){
+		this.mataKuliah[index] = new MataKuliah(kodeMatkul, namaMatkul, nilaiMatkul);
+	}
+
+	public void hitungIPK(){
+		float jumlahMutu = 0;
+		int jumlahTotalSKS = 0;
+		for(int i = 0; i &lt; getJumlahMatkul(); i++){
+			jumlahMutu += this.mataKuliah[i].getNilai() * this.mataKuliah[i].getJumlahSKS();
+			jumlahTotalSKS += this.mataKuliah[i].getJumlahSKS();
+		}
+		setIpk(jumlahMutu/jumlahTotalSKS);
+	}
+
+	public void setNama(String nama){
+		this.nama = nama;
+	}
+
+	public void setNim(String nim){
+		this.nim = nim;
+	}
+
+	public void setIpk(float ipk){
+		this.ipk = ipk;
+	}
+
+	public String getNama(){
+		return this.nama;
+	}
+
+	public String getNim(){
+		return this.nim;
+	}
+
+	public float getIpk(){
+		return this.ipk;
+	}
+
+	public void tambahJumlahMatkul(){
+		this.jumlahMatkul++;
+	}
+
+	public int getJumlahMatkul(){
+		return this.jumlahMatkul;
+	}
+}</pre>
+<p>&nbsp;</p>
+<p>Kemudian, berikut ini adalah hasil coding dari kelas MataKuliah.</p>
+<pre class="lang:default decode:true " title="MataKuliah.java">public class MataKuliah {
+
+	private String kode;
+	private String nama;
+	private int jumlahSKS;
+	private char nilai;
+
+	public MataKuliah(String kode, String nama, char nilai){
+		setKode(kode);
+		setNama(nama);
+		setJumlahSKS(kode);
+		setNilai(nilai);
+	}
+
+	public void setKode(String kode){
+		this.kode = kode;
+	}
+
+	public void setNama(String nama){
+		this.nama = nama;
+	}
+
+	public void setJumlahSKS(String kode){
+		this.jumlahSKS = Character.getNumericValue(kode.charAt(kode.length() - 1));
+	}
+
+	public void setNilai(char nilai){
+		this.nilai = nilai;
+	}
+
+	public String getKode(){
+		return this.kode;
+	}
+
+	public String getNama(){
+		return this.nama;
+	}
+
+	public int getJumlahSKS(){
+		return this.jumlahSKS;
+	}
+
+	public int getNilai(){
+		if(this.nilai == 'A')
+			return 4;
+		else if(this.nilai == 'B')
+			return 3;
+		else if(this.nilai == 'C')
+			return 2;
+		else if(this.nilai == 'D')
+			return 1;
+		else 
+			return 0;
+	}
+
+}</pre>
+<p>&nbsp;</p>
+<p>Terakhir, buat kelas Main sebagai kelas utama yang akan memanggil dan memanfaatkan kelas Mahasiswa dan Matakuliah yang telah dibuat tadi.</p>
+<pre class="lang:default decode:true  " title="Main.java">import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//Meminta data mahasiswa
+		Scanner userInput = new Scanner(System.in);
+		System.out.print("\n\n---- Data Mahasiswa ---\n\n");
+		System.out.print("Masukan Nama Anda : ");
+		String nama = userInput.nextLine();
+		System.out.print("Masukan NIM : ");
+		String nim = userInput.nextLine();
+		System.out.print("Jumlah Mata Kuliah : ");
+		//Meminta data mata kuliah
+		Mahasiswa mahasiswa = new Mahasiswa(nama, nim);
+		int jumlahMatkul = userInput.nextInt();
+		String kodeMatkul;
+		String namaMatkul;
+		char nilaiMatkul;
+		System.out.print("\n---- Data Mata Kuliah ---\n\n");
+		for(int i = 0; i &lt; jumlahMatkul; i++){
+			Scanner inputData = new Scanner(System.in);
+			System.out.print("Nama Matakuliah " + (i + 1) + " : ");
+			namaMatkul = inputData.nextLine();
+			System.out.print("Kode Matakuliah " + (i + 1) + " : ");
+			kodeMatkul = inputData.nextLine();
+			System.out.print("Nilai Matakuliah (A/B/C/D/E/F)" + " : ");
+			nilaiMatkul = inputData.next().charAt(0);
+			mahasiswa.tambahMatkul(i, kodeMatkul, namaMatkul, nilaiMatkul);
+			mahasiswa.tambahJumlahMatkul();
+			System.out.println("");
+		}
+		mahasiswa.hitungIPK();
+		System.out.print("\n---- Hasil Data ---\n\n");
+		System.out.println("Nama : " + mahasiswa.getNama());
+		System.out.println("Nim : " + mahasiswa.getNim());
+		System.out.println("Jumlah Mata Kuliah : " + jumlahMatkul);
+		System.out.println("Nilai IPK : " + mahasiswa.getIpk() + "\n\n");
+	}
+}</pre>
+<p>&nbsp;</p>
+<p>Happy coding <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2017/03/08/latihan-soal-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

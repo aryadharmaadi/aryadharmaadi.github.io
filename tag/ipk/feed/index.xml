@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ipk &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/ipk/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Mon, 21 Mar 2016 05:47:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>ipk &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Latihan Soal 1</title>
+		<link>/2016/03/21/latihan-soal-1/</link>
+					<comments>/2016/03/21/latihan-soal-1/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Mon, 21 Mar 2016 05:44:36 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Berorientasi Objek (Java)]]></category>
+		<category><![CDATA[ipk]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[latihan]]></category>
+		<category><![CDATA[mahasiswa]]></category>
+		<category><![CDATA[matakuliah]]></category>
+		<category><![CDATA[pbo]]></category>
+		<category><![CDATA[soal]]></category>
+		<guid isPermaLink="false">/?p=96</guid>
+
+					<description><![CDATA[SOAL: ?Buatlah sebuah program untuk menampilkan IPK yang diraih oleh seorang mahasiswa. ?Input: ?Jumlah matakuliah ?Kode Matkul: CS1423 -&#62; angka terakhir menunjukkan sks ?Nama Matkul <a class="mh-excerpt-more" href="/2016/03/21/latihan-soal-1/" title="Latihan Soal 1">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p><strong>SOAL:</strong></p>
+<p>?Buatlah sebuah program untuk menampilkan IPK yang diraih oleh seorang mahasiswa.</p>
+<p>?Input:</p>
+<ul>
+<li>?Jumlah matakuliah</li>
+<li>?Kode Matkul: CS1423 -&gt; angka terakhir menunjukkan sks</li>
+<li>?Nama Matkul</li>
+<li>?Nilai : A,B,C,D,E</li>
+</ul>
+<p>?Output: (dalam bentuk tabel)</p>
+<ul>
+<li>?Kode Matkul, Nama Matkul, SKS, Nilai</li>
+<li>?IPK</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>JAWAB:</strong></p>
+<p>Dari studi kasus di atas, kita bisa mendesain diagram kelas seperti berikut. Antara kelas Matakuliah dan kelas DaftarMatakuliah memiliki hubungan komposisi karena kelas DaftarMatakuliah terdiri dari kelas Matakuliah.</p>
+<figure id="attachment_97" aria-describedby="caption-attachment-97" style="width: 1418px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/03/diagram_kelas.png"><img fetchpriority="high" decoding="async" class="size-full wp-image-97" src="/wp-content/uploads/2016/03/diagram_kelas.png" alt="Diagram Kelas Matakuliah" width="1418" height="837" srcset="/wp-content/uploads/2016/03/diagram_kelas.png 1418w, /wp-content/uploads/2016/03/diagram_kelas-300x177.png 300w, /wp-content/uploads/2016/03/diagram_kelas-1024x604.png 1024w, /wp-content/uploads/2016/03/diagram_kelas-593x350.png 593w" sizes="(max-width: 1418px) 100vw, 1418px" /></a><figcaption id="caption-attachment-97" class="wp-caption-text">Diagram Kelas Matakuliah</figcaption></figure>
+<p>Dari diagram di atas, kita mulai menulis program (coding) seperti berikut:</p>
+<pre class="lang:default decode:true" title="Matakuliah.java">/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package matkul;
+
+/**
+ *
+ * @author AryaDharmaadi
+ */
+public class Matakuliah {
+    private String kode_matkul;
+    private String nama_matkul;
+    private char nilai_index;
+    private int sks;
+    private int nilai_angka;
+
+    public Matakuliah(String kode_matkul, String nama_matkul, char nilai_index) {
+        this.kode_matkul = kode_matkul;
+        this.nama_matkul = nama_matkul;
+        this.nilai_index = nilai_index;
+        
+        setSKS();
+        setNilaiAngka();
+    }
+    
+    public void changeMatkul(String matakuliah){
+        matakuliah = matakuliah.concat("HAloo");
+        this.nama_matkul = matakuliah;
+    }
+
+    public String getKodeMatkul() {
+        return kode_matkul;
+    }
+
+    public String getNamaMatkul() {
+        return nama_matkul;
+    }
+
+    public char getNilaiIndex() {
+        return nilai_index;
+    }
+
+    public int getSks() {
+        return sks;
+    }
+
+    public int getNilaiAngka() {
+        return nilai_angka;
+    }
+    
+    private void setSKS(){
+        sks = Integer.parseInt(String.valueOf(kode_matkul.charAt(kode_matkul.length()-1)));
+    }
+    
+    private void setNilaiAngka(){
+        switch (nilai_index){
+            case 'A' : nilai_angka = 4;
+                break;
+                
+            case 'B' : nilai_angka = 3;
+                break;
+                
+            case 'C' : nilai_angka = 2;
+                break;
+                
+            case 'D' : nilai_angka = 1;
+                break;
+                
+            case 'E' : nilai_angka = 0;
+                break;
+        }
+    }
+}
+</pre>
+<pre class="lang:default decode:true" title="DaftarMatakuliah.java">/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package matkul;
+
+/**
+ *
+ * @author AryaDharmaadi
+ */
+public class DaftarMatakuliah {
+    private Matakuliah[] list_matakuliah;
+    private int currentidx = 0;
+    private float ipk;
+    
+    public DaftarMatakuliah(int jumlah_matakuliah){
+        list_matakuliah = new Matakuliah[jumlah_matakuliah];
+    }
+    
+    public void addMatkul(Matakuliah m){
+        if (currentidx&lt;list_matakuliah.length){
+            list_matakuliah[currentidx] = m;
+            currentidx++;            
+        }
+    }
+    
+    public void printMatkul(){
+        int nilai_mutu=0;
+        int total_sks=0;
+        System.out.println("-------------------------------------------------");
+        System.out.printf( "|KODE\t|MATAKULIAH\t\t |SKS\t|NILAI\t|\n");
+        System.out.println("-------------------------------------------------");
+        for (int i=0;i&lt;list_matakuliah.length;i++){            
+            System.out.printf( "|%s\t|%s\t |%s\t|%c\t|\n",
+                    list_matakuliah[i].getKodeMatkul(),
+                    list_matakuliah[i].getNamaMatkul(),
+                    list_matakuliah[i].getSks(),
+                    list_matakuliah[i].getNilaiIndex());
+            nilai_mutu = nilai_mutu + list_matakuliah[i].getNilaiAngka()*list_matakuliah[i].getSks();
+            total_sks = total_sks + list_matakuliah[i].getSks();
+        }
+        
+        ipk = (float) nilai_mutu / total_sks;
+    }
+    
+    public void printIPK(){
+        System.out.printf("Nilai IPK : %.2f\n",ipk);
+    }
+}</pre>
+<pre class="lang:default decode:true" title="ProgramUtama.java">/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package matkul;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author AryaDharmaadi
+ */
+public class ProgramUtama {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        /* pada program ini, jumlah matakuliah diinput secara manual oleh programmer */
+        /* jika ingin user yang menginputkan, maka gunakan kelas Scanner */
+        /* dan simpan datanya di variabel jumlah_matakuliah */
+        int jumlah_matakuliah = 4;
+        
+        DaftarMatakuliah daftar_matakuliah = new DaftarMatakuliah(jumlah_matakuliah);
+        
+//        for (int i=0;i&lt;jumlah_matakuliah;i++){
+        
+            /* data matakuliah diinput oleh programmer. Jika ingin user yang menginputkan */
+            /* maka gunakan kelas Scanner dan simpan datanya di variabel */
+            Matakuliah m = new Matakuliah("CS2343", "Pemrograman Java", 'C');
+            daftar_matakuliah.addMatkul(m);
+            daftar_matakuliah.addMatkul(new Matakuliah("CS2331", "Praktikum Java ", 'B'));
+            daftar_matakuliah.addMatkul(new Matakuliah("CS2332", "Kewarganegaraan", 'C'));
+            daftar_matakuliah.addMatkul(new Matakuliah("CS2334", "Tugas Akhir (Project)", 'A'));
+//        }
+        
+        daftar_matakuliah.printMatkul();
+        daftar_matakuliah.printIPK();
+    }           
+}
+</pre>
+<p>&nbsp;</p>
+<p>Ketika dijalankan, program di atas akan menampilkan hasil sebagai berikut:</p>
+<figure id="attachment_99" aria-describedby="caption-attachment-99" style="width: 354px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/03/mahasiswa.jpg"><img decoding="async" class="size-full wp-image-99" src="/wp-content/uploads/2016/03/mahasiswa.jpg" alt="Hasil Running" width="354" height="131" srcset="/wp-content/uploads/2016/03/mahasiswa.jpg 354w, /wp-content/uploads/2016/03/mahasiswa-300x111.jpg 300w" sizes="(max-width: 354px) 100vw, 354px" /></a><figcaption id="caption-attachment-99" class="wp-caption-text">Hasil Running</figcaption></figure>
+<p>&nbsp;</p>
+<p>Happy Coding <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/03/21/latihan-soal-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

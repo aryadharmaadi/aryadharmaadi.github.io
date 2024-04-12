@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>fisik &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/fisik/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Sun, 22 Mar 2020 14:37:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>fisik &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Physical Layer</title>
+		<link>/2020/03/22/physical-layer/</link>
+					<comments>/2020/03/22/physical-layer/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Sun, 22 Mar 2020 14:37:15 +0000</pubDate>
+				<category><![CDATA[Jaringan Komputer]]></category>
+		<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[fisik]]></category>
+		<category><![CDATA[layer]]></category>
+		<category><![CDATA[physical]]></category>
+		<guid isPermaLink="false">/?p=596</guid>
+
+					<description><![CDATA[Berikut adalah materi keempat dari mata kuliah Jaringan Komputer dan Komunikasi]]></description>
+										<content:encoded><![CDATA[
+<p>Berikut adalah materi keempat dari mata kuliah Jaringan Komputer dan Komunikasi</p>
+
+
+<div class="ead-preview"><div class="ead-document" style="position: relative;"><div class="ead-iframe-wrapper"><iframe src="//docs.google.com/viewer?url=%2Fwp-content%2Fuploads%2F2020%2F03%2F4.-Physical-Layer.pdf&amp;embedded=true&amp;hl=en" title="Embedded Document" class="ead-iframe" style="width: 100%;height: 500px;border: none;visibility: hidden;"></iframe></div>			<div class="ead-document-loading" style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;">
+				<div class="ead-loading-wrap">
+					<div class="ead-loading-main">
+						<div class="ead-loading">
+							<img decoding="async" src="/wp-content/plugins/embed-any-document/images/loading.svg" width="55" height="55" alt="Loader">
+							<span>Loading&#8230;</span>
+						</div>
+					</div>
+					<div class="ead-loading-foot">
+						<div class="ead-loading-foot-title">
+							<img decoding="async" src="/wp-content/plugins/embed-any-document/images/EAD-logo.svg" alt="EAD Logo" width="36" height="23"/>
+							<span>Taking too long?</span>
+						</div>
+						<p>
+							<div class="ead-document-btn ead-reload-btn" role="button">
+								<img decoding="async" src="/wp-content/plugins/embed-any-document/images/reload.svg" alt="Reload" width="12" height="12"/> Reload document							</div>
+							<span>|</span>
+							<a href="/wp-content/uploads/2020/03/4.-Physical-Layer.pdf" class="ead-document-btn" target="_blank">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/open.svg" alt="Open" width="12" height="12"/> Open in new tab							</a>
+					</div>
+				</div>
+			</div>
+		</div></div>]]></content:encoded>
+					
+					<wfw:commentRss>/2020/03/22/physical-layer/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

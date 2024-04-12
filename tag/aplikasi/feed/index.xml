@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>aplikasi &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/aplikasi/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Fri, 12 Apr 2024 10:25:12 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>aplikasi &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Konsep MVC pada Java dan Studi Kasus</title>
+		<link>/2016/05/03/konsep-mvc-pada-java/</link>
+					<comments>/2016/05/03/konsep-mvc-pada-java/#comments</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Mon, 02 May 2016 21:56:17 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Berorientasi Objek (Java)]]></category>
+		<category><![CDATA[aplikasi]]></category>
+		<category><![CDATA[connection]]></category>
+		<category><![CDATA[controller]]></category>
+		<category><![CDATA[dao]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[kasus]]></category>
+		<category><![CDATA[model]]></category>
+		<category><![CDATA[mvc]]></category>
+		<category><![CDATA[query]]></category>
+		<category><![CDATA[restoran]]></category>
+		<category><![CDATA[studi]]></category>
+		<category><![CDATA[top-pick]]></category>
+		<category><![CDATA[view]]></category>
+		<guid isPermaLink="false">/?p=127</guid>
+
+					<description><![CDATA[Konsep MVC (Model-View-Controller) merupakan salah satu penerapan compound design pattern dalam pemrograman berorientasi objek, dimana konsep ini membedakan kelas-kelas yang merepresentasikan data (Model) dengan kelas-kelas <a class="mh-excerpt-more" href="/2016/05/03/konsep-mvc-pada-java/" title="Konsep MVC pada Java dan Studi Kasus">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p>Konsep MVC (Model-View-Controller) merupakan salah satu penerapan compound design pattern dalam pemrograman berorientasi objek, dimana konsep ini membedakan kelas-kelas yang <strong>merepresentasikan data</strong> (Model) dengan kelas-kelas yang <strong>mengatur tampilan program</strong> (View) dan kelas-kelas <strong>pengaturan data</strong> (Controller).</p>
+<p>Sesungguhnya, membangun program dengan menerapkan konsep MVC akan lebih merepotkan dibandingkan cara biasa karena developer harus membuat lebih banyak kelas dan package sesuai dengan konsep MVC di atas. Membangun program dengan cara biasa umumnya hanya membuat 1 buah kelas untuk satu tampilan (contoh: NewStudentForm.java) dan fungsi-fungsi seperti: pengontrollan data, koneksi ke database, dan pemrosesan data dilakukan pada 1 kelas tersebut. Pada MVC, fungsi-fungsi tersebut dipisah menjadi kelas-kelas baru dan saling terhubung.</p>
+<p>Walaupun konsep MVC sangat merepotkan di awal, namun dalam jangka panjang, kode-kode program yang telah dibuat akan lebih mudah dalam maintenance karena developer bisa mengubah salah satu kode program tanpa harus mengganggu kode program yang lainnya. Contohnya, jika anda telah membangun Aplikasi Rumah Sakit yang berjalan pada Desktop dan anda ingin membuatnya menjadi berbasis web, maka anda cukup mengganti kelas-kelas bagian View-nya saja tanpa perlu mengubah kelas-kelas Controller dan Model.</p>
+<figure id="attachment_129" aria-describedby="caption-attachment-129" style="width: 711px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/05/MVC.png"><img fetchpriority="high" decoding="async" class="wp-image-129 size-large" src="/wp-content/uploads/2016/05/MVC-1024x797.png" alt="MVC model pada Java" width="711" height="553" srcset="/wp-content/uploads/2016/05/MVC-1024x797.png 1024w, /wp-content/uploads/2016/05/MVC-300x234.png 300w, /wp-content/uploads/2016/05/MVC-449x350.png 449w, /wp-content/uploads/2016/05/MVC.png 1415w" sizes="(max-width: 711px) 100vw, 711px" /></a><figcaption id="caption-attachment-129" class="wp-caption-text">MVC model pada Java</figcaption></figure>
+<p>Dalam hal koneksi aplikasi ke database, penerapan MVC pada Java ditambahkan dengan pembuatan kelas DAO (Data  Access Object), yaitu kelas yang khusus menyediakan operasi Insert, Update, Delete, dan Query ke database.</p>
+<p>Menurut penulis, berdasarkan skema di atas, developer hendaknya membuat 5 buah package, yaitu: view, controller, model, dao, dan database.</p>
+<ul>
+<li>Bagian View merupakan kelas-kelas yang mengimplementasikan user interface dari program yang dibangun. Bagian inilah yang dilihat oleh user dan menjadi media user untuk berinteraksi. Setiap ada request atau aksi yang diminta oleh user yang berhubungan dengan data akan diteruskan ke bagian controller yang sesuai.</li>
+<li>Bagian Controller merupakan kelas-kelas yang mengendalikan alur program secara keseluruhan, mengandung business logic, dan sebagai penghubung antara view dengan model dan dao. Kelas ini akan merespon permintaan atau aksi dari view ke kelas dao yang diinginkan.</li>
+<li>Bagian Model pada Java menggambarkan struktur data pada database. Bagian ini direpresentasikan oleh POJO (Plain Old Java Object), yaitu kelas Java biasa yang lengkap dengan property (atribut) dan method getter-setter terhadap atribut-atributnya. Biasanya tidak memiliki method lain selain getter-setter. Contoh: Kelas Mahasiswa yang memiliki atribut: <em><strong>nip, nama, jenisKelamin, alamat</strong></em>. Kelas Mahasiswa hanya memiliki method getter-setter yang sesuai dengan atributnya yaitu: <em><strong>getNip, setNip, getNama, setNama, getJenisKelamin, setJenisKelamin, getAlamat, setAlamat</strong></em>.</li>
+<li>Bagian DAO (Data Access Object) merupakan kelas-kelas yang melakukan manipulasi data yang terdapat pada database. Manipulasi bisa berupa <strong>Create</strong>, <strong>Read</strong>, <strong>Update</strong>, atau <strong>Delete</strong> (CRUD). Bagian ini terhubung ke Model (karena merupakan representasi data) dan Database (untuk mendapatkan koneksi).</li>
+<li>Bagian Database, berisi kelas yang bertugas untuk membuka koneksi dengan database tertentu dan memberikan objek connection ke kelas dao yang membutuhkan koneksi.</li>
+</ul>
+<p><strong>CONTOH STUDI KASUS: APLIKASI DAFTAR MENU RESTORAN</strong></p>
+<p>Anda sebagai developer Java diminta membuatkan aplikasi untuk menginputkan daftar menu yang ada pada restoran dan menampilkannya dalam bentuk tabel. Buatlah aplikasi dengan menerapkan konsep MVC!</p>
+<p>Jawaban: (Diasumsikan bahwa anda telah memahami database MySQL dan koneksinya ke Java, pemakaian Java Swing, pembuatan package, serta penggunaan interface).</p>
+<p>Berdasarkan kasus di atas, bisa dirancang file-file kelas dengan package sebagai berikut:</p>
+<figure id="attachment_136" aria-describedby="caption-attachment-136" style="width: 414px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/05/package1.jpg"><img decoding="async" class="wp-image-136 size-full" src="/wp-content/uploads/2016/05/package1.jpg" alt="" width="414" height="417" srcset="/wp-content/uploads/2016/05/package1.jpg 414w, /wp-content/uploads/2016/05/package1-150x150.jpg 150w, /wp-content/uploads/2016/05/package1-298x300.jpg 298w, /wp-content/uploads/2016/05/package1-65x65.jpg 65w, /wp-content/uploads/2016/05/package1-347x350.jpg 347w" sizes="(max-width: 414px) 100vw, 414px" /></a><figcaption id="caption-attachment-136" class="wp-caption-text">package</figcaption></figure>
+<p>Selanjutnya dirancang diagram kelas sebagai berikut:</p>
+<figure id="attachment_140" aria-describedby="caption-attachment-140" style="width: 2050px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/05/Menu-Restoran-2.png"><img decoding="async" class="wp-image-140 size-full" src="/wp-content/uploads/2016/05/Menu-Restoran-2.png" alt="" width="2050" height="1842" srcset="/wp-content/uploads/2016/05/Menu-Restoran-2.png 2050w, /wp-content/uploads/2016/05/Menu-Restoran-2-300x270.png 300w, /wp-content/uploads/2016/05/Menu-Restoran-2-1024x920.png 1024w, /wp-content/uploads/2016/05/Menu-Restoran-2-390x350.png 390w" sizes="(max-width: 2050px) 100vw, 2050px" /></a><figcaption id="caption-attachment-140" class="wp-caption-text">Class Diagram</figcaption></figure>
+<p>Hasil running dari program adalah sebagai berikut:</p>
+<figure id="attachment_133" aria-describedby="caption-attachment-133" style="width: 361px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/05/Tambahproduk.jpg"><img loading="lazy" decoding="async" class="size-full wp-image-133" src="/wp-content/uploads/2016/05/Tambahproduk.jpg" alt="Screenshot Aplikasi" width="361" height="522" srcset="/wp-content/uploads/2016/05/Tambahproduk.jpg 361w, /wp-content/uploads/2016/05/Tambahproduk-207x300.jpg 207w, /wp-content/uploads/2016/05/Tambahproduk-242x350.jpg 242w" sizes="(max-width: 361px) 100vw, 361px" /></a><figcaption id="caption-attachment-133" class="wp-caption-text">Screenshot Aplikasi</figcaption></figure>
+<p><strong>DOWNLOAD SOURCE CODE</strong></p>
+<p>Hasil akhir code program bisa di-download di <a href="http://adf.ly/1a266T" target="_blank" rel="noopener">sini </a> atau di <a href="/wp-content/uploads/2016/05/Aplikasi-Menu-Restoran.rar">sini</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/05/03/konsep-mvc-pada-java/feed/</wfw:commentRss>
+			<slash:comments>10</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

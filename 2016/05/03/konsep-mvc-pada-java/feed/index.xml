@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Konsep MVC pada Java dan Studi Kasus	</title>
+	<atom:link href="/2016/05/03/konsep-mvc-pada-java/feed/" rel="self" type="application/rss+xml" />
+	<link>/2016/05/03/konsep-mvc-pada-java/</link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Fri, 12 Apr 2024 10:25:12 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+	<item>
+		<title>
+		By: aryadharmaadi		</title>
+		<link>/2016/05/03/konsep-mvc-pada-java/#comment-50</link>
+
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Tue, 15 Jun 2021 10:46:21 +0000</pubDate>
+		<guid isPermaLink="false">/?p=127#comment-50</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2016/05/03/konsep-mvc-pada-java/#comment-47&quot;&gt;Rizki Juliadi&lt;/a&gt;.
+
+terima kasih atas kunjungannya. Link untuk mengunduh sudah saya perbaharui. Silahkan dicek. :)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2016/05/03/konsep-mvc-pada-java/#comment-47">Rizki Juliadi</a>.</p>
+<p>terima kasih atas kunjungannya. Link untuk mengunduh sudah saya perbaharui. Silahkan dicek. 🙂</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: aryadharmaadi		</title>
+		<link>/2016/05/03/konsep-mvc-pada-java/#comment-49</link>
+
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Tue, 15 Jun 2021 10:46:10 +0000</pubDate>
+		<guid isPermaLink="false">/?p=127#comment-49</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2016/05/03/konsep-mvc-pada-java/#comment-48&quot;&gt;Mikey&lt;/a&gt;.
+
+terima kasih atas kunjungannya. Link untuk mengunduh sudah saya perbaharui. Silahkan dicek. :)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2016/05/03/konsep-mvc-pada-java/#comment-48">Mikey</a>.</p>
+<p>terima kasih atas kunjungannya. Link untuk mengunduh sudah saya perbaharui. Silahkan dicek. 🙂</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mikey		</title>
+		<link>/2016/05/03/konsep-mvc-pada-java/#comment-48</link>
+
+		<dc:creator><![CDATA[Mikey]]></dc:creator>
+		<pubDate>Mon, 14 Jun 2021 04:16:55 +0000</pubDate>
+		<guid isPermaLink="false">/?p=127#comment-48</guid>
+
+					<description><![CDATA[Kak ada zipnya tidak ? karena link yang dikirim eror]]></description>
+			<content:encoded><![CDATA[<p>Kak ada zipnya tidak ? karena link yang dikirim eror</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Rizki Juliadi		</title>
+		<link>/2016/05/03/konsep-mvc-pada-java/#comment-47</link>
+
+		<dc:creator><![CDATA[Rizki Juliadi]]></dc:creator>
+		<pubDate>Thu, 18 Feb 2021 01:37:15 +0000</pubDate>
+		<guid isPermaLink="false">/?p=127#comment-47</guid>
+
+					<description><![CDATA[bang link downloadnya rusak ga bisa dibuka]]></description>
+			<content:encoded><![CDATA[<p>bang link downloadnya rusak ga bisa dibuka</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: aryadharmaadi		</title>
+		<link>/2016/05/03/konsep-mvc-pada-java/#comment-36</link>
+
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Sun, 29 Dec 2019 02:32:59 +0000</pubDate>
+		<guid isPermaLink="false">/?p=127#comment-36</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2016/05/03/konsep-mvc-pada-java/#comment-33&quot;&gt;Elan Zaelani&lt;/a&gt;.
+
+Ya mirip seperti konsep di atas.
+Ada bagian controller untuk pengecekan username dan password yang didapat dari bagian DAO.
+Ada bagian view untuk user interface dan mendapatkan data dari user.
+Tambahannya buatkan kelas Session untuk khusus menangani data user yang sudah login.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2016/05/03/konsep-mvc-pada-java/#comment-33">Elan Zaelani</a>.</p>
+<p>Ya mirip seperti konsep di atas.<br />
+Ada bagian controller untuk pengecekan username dan password yang didapat dari bagian DAO.<br />
+Ada bagian view untuk user interface dan mendapatkan data dari user.<br />
+Tambahannya buatkan kelas Session untuk khusus menangani data user yang sudah login.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Elan Zaelani		</title>
+		<link>/2016/05/03/konsep-mvc-pada-java/#comment-33</link>
+
+		<dc:creator><![CDATA[Elan Zaelani]]></dc:creator>
+		<pubDate>Fri, 17 May 2019 06:44:03 +0000</pubDate>
+		<guid isPermaLink="false">/?p=127#comment-33</guid>
+
+					<description><![CDATA[kalo kode login di mvc seperti gmn ?]]></description>
+			<content:encoded><![CDATA[<p>kalo kode login di mvc seperti gmn ?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Nandah		</title>
+		<link>/2016/05/03/konsep-mvc-pada-java/#comment-26</link>
+
+		<dc:creator><![CDATA[Nandah]]></dc:creator>
+		<pubDate>Mon, 17 Sep 2018 10:58:51 +0000</pubDate>
+		<guid isPermaLink="false">/?p=127#comment-26</guid>
+
+					<description><![CDATA[Pak bisa minta kosongan nyata?]]></description>
+			<content:encoded><![CDATA[<p>Pak bisa minta kosongan nyata?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: aryadharmaadi		</title>
+		<link>/2016/05/03/konsep-mvc-pada-java/#comment-22</link>
+
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Mon, 02 Apr 2018 14:25:34 +0000</pubDate>
+		<guid isPermaLink="false">/?p=127#comment-22</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2016/05/03/konsep-mvc-pada-java/#comment-19&quot;&gt;anonytune&lt;/a&gt;.
+
+maaf, dao yang statis dan dinamis itu seperti apa maksudnya?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2016/05/03/konsep-mvc-pada-java/#comment-19">anonytune</a>.</p>
+<p>maaf, dao yang statis dan dinamis itu seperti apa maksudnya?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: anonytune		</title>
+		<link>/2016/05/03/konsep-mvc-pada-java/#comment-19</link>
+
+		<dc:creator><![CDATA[anonytune]]></dc:creator>
+		<pubDate>Fri, 09 Feb 2018 06:44:32 +0000</pubDate>
+		<guid isPermaLink="false">/?p=127#comment-19</guid>
+
+					<description><![CDATA[jenis jenis dao kan ada 2. yang pertama statis dan dinamis.
+Jalurnya gimana?]]></description>
+			<content:encoded><![CDATA[<p>jenis jenis dao kan ada 2. yang pertama statis dan dinamis.<br />
+Jalurnya gimana?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Ahmad Tauhid		</title>
+		<link>/2016/05/03/konsep-mvc-pada-java/#comment-13</link>
+
+		<dc:creator><![CDATA[Ahmad Tauhid]]></dc:creator>
+		<pubDate>Fri, 02 Sep 2016 02:17:49 +0000</pubDate>
+		<guid isPermaLink="false">/?p=127#comment-13</guid>
+
+					<description><![CDATA[Mantap. Thanks bro. keep posting.]]></description>
+			<content:encoded><![CDATA[<p>Mantap. Thanks bro. keep posting.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>method &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/method/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Wed, 30 Mar 2016 05:44:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>method &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Method, Overloading, Overriding, dan Rekursif</title>
+		<link>/2016/03/30/method-overloading-overriding-dan-rekursif/</link>
+					<comments>/2016/03/30/method-overloading-overriding-dan-rekursif/#comments</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Wed, 30 Mar 2016 05:44:56 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Berorientasi Objek (Java)]]></category>
+		<category><![CDATA[method]]></category>
+		<category><![CDATA[overloading]]></category>
+		<category><![CDATA[overriding]]></category>
+		<category><![CDATA[rekursif]]></category>
+		<guid isPermaLink="false">/?p=108</guid>
+
+					<description><![CDATA[PENDAHULUAN ?Method merupakan kumpulan kode (statement) yang dikelompokkan dan diidentifikasi melalui nama method-nya. ?Method bisa dijalankan dengan memanggil (invoke) nama method-nya. ?Setiap method memiliki nama, parameter input, <a class="mh-excerpt-more" href="/2016/03/30/method-overloading-overriding-dan-rekursif/" title="Method, Overloading, Overriding, dan Rekursif">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p><strong>PENDAHULUAN</strong></p>
+<p>?Method merupakan kumpulan kode (statement) yang dikelompokkan dan diidentifikasi melalui nama method-nya. ?Method bisa dijalankan dengan memanggil (invoke) nama method-nya. ?Setiap method memiliki nama, parameter input, parameter output, dan access modifier-nya. ?Bisa dibayangkan method seperti sub-program yang menjalankan perintah-perintah yang lebih sederhana atau mengolah data yang lebih kecil.</p>
+<p>?Penggunaan method bisa menjadi menghemat waktu dan tenaga jika bisa dipanggil dan dipakai berulang-ulang tanpa menulis ulang kode-nya. ?Pada konsep pemrograman berorientasi objek, method merupakan behaviour  (kelakuan) yang dimiliki oleh suatu objek.</p>
+<p><strong>PENULISAN METHOD</strong></p>
+<pre class="lang:default decode:true ">modifier returnType nameOfMethod (Parameter List) {
+	// method code (statement)
+}</pre>
+<p>Contoh:</p>
+<pre class="lang:default decode:true ">public int hitungGaji(String jabatan){
+        int rate_harian = 0;
+        if (jabatan.equalsIgnoreCase("manager")){
+            rate_harian = 150000;
+        }else if (jabatan.equalsIgnoreCase("staff")){
+            rate_harian = 50000;
+        }
+        return jumlah_hari * rate_harian;
+}</pre>
+<p><strong>PEMANGGILAN METHOD</strong></p>
+<ul>
+<li><b><i>&lt;</i></b><b><i>method_name</i></b><b><i>&gt;()</i></b></li>
+</ul>
+<p>?Cara ini bisa dilakukan dengan syarat nama method berada di kelas yang sama dengan baris perintah pemanggilan</p>
+<ul>
+<li><b><i>&lt;instance&gt;.&lt;</i></b><b><i>method_name</i></b><b><i>&gt;()</i></b></li>
+</ul>
+<p>?Cara ini dilakukan jika method berada di kelas yang berbeda dengan baris perintah pemanggilan</p>
+<ul>
+<li><b><i>&lt;</i></b><b><i>classname</i></b><b><i>&gt;.&lt;</i></b><b><i>method_name</i></b><b><i>&gt;()</i></b></li>
+</ul>
+<p>?Cara ini dilakukan jika method dideklarasikan <i>static </i>di kelas yang berbeda dengan baris pemanggilan</p>
+<p><strong>METHOD SEBAGAI BEHAVIOUR</strong></p>
+<p>?Kelas tidak ada artinya jika tidak memiliki <i>behaviour</i> atau method karena kelas tersebut tidak bisa digunakan untuk melakukan suatu aksi. ?Behaviour merepresentasikan:</p>
+<ul>
+<li>?Apa yang bisa dilakukan oleh objek
+<ul>
+<li>Contoh: Halo mobil, ubahlah warnamu menjadi biru</li>
+<li>Dalam Java: <i>car.setColor</i><i>(“blue”);</i></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>?Informasi yang bisa didapatkan dari objek
+<ul>
+<li>Contoh: Halo mobil, kamu berwarna apa?</li>
+<li>Dalam java: <i>car.getColor</i><i>();</i></li>
+</ul>
+</li>
+</ul>
+<p><strong>STATIC KEYWORD</strong></p>
+<p>?Keyword static merupakan keyword deklarasi yang digunakan untuk menghasilkan property atau method tanpa harus meng-create sebuah objek. ?Artinya property atau method yang dideklarasikan ‘static’ tidak akan terikat dengan objek. ?Property atau method ‘static’ bisa dikatakan sebagai property atau method yang hanya diciptakan satu pada memory dan dipakai bersama-sama oleh semua objek.</p>
+<p>Contoh:</p>
+<p>?Akan dibuat sebuah kelas Car dan developer ingin mengetahui ada berapa jumlah objek mobil yang di-create di dalam program</p>
+<p>Jawaban:</p>
+<pre class="lang:default decode:true " title="Car.java">public class Car {
+    private static int totalCar = 0;
+    
+    public Car(){
+        totalCar++;
+    }
+    
+    public int getTotalCar(){
+        return totalCar;
+    }
+}</pre>
+<pre class="lang:default decode:true ">public static void main(String[] args) {
+   Car c = new Car();
+   Car c2 = new Car();
+   System.out.println(c2.getTotalCar());
+}</pre>
+<p>Dari program di atas, akan mencetak Total Car = 2 karena property totalCar pada kelas Car hanya dibuat sekali, dan digunakan bersama-sama di objek c dan c2.</p>
+<p><strong>OVERLOADING</strong></p>
+<p>?Merupakan pembuatan beberapa method dengan nama yang sama di dalam satu class, namun memiliki parameter input yang berbeda. ?Menggunakan overloading akan memudahkan programmer menggunakan method dengan fungsi yang sama.</p>
+<p>Contoh:</p>
+<pre class="lang:default decode:true " title="Dog.java">public class Dog extends Animal {
+	
+	public void walk(){
+		System.out.println("Walk with 4 legs");
+	}
+	
+	public void walk(int leg){
+		if ((leg&lt;=4) &amp;&amp; (leg&gt;0)){
+			System.out.println("Walk with "+leg+" legs");
+		}
+	}
+}</pre>
+<p><strong>OVERRIDING</strong></p>
+<p>?Overriding merupakan pembuatan method dengan nama dan parameter yang sama dengan method yang ada pada kelas induk, tetapi memiliki implementasi method yang berbeda. ?Dengan memanfaatkan overriding, kelas turunan bisa memiliki implementasi method yang berbeda atau yang diperluas tanpa perlu memodifikasi kelas induk.</p>
+<p>Contoh:</p>
+<pre class="lang:default decode:true " title="Mahasiswa.java">public class Mahasiswa {
+    int age;
+    private String name;
+    
+    public void printKRS(){
+        
+    }
+}</pre>
+<pre class="lang:default decode:true " title="MahasiswaKedokteran.java">class MahasiswaKedokteran extends Mahasiswa{
+    int matkul;
+    
+    @Override
+    public void printKRS(){
+        System.out.println("Mahasiswa Kedokteran");
+        super.printKRS();
+    }
+}</pre>
+<p><strong>REKURSIF</strong></p>
+<p>?Method rekursif adalah method yang memanggil dirinya sendiri sehingga terus berulang sampai kondisi tertentu. ?Dibandingkan dengan teknik iterasi (looping), kode program dengan teknik rekursif lebih ringkas.</p>
+<p>Contoh:</p>
+<pre class="lang:default decode:true">public static int faktorial(int n){
+        if(n==0||n==1){
+            return 1;            
+        }else 
+            return n*faktorial(n-1);
+        }
+}</pre>
+<p>&nbsp;</p>
+<p><strong>NEXT . . .</strong></p>
+<p>?Kelas Komposisi dan Konsep Pewarisan</p>
+<p><strong> DOWNLOAD</strong></p>
+<p>Download materi ini dalam bentuk PDF di sini.</p>
+<p><strong>REFERENSI</strong></p>
+<p>?Sierra, K., &amp; Bates, B. (2005) “A Brain-Friendly Guide: Head First Java 2nd Edition”. O’Reilly</p>
+<p>?Yohanes Nugroho, (2009) “Slide Kuliah: Bahasa Pemrograman Java”. STEI ITB</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/03/30/method-overloading-overriding-dan-rekursif/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Kelas, Kontrol Kelas, dan Konstruktor</title>
+		<link>/2016/03/22/kelas-kontrol-kelas-dan-konstruktor/</link>
+					<comments>/2016/03/22/kelas-kontrol-kelas-dan-konstruktor/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Tue, 22 Mar 2016 06:18:45 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Berorientasi Objek (Java)]]></category>
+		<category><![CDATA[access]]></category>
+		<category><![CDATA[default]]></category>
+		<category><![CDATA[kelas]]></category>
+		<category><![CDATA[konstruktor]]></category>
+		<category><![CDATA[kontrol]]></category>
+		<category><![CDATA[method]]></category>
+		<category><![CDATA[modifier]]></category>
+		<category><![CDATA[overloading]]></category>
+		<category><![CDATA[overriding]]></category>
+		<category><![CDATA[private]]></category>
+		<category><![CDATA[protected]]></category>
+		<category><![CDATA[public]]></category>
+		<guid isPermaLink="false">/?p=102</guid>
+
+					<description><![CDATA[PENDAHULUAN ?Kelas merupakan definisi statik dari objek atau struktur yang mendefinisikan data (property) dan method dari objek. ?Sedangkan object adalah komponen yang diciptakan dari class (instance <a class="mh-excerpt-more" href="/2016/03/22/kelas-kontrol-kelas-dan-konstruktor/" title="Kelas, Kontrol Kelas, dan Konstruktor">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p><strong>PENDAHULUAN</strong></p>
+<p>?Kelas merupakan definisi statik dari objek atau struktur yang mendefinisikan data (property) dan method dari objek. ?Sedangkan object adalah komponen yang diciptakan dari class (<i>instance of class</i>)</p>
+<p><strong>PEMBUATAN KELAS PADA JAVA</strong></p>
+<p>?Deklarasi kelas pada Java menggunakan keyword <i>class</i>, kemudian diikuti dengan pendefinisian data dan method dari kelas tersebut. ?Nama kelas sebaiknya berupa kata benda dan diawali dengan huruf besar</p>
+<p>Contoh:</p>
+<pre class="lang:default decode:true ">public class Mahasiswa{
+  int age;
+}
+
+class MahasiswaBaru{
+
+}
+</pre>
+<p><strong>PEMBUATAN OBJEK</strong></p>
+<p>?Deklarasi objek tidak berarti membuat sebuah objek. Artinya, jika hanya melakukan deklarasi, developer tidak bisa memanggil atribut maupun method yang dimiliki oleh kelas tersebut.</p>
+<pre class="lang:default decode:true">Mahasiswa m;
+// kode berikut akan gagal
+m.age = 7;</pre>
+<p>?Objek dibuat dengan perintah <i>new.</i></p>
+<pre class="lang:default decode:true ">Mahasiswa m;
+m = new Mahasiswa();
+m.age = 7;</pre>
+<p><strong>PROPERTY DAN METHOD</strong></p>
+<p>?Penulisan property dan method pada sebuah kelas sama dengan penulisan variabel dan fungsi pada bahasa C, hanya saja ditambahkan access modifier di awal penulisan. ?Untuk mengakses property ataupun method dari sebuah objek, gunakan tanda titik (.)</p>
+<p>Contoh:</p>
+<pre class="lang:default decode:true " title="Buku.java">class Buku {
+    String name;
+    
+    void addBuku(){
+        
+    }
+}</pre>
+<pre class="lang:default decode:true " title="MahasiswaBaru.java">class MahasiswaBaru {
+    int age;
+    Buku b;
+    
+    void pinjamBuku(){
+        b = new Buku();
+        b.name = "Pemrograman Java";
+        b.addBuku();
+    }
+}</pre>
+<p><strong>ACCESS MODIFIER </strong></p>
+<p>?Access Modifier merupakan pemberian hak akses, apakah sebuah kelas, method, ataupun property bisa diakses atau tidak oleh kelas atau object lainnya. ?Ada 4 jenis access modifier di Java, yaitu:</p>
+<ul>
+<li>?Public ==&gt; terbuka untuk semua access</li>
+<li>?Protected ==&gt; hanya bisa diakses oleh turunannya</li>
+<li>?Default / No Access Modifier ==&gt; hanya bisa diakses oleh kelas dengan package yang sama</li>
+<li>?Private ==&gt; hanya bisa diakses kelas itu sendiri</li>
+</ul>
+<p>Contoh:</p>
+<pre class="lang:default decode:true " title="Mahasiswa.java">public class Mahasiswa {
+    int age;
+    private String name;
+
+    public void printKRS(){
+        
+    }
+
+    protected void addKRS(){
+
+    }
+}</pre>
+<p><strong>KONSTRUKTOR</strong></p>
+<p>?Merupakan method yang dijalankan ketika sebuah objek pertama kali diciptakan. ?Penulisan konstruktor mirip seperti penulisan method, namun nama method konstruktor harus sama dengan nama kelasnya dan tidak memiliki tipe kembalian. ?Konstruktor memiliki sifat overloading</p>
+<p>Contoh:</p>
+<pre class="lang:default decode:true " title="Mahasiswa.java">public class Mahasiswa {
+    int age;
+    private String name;
+    
+    public Mahasiswa(){
+        System.out.println("Mahasiswa is created");
+    }
+    
+    public Mahasiswa(String name){
+        this.name = name;
+        System.out.println(name+" is created");
+    }
+}</pre>
+<p>Pemanggilan Konstruktor</p>
+<pre class="lang:default decode:true ">public static void main(String[] args) {        
+        Mahasiswa m1 = new Mahasiswa();
+        Mahasiswa m2 = new Mahasiswa("Budi");
+}</pre>
+<p><strong>KEYWORD SUPER DAN THIS</strong></p>
+<p>?Kata kunci <i>super</i> dipakai untuk merujuk pada member dari parent class. ?Sedangkan kata kunci <i>this</i> dipakai untuk merujuk pada member dari class itu sendiri.</p>
+<p>Contoh:</p>
+<pre class="lang:default decode:true " title="MahasiswaKedokteran.java">class MahasiswaKedokteran extends Mahasiswa{
+    int matkul;
+    
+    @Override
+    public void printKRS(){
+        System.out.println("Mahasiswa Kedokteran");
+        super.printKRS();
+    }
+}</pre>
+<p>?Dari contoh di atas, perintah super.printKRS() akan memanggil method printKRS() yang sudah didefinisikan pada kelas Mahasiswa. ?Artinya, method printKRS() pada kelas MahasiswaKedokteran merupakan perluasan method printKRS() pada kelas Mahasiswa.</p>
+<p><strong>PENUTUP</strong></p>
+<p>?Setiap kelas pasti mempunyai konstruktor, walaupun ketika membuat kelas tanpa konstruktor, secara default compiler akan membuatkannya konstruktor kosong.</p>
+<p><strong>DOWNLOAD PDF</strong></p>
+<p>Silahkan download materi ini dalam format PDF/PowerPoint secara gratis di <a href="http://adf.ly/1YeFWz" target="_blank">sini</a>.</p>
+<p><strong>NEXT . . .</strong></p>
+<p>?Method, Overloading, Overriding, dan Rekursif</p>
+<p><strong>REFERENSI</strong></p>
+<p>?Sierra, K., &amp; Bates, B. (2005) “A Brain-Friendly Guide: Head First Java 2nd Edition”. O’Reilly</p>
+<p>?Yohanes Nugroho, (2009) “Slide Kuliah: Bahasa Pemrograman Java”. STEI ITB</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/03/22/kelas-kontrol-kelas-dan-konstruktor/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

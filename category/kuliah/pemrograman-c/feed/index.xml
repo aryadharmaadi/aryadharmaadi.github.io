@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pemrograman C &#8211; Catatan Kecil</title>
+	<atom:link href="/category/kuliah/pemrograman-c/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Tue, 28 Sep 2021 08:32:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>Pemrograman C &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Input dan Output</title>
+		<link>/2021/09/28/input-dan-output/</link>
+					<comments>/2021/09/28/input-dan-output/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Tue, 28 Sep 2021 08:32:43 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman C]]></category>
+		<guid isPermaLink="false">/?p=1165</guid>
+
+					<description><![CDATA[Berikut merupakan materi ke-empat dari seri mata kuliah pemrograman C.]]></description>
+										<content:encoded><![CDATA[
+<p>Berikut merupakan materi ke-empat dari seri mata kuliah pemrograman C.</p>
+
+
+<div class="ead-preview"><div class="ead-document" style="position: relative;"><div class="ead-iframe-wrapper"><iframe src="//docs.google.com/viewer?url=%2Fwp-content%2Fuploads%2F2021%2F09%2FMinggu-4-Input-dan-Output.pdf&amp;embedded=true&amp;hl=en" title="Embedded Document" class="ead-iframe" style="width: 100%;height: 500px;border: none;visibility: hidden;"></iframe></div>			<div class="ead-document-loading" style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;">
+				<div class="ead-loading-wrap">
+					<div class="ead-loading-main">
+						<div class="ead-loading">
+							<img decoding="async" src="/wp-content/plugins/embed-any-document/images/loading.svg" width="55" height="55" alt="Loader">
+							<span>Loading&#8230;</span>
+						</div>
+					</div>
+					<div class="ead-loading-foot">
+						<div class="ead-loading-foot-title">
+							<img decoding="async" src="/wp-content/plugins/embed-any-document/images/EAD-logo.svg" alt="EAD Logo" width="36" height="23"/>
+							<span>Taking too long?</span>
+						</div>
+						<p>
+							<div class="ead-document-btn ead-reload-btn" role="button">
+								<img decoding="async" src="/wp-content/plugins/embed-any-document/images/reload.svg" alt="Reload" width="12" height="12"/> Reload document							</div>
+							<span>|</span>
+							<a href="/wp-content/uploads/2021/09/Minggu-4-Input-dan-Output.pdf" class="ead-document-btn" target="_blank">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/open.svg" alt="Open" width="12" height="12"/> Open in new tab							</a>
+					</div>
+				</div>
+			</div>
+		</div></div>]]></content:encoded>
+					
+					<wfw:commentRss>/2021/09/28/input-dan-output/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Fungsi</title>
+		<link>/2020/11/24/fungsi/</link>
+					<comments>/2020/11/24/fungsi/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Tue, 24 Nov 2020 05:28:08 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman C]]></category>
+		<category><![CDATA[function]]></category>
+		<category><![CDATA[fungsi]]></category>
+		<guid isPermaLink="false">/?p=802</guid>
+
+					<description><![CDATA[Berikut adalah materi lanjutan dari mata kuliah Pemrograman.]]></description>
+										<content:encoded><![CDATA[
+<p>Berikut adalah materi lanjutan dari mata kuliah Pemrograman.</p>
+
+
+<div class="ead-preview"><div class="ead-document" style="position: relative;"><div class="ead-iframe-wrapper"><iframe src="//docs.google.com/viewer?url=%2Fwp-content%2Fuploads%2F2020%2F11%2FMinggu-7-Fungsi.pdf&amp;embedded=true&amp;hl=en" title="Embedded Document" class="ead-iframe" style="width: 100%;height: 500px;border: none;visibility: hidden;"></iframe></div>			<div class="ead-document-loading" style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;">
+				<div class="ead-loading-wrap">
+					<div class="ead-loading-main">
+						<div class="ead-loading">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/loading.svg" width="55" height="55" alt="Loader">
+							<span>Loading&#8230;</span>
+						</div>
+					</div>
+					<div class="ead-loading-foot">
+						<div class="ead-loading-foot-title">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/EAD-logo.svg" alt="EAD Logo" width="36" height="23"/>
+							<span>Taking too long?</span>
+						</div>
+						<p>
+							<div class="ead-document-btn ead-reload-btn" role="button">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/reload.svg" alt="Reload" width="12" height="12"/> Reload document							</div>
+							<span>|</span>
+							<a href="/wp-content/uploads/2020/11/Minggu-7-Fungsi.pdf" class="ead-document-btn" target="_blank">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/open.svg" alt="Open" width="12" height="12"/> Open in new tab							</a>
+					</div>
+				</div>
+			</div>
+		</div></div>
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2020/11/24/fungsi/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Perulangan (Looping)</title>
+		<link>/2020/11/17/perulangan-looping/</link>
+					<comments>/2020/11/17/perulangan-looping/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Tue, 17 Nov 2020 05:21:25 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman C]]></category>
+		<category><![CDATA[do]]></category>
+		<category><![CDATA[for]]></category>
+		<category><![CDATA[looping]]></category>
+		<category><![CDATA[while]]></category>
+		<guid isPermaLink="false">/?p=788</guid>
+
+					<description><![CDATA[Materi ini adalah lanjutan materi mata kuliah Pemrograman C.]]></description>
+										<content:encoded><![CDATA[
+<p>Materi ini adalah lanjutan materi mata kuliah Pemrograman C.</p>
+
+
+<div class="ead-preview"><div class="ead-document" style="position: relative;"><div class="ead-iframe-wrapper"><iframe src="//docs.google.com/viewer?url=%2Fwp-content%2Fuploads%2F2020%2F11%2FMinggu-6-Perulangan.pdf&amp;embedded=true&amp;hl=en" title="Embedded Document" class="ead-iframe" style="width: 100%;height: 500px;border: none;visibility: hidden;"></iframe></div>			<div class="ead-document-loading" style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;">
+				<div class="ead-loading-wrap">
+					<div class="ead-loading-main">
+						<div class="ead-loading">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/loading.svg" width="55" height="55" alt="Loader">
+							<span>Loading&#8230;</span>
+						</div>
+					</div>
+					<div class="ead-loading-foot">
+						<div class="ead-loading-foot-title">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/EAD-logo.svg" alt="EAD Logo" width="36" height="23"/>
+							<span>Taking too long?</span>
+						</div>
+						<p>
+							<div class="ead-document-btn ead-reload-btn" role="button">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/reload.svg" alt="Reload" width="12" height="12"/> Reload document							</div>
+							<span>|</span>
+							<a href="/wp-content/uploads/2020/11/Minggu-6-Perulangan.pdf" class="ead-document-btn" target="_blank">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/open.svg" alt="Open" width="12" height="12"/> Open in new tab							</a>
+					</div>
+				</div>
+			</div>
+		</div></div>]]></content:encoded>
+					
+					<wfw:commentRss>/2020/11/17/perulangan-looping/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Percabangan</title>
+		<link>/2020/11/07/percabangan/</link>
+					<comments>/2020/11/07/percabangan/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Sat, 07 Nov 2020 08:05:06 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman C]]></category>
+		<category><![CDATA[case]]></category>
+		<category><![CDATA[else]]></category>
+		<category><![CDATA[if]]></category>
+		<category><![CDATA[percabangan]]></category>
+		<category><![CDATA[switch]]></category>
+		<guid isPermaLink="false">/?p=770</guid>
+
+					<description><![CDATA[Materi ini merupakan materi lanjutan dari seri mata kuliah Pemrograman dengan bahasa C.]]></description>
+										<content:encoded><![CDATA[
+<p>Materi ini merupakan materi lanjutan dari seri mata kuliah Pemrograman dengan bahasa C.</p>
+
+
+<div class="ead-preview"><div class="ead-document" style="position: relative;"><div class="ead-iframe-wrapper"><iframe src="//docs.google.com/viewer?url=%2Fwp-content%2Fuploads%2F2020%2F11%2FMinggu-5-Percabangan.pdf&amp;embedded=true&amp;hl=en" title="Embedded Document" class="ead-iframe" style="width: 100%;height: 500px;border: none;visibility: hidden;"></iframe></div>			<div class="ead-document-loading" style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;">
+				<div class="ead-loading-wrap">
+					<div class="ead-loading-main">
+						<div class="ead-loading">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/loading.svg" width="55" height="55" alt="Loader">
+							<span>Loading&#8230;</span>
+						</div>
+					</div>
+					<div class="ead-loading-foot">
+						<div class="ead-loading-foot-title">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/EAD-logo.svg" alt="EAD Logo" width="36" height="23"/>
+							<span>Taking too long?</span>
+						</div>
+						<p>
+							<div class="ead-document-btn ead-reload-btn" role="button">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/reload.svg" alt="Reload" width="12" height="12"/> Reload document							</div>
+							<span>|</span>
+							<a href="/wp-content/uploads/2020/11/Minggu-5-Percabangan.pdf" class="ead-document-btn" target="_blank">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/open.svg" alt="Open" width="12" height="12"/> Open in new tab							</a>
+					</div>
+				</div>
+			</div>
+		</div></div>]]></content:encoded>
+					
+					<wfw:commentRss>/2020/11/07/percabangan/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tipe, Operator, dan Ekspresi</title>
+		<link>/2020/10/12/tipe-operator-dan-ekspresi/</link>
+					<comments>/2020/10/12/tipe-operator-dan-ekspresi/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Mon, 12 Oct 2020 12:23:26 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman C]]></category>
+		<category><![CDATA[char]]></category>
+		<category><![CDATA[ekspresi]]></category>
+		<category><![CDATA[float]]></category>
+		<category><![CDATA[integer]]></category>
+		<category><![CDATA[operator]]></category>
+		<category><![CDATA[tipe]]></category>
+		<guid isPermaLink="false">/?p=718</guid>
+
+					<description><![CDATA[Materi ini merupakan materi lanjutan dari seri mata kuliah Pemrograman dengan bahasa C.]]></description>
+										<content:encoded><![CDATA[
+<p>Materi ini merupakan materi lanjutan dari seri mata kuliah Pemrograman dengan bahasa C.</p>
+
+
+<div class="ead-preview"><div class="ead-document" style="position: relative;"><div class="ead-iframe-wrapper"><iframe src="//docs.google.com/viewer?url=%2Fwp-content%2Fuploads%2F2020%2F10%2FMinggu-3-Tipe-Operator-dan-Ekspresi.pdf&amp;embedded=true&amp;hl=en" title="Embedded Document" class="ead-iframe" style="width: 100%;height: 500px;border: none;visibility: hidden;"></iframe></div>			<div class="ead-document-loading" style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;">
+				<div class="ead-loading-wrap">
+					<div class="ead-loading-main">
+						<div class="ead-loading">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/loading.svg" width="55" height="55" alt="Loader">
+							<span>Loading&#8230;</span>
+						</div>
+					</div>
+					<div class="ead-loading-foot">
+						<div class="ead-loading-foot-title">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/EAD-logo.svg" alt="EAD Logo" width="36" height="23"/>
+							<span>Taking too long?</span>
+						</div>
+						<p>
+							<div class="ead-document-btn ead-reload-btn" role="button">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/reload.svg" alt="Reload" width="12" height="12"/> Reload document							</div>
+							<span>|</span>
+							<a href="/wp-content/uploads/2020/10/Minggu-3-Tipe-Operator-dan-Ekspresi.pdf" class="ead-document-btn" target="_blank">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/open.svg" alt="Open" width="12" height="12"/> Open in new tab							</a>
+					</div>
+				</div>
+			</div>
+		</div></div>]]></content:encoded>
+					
+					<wfw:commentRss>/2020/10/12/tipe-operator-dan-ekspresi/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Pengenalan Pemrograman C</title>
+		<link>/2020/09/20/pengenalan-pemrograman-c-2/</link>
+					<comments>/2020/09/20/pengenalan-pemrograman-c-2/#comments</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Sun, 20 Sep 2020 05:24:56 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman C]]></category>
+		<category><![CDATA[bahasa]]></category>
+		<category><![CDATA[c]]></category>
+		<category><![CDATA[pemrograman]]></category>
+		<category><![CDATA[pengenalan]]></category>
+		<guid isPermaLink="false">/?p=664</guid>
+
+					<description><![CDATA[Materi ini merupakan materi pertama dari seri mata kuliah Pemrograman dengan bahasa C. Selanjutnya, berikut adalah materi aturan dasar pemrograman bahasa C.]]></description>
+										<content:encoded><![CDATA[
+<p>Materi ini merupakan materi pertama dari seri mata kuliah Pemrograman dengan bahasa C.</p>
+
+
+<div class="ead-preview"><div class="ead-document" style="position: relative;"><div class="ead-iframe-wrapper"><iframe src="//docs.google.com/viewer?url=%2Fwp-content%2Fuploads%2F2020%2F09%2FMinggu-1-Pengenalan-Pemrograman.pdf&amp;embedded=true&amp;hl=en" title="Embedded Document" class="ead-iframe" style="width: 100%;height: 500px;border: none;visibility: hidden;"></iframe></div>			<div class="ead-document-loading" style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;">
+				<div class="ead-loading-wrap">
+					<div class="ead-loading-main">
+						<div class="ead-loading">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/loading.svg" width="55" height="55" alt="Loader">
+							<span>Loading&#8230;</span>
+						</div>
+					</div>
+					<div class="ead-loading-foot">
+						<div class="ead-loading-foot-title">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/EAD-logo.svg" alt="EAD Logo" width="36" height="23"/>
+							<span>Taking too long?</span>
+						</div>
+						<p>
+							<div class="ead-document-btn ead-reload-btn" role="button">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/reload.svg" alt="Reload" width="12" height="12"/> Reload document							</div>
+							<span>|</span>
+							<a href="/wp-content/uploads/2020/09/Minggu-1-Pengenalan-Pemrograman.pdf" class="ead-document-btn" target="_blank">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/open.svg" alt="Open" width="12" height="12"/> Open in new tab							</a>
+					</div>
+				</div>
+			</div>
+		</div></div>
+
+
+<p>Selanjutnya, berikut adalah materi aturan dasar pemrograman bahasa C.</p>
+
+
+<div class="ead-preview"><div class="ead-document" style="position: relative;"><div class="ead-iframe-wrapper"><iframe src="//docs.google.com/viewer?url=%2Fwp-content%2Fuploads%2F2020%2F09%2FMinggu-2-Pengenalan-Pemrograman-Lanjutan.pdf&amp;embedded=true&amp;hl=en" title="Embedded Document" class="ead-iframe" style="width: 100%;height: 500px;border: none;visibility: hidden;"></iframe></div>			<div class="ead-document-loading" style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;">
+				<div class="ead-loading-wrap">
+					<div class="ead-loading-main">
+						<div class="ead-loading">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/loading.svg" width="55" height="55" alt="Loader">
+							<span>Loading&#8230;</span>
+						</div>
+					</div>
+					<div class="ead-loading-foot">
+						<div class="ead-loading-foot-title">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/EAD-logo.svg" alt="EAD Logo" width="36" height="23"/>
+							<span>Taking too long?</span>
+						</div>
+						<p>
+							<div class="ead-document-btn ead-reload-btn" role="button">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/reload.svg" alt="Reload" width="12" height="12"/> Reload document							</div>
+							<span>|</span>
+							<a href="/wp-content/uploads/2020/09/Minggu-2-Pengenalan-Pemrograman-Lanjutan.pdf" class="ead-document-btn" target="_blank">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/open.svg" alt="Open" width="12" height="12"/> Open in new tab							</a>
+					</div>
+				</div>
+			</div>
+		</div></div>]]></content:encoded>
+					
+					<wfw:commentRss>/2020/09/20/pengenalan-pemrograman-c-2/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

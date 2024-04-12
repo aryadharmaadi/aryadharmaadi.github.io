@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>jquery &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/jquery/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Mon, 01 Nov 2021 09:50:28 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>jquery &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>AJAX</title>
+		<link>/2021/11/01/ajax/</link>
+					<comments>/2021/11/01/ajax/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Mon, 01 Nov 2021 09:50:24 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Web]]></category>
+		<category><![CDATA[html]]></category>
+		<category><![CDATA[jquery]]></category>
+		<guid isPermaLink="false">/?p=1208</guid>
+
+					<description><![CDATA[Berikut adalah materi lanjutan dari mata kuliah pemrograman internet.]]></description>
+										<content:encoded><![CDATA[
+<p>Berikut adalah materi lanjutan dari mata kuliah pemrograman internet.</p>
+
+
+<div class="ead-preview"><div class="ead-document" style="position: relative;"><div class="ead-iframe-wrapper"><iframe src="//docs.google.com/viewer?url=%2Fwp-content%2Fuploads%2F2021%2F11%2FKolaborasi-Jquery-Ajax-PHP.pdf&amp;embedded=true&amp;hl=en" title="Embedded Document" class="ead-iframe" style="width: 100%;height: 500px;border: none;visibility: hidden;"></iframe></div>			<div class="ead-document-loading" style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;">
+				<div class="ead-loading-wrap">
+					<div class="ead-loading-main">
+						<div class="ead-loading">
+							<img decoding="async" src="/wp-content/plugins/embed-any-document/images/loading.svg" width="55" height="55" alt="Loader">
+							<span>Loading&#8230;</span>
+						</div>
+					</div>
+					<div class="ead-loading-foot">
+						<div class="ead-loading-foot-title">
+							<img decoding="async" src="/wp-content/plugins/embed-any-document/images/EAD-logo.svg" alt="EAD Logo" width="36" height="23"/>
+							<span>Taking too long?</span>
+						</div>
+						<p>
+							<div class="ead-document-btn ead-reload-btn" role="button">
+								<img decoding="async" src="/wp-content/plugins/embed-any-document/images/reload.svg" alt="Reload" width="12" height="12"/> Reload document							</div>
+							<span>|</span>
+							<a href="/wp-content/uploads/2021/11/Kolaborasi-Jquery-Ajax-PHP.pdf" class="ead-document-btn" target="_blank">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/open.svg" alt="Open" width="12" height="12"/> Open in new tab							</a>
+					</div>
+				</div>
+			</div>
+		</div></div>]]></content:encoded>
+					
+					<wfw:commentRss>/2021/11/01/ajax/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>JQuery</title>
+		<link>/2020/11/14/jquery/</link>
+					<comments>/2020/11/14/jquery/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Sat, 14 Nov 2020 03:53:50 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Web]]></category>
+		<category><![CDATA[jquery]]></category>
+		<guid isPermaLink="false">/?p=783</guid>
+
+					<description><![CDATA[Materi berikut adalah materi lanjutan untuk mata kuliah Pemrograman Internet.]]></description>
+										<content:encoded><![CDATA[
+<p>Materi berikut adalah materi lanjutan untuk mata kuliah Pemrograman Internet.</p>
+
+
+<div class="ead-preview"><div class="ead-document" style="position: relative;"><div class="ead-iframe-wrapper"><iframe src="//docs.google.com/viewer?url=%2Fwp-content%2Fuploads%2F2020%2F11%2FMinggu-6.-JQuery.pdf&amp;embedded=true&amp;hl=en" title="Embedded Document" class="ead-iframe" style="width: 100%;height: 500px;border: none;visibility: hidden;"></iframe></div>			<div class="ead-document-loading" style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;">
+				<div class="ead-loading-wrap">
+					<div class="ead-loading-main">
+						<div class="ead-loading">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/loading.svg" width="55" height="55" alt="Loader">
+							<span>Loading&#8230;</span>
+						</div>
+					</div>
+					<div class="ead-loading-foot">
+						<div class="ead-loading-foot-title">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/EAD-logo.svg" alt="EAD Logo" width="36" height="23"/>
+							<span>Taking too long?</span>
+						</div>
+						<p>
+							<div class="ead-document-btn ead-reload-btn" role="button">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/reload.svg" alt="Reload" width="12" height="12"/> Reload document							</div>
+							<span>|</span>
+							<a href="/wp-content/uploads/2020/11/Minggu-6.-JQuery.pdf" class="ead-document-btn" target="_blank">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/open.svg" alt="Open" width="12" height="12"/> Open in new tab							</a>
+					</div>
+				</div>
+			</div>
+		</div></div>]]></content:encoded>
+					
+					<wfw:commentRss>/2020/11/14/jquery/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tutorial Dasar JQueryMobile (Part 1)</title>
+		<link>/2016/10/05/tutorial-dasar-jquerymobile-part-1/</link>
+					<comments>/2016/10/05/tutorial-dasar-jquerymobile-part-1/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Wed, 05 Oct 2016 16:02:38 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Web]]></category>
+		<category><![CDATA[jquery]]></category>
+		<category><![CDATA[jquerymobile]]></category>
+		<guid isPermaLink="false">/?p=153</guid>
+
+					<description><![CDATA[JqueryMobile adalah sebuah library CSS dan JS untuk menghasilkan tampilan antarmuka berbasis web yang responsif yang bisa diakses dengan baik, artinya tampilan web tidak berantakan dan <a class="mh-excerpt-more" href="/2016/10/05/tutorial-dasar-jquerymobile-part-1/" title="Tutorial Dasar JQueryMobile (Part 1)">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p>JqueryMobile adalah sebuah library CSS dan JS untuk menghasilkan tampilan antarmuka berbasis web yang responsif yang bisa diakses dengan baik, artinya tampilan web tidak berantakan dan tidak hancur walaupun diakses melalui beragam perangkat yang berbeda resolusi layarnya, seperti Desktop, Tablet, maupun Smartphone.</p>
+<p>Sebelum memulai tutorial ini, diasumsikan pembaca telah memahami konsep pemrograman HTML, CSS, dan JS dengan baik.</p>
+<p><strong>SETUP AWAL JQUERYMOBILE</strong></p>
+<p>Untuk mendownload library JQueryMobile, silahkan buka situs resmi JQueryMobile, atau download langsung melalui link berikut: <a href="http://jquerymobile.com/resources/download/jquery.mobile-1.4.5.zip" target="_blank">http://jquerymobile.com/resources/download/jquery.mobile-1.4.5.zip</a></p>
+<p>Anda juga harus mendownload library JQuery yang bisa didownload di <a href="http://code.jquery.com/jquery-1.9.0.min.js" target="_blank">http://code.jquery.com/jquery-1.9.0.min.js</a></p>
+<p>Setelah didownload, yang kita akan gunakan adalah:</p>
+<ol>
+<li>file jquery.mobile-1.4.5.min.css dan folder images (diletakkan di folder css dari project anda)</li>
+<li>file jquery.mobile-1.4.5.min.js dan file jquery.mobile-1.4.5.min.map (diletakkan di folder js dari project anda)</li>
+<li>file jquery-1.9.0.min.js (diletakkan di folder js dari project anda)</li>
+</ol>
+<p>Kemudian, kita mulai membuat file html, kita namakan index.html.</p>
+<p><figure id="attachment_157" aria-describedby="caption-attachment-157" style="width: 258px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/10/Screen-Shot-2016-10-05-at-15.07.38.png"><img loading="lazy" decoding="async" class="size-full wp-image-157" src="/wp-content/uploads/2016/10/Screen-Shot-2016-10-05-at-15.07.38.png" alt="Struktur File" width="258" height="126" /></a><figcaption id="caption-attachment-157" class="wp-caption-text">Struktur File</figcaption></figure></p>
+<p><strong>SETUP HTML</strong></p>
+<p>Isi dari file HTML adalah meng-load semua library JQueryMobile (CSS dan JS) pada bagian &lt;head&gt;. Selanjutnya di bagian &lt;body&gt;, kita mulai menggunakan elemen-elemen dasar JQueryMobile untuk membuat header, isi website, dan footer. Isi website akan diisi dengan tampilan widget listview.</p>
+<pre class="lang:default decode:true" title="index.html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
+        &lt;title&gt;jQuery Mobile Framework&lt;/title&gt;
+        &lt;link rel='stylesheet' href='css/jquery.mobile-1.4.5.min.css'/&gt;
+        &lt;script src='js/jquery-1.9.0.min.js' &gt;&lt;/script&gt;
+        &lt;script src='js/jquery.mobile-1.4.5.js' &gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div data-role="page"&gt;
+            &lt;div data-role="header" data-theme="b"&gt;
+                &lt;h1&gt;Latihan&lt;/h1&gt;
+            &lt;/div&gt;
+ 
+            &lt;div data-role="content"&gt;
+                &lt;ul data-role="listview" data-theme="c"&gt;
+                    &lt;li&gt;&lt;a href="#"  data-transition="flip"&gt;&lt;h2&gt;Mengenal MongoDB, Open Source Database NoSQL Document-Oriented&lt;/h2&gt;&lt;/a&gt;&lt;/li&gt;					
+                    &lt;li&gt;&lt;a href="#"  data-transition="flip"&gt;&lt;h2&gt;7 Plugin Firefox yang Wajib Dimiliki Para Web Developer&lt;/h2&gt;&lt;/a&gt;&lt;/li&gt; 
+                    &lt;li&gt;&lt;a href="#"  data-transition="flip"&gt;&lt;h2&gt;Membuat SpreadSheet Online Dengan dhtmlxSpreadSheet&lt;/h2&gt;&lt;/a&gt;&lt;/li&gt; 
+                    &lt;li&gt;&lt;a href="#"  data-transition="flip"&gt;&lt;h2&gt;Kendo UI, Framework HTML5 Dibundel JQuery dan CSS3&lt;/h2&gt;&lt;/a&gt;&lt;/li&gt; 					
+                    &lt;li&gt;&lt;a href="#"  data-transition="flip"&gt;&lt;h2&gt;Membuat Pretty URL Sederhana Pada ASP.NET 4.0&lt;/h2&gt;&lt;/a&gt;&lt;/li&gt; 
+                    &lt;li&gt;&lt;a href="#"  data-transition="flip"&gt;&lt;h2&gt;Deteksi Perangkat Mobile Dengan Javascript Sederhana&lt;/h2&gt;&lt;/a&gt;&lt;/li&gt; 
+                &lt;/ul&gt;
+            &lt;/div&gt;
+ 
+            &lt;div data-role="footer" data-theme="a"&gt;
+                &lt;h3&gt;Kuliah Promnet&lt;/h3&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</pre>
+<p>Jika dicoba dijalankan, maka akan menampilkan hasil sebagai berikut:</p>
+<p><figure id="attachment_160" aria-describedby="caption-attachment-160" style="width: 204px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/10/Screen-Shot-2016-10-05-at-23.50.11.png"><img loading="lazy" decoding="async" class="wp-image-160 size-medium" src="/wp-content/uploads/2016/10/Screen-Shot-2016-10-05-at-23.50.11-204x300.png" alt="Tampilan index.html" width="204" height="300" srcset="/wp-content/uploads/2016/10/Screen-Shot-2016-10-05-at-23.50.11-204x300.png 204w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-05-at-23.50.11-695x1024.png 695w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-05-at-23.50.11-238x350.png 238w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-05-at-23.50.11.png 702w" sizes="(max-width: 204px) 100vw, 204px" /></a><figcaption id="caption-attachment-160" class="wp-caption-text">Tampilan index.html</figcaption></figure></p>
+<p>&nbsp;</p>
+<p>Agar bisa terlihat seperti tampilan mobile di atas, pada browser mozilla, klik kanan dan pilih menu &#8220;Inspect Elemen&#8221;. Selanjutnya klik tombol &#8220;View Responsive Design&#8221; pada bagian bawah.</p>
+<p><figure id="attachment_162" aria-describedby="caption-attachment-162" style="width: 2554px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/10/Screen-Shot-2016-10-05-at-23.53.361.png"><img loading="lazy" decoding="async" class="size-full wp-image-162" src="/wp-content/uploads/2016/10/Screen-Shot-2016-10-05-at-23.53.361.png" alt="Inspect Elemen pada Mozilla" width="2554" height="1408" srcset="/wp-content/uploads/2016/10/Screen-Shot-2016-10-05-at-23.53.361.png 2554w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-05-at-23.53.361-300x165.png 300w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-05-at-23.53.361-1024x565.png 1024w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-05-at-23.53.361-635x350.png 635w" sizes="(max-width: 2554px) 100vw, 2554px" /></a><figcaption id="caption-attachment-162" class="wp-caption-text">Inspect Elemen pada Mozilla</figcaption></figure></p>
+<p>&nbsp;</p>
+<p><strong>NEXT?</strong></p>
+<p>Selanjutnya anda bisa mencoba membuat widget-widget lain yang akan ditampilkan pada bagian konten website, seperti Tabs, Panel, Popup, Collapsible, dll. Panduan lengkapnya bisa dilihat di <a href="http://demos.jquerymobile.com/1.4.5/" target="_blank">http://demos.jquerymobile.com/1.4.5/</a></p>
+<p>Selamat mencoba <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/10/05/tutorial-dasar-jquerymobile-part-1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Kolaborasi jQuery + AJAX +  PHP + MySQL</title>
+		<link>/2015/11/15/kolaborasi-jquery-ajax-php-mysql/</link>
+					<comments>/2015/11/15/kolaborasi-jquery-ajax-php-mysql/#comments</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Sun, 15 Nov 2015 05:18:51 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Web]]></category>
+		<category><![CDATA[ajax]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[jquery]]></category>
+		<category><![CDATA[jquerymobile]]></category>
+		<category><![CDATA[json]]></category>
+		<category><![CDATA[localhost]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[server]]></category>
+		<category><![CDATA[xampp]]></category>
+		<category><![CDATA[xml]]></category>
+		<guid isPermaLink="false">/?p=35</guid>
+
+					<description><![CDATA[Untuk materi ini, saya asumsikan anda sudah mampu menginstall aplikasi web server XAMPP pada komputer anda dan memahami sintaks dasar PHP, Javascript, dan penggunaan MySQL. <a class="mh-excerpt-more" href="/2015/11/15/kolaborasi-jquery-ajax-php-mysql/" title="Kolaborasi jQuery + AJAX +  PHP + MySQL">[...]</a>]]></description>
+										<content:encoded><![CDATA[
+<p>Untuk materi ini, saya asumsikan anda sudah mampu menginstall aplikasi web server XAMPP pada komputer anda dan memahami sintaks dasar PHP, Javascript, dan penggunaan MySQL.</p>
+
+
+
+<p><strong>PENDAHULUAN</strong></p>
+
+
+
+<p>AJAX (Asynchronous JavaScript and XML) dimanfaatkan untuk membuat web interaktif dan dinamis tanpa perlu membuat browser melakukan refresh ketika meminta data ke server. AJAX memungkinkan semua dapat dilakukan secara instan, tanpa perlu lagi menunggu halaman di-reload, sehingga aplikasi web mirip dengan aplikasi desktop dalam hal responsibilitas maupun interaktifitas. Saat ini, AJAX sudah menjadi teknologi yang wajib diterapkan dalam pengembangan web modern (web 2.0).</p>
+
+
+
+<p><strong>HUBUNGAN ANTARA&nbsp;HTML, AJAX, PHP, DAN&nbsp;MYSQL</strong></p>
+
+
+
+<p>Secara ringkas, keterhubungan antara semua topik bahasan di materi ini (HTML, AJAX, PHP, dan MySQL) digambarkan sebagai berikut:</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="/wp-content/uploads/2015/11/ajax-php.png"><img loading="lazy" decoding="async" width="1024" height="585" src="/wp-content/uploads/2015/11/ajax-php-1024x585.png" alt="" class="wp-image-38" srcset="/wp-content/uploads/2015/11/ajax-php-1024x585.png 1024w, /wp-content/uploads/2015/11/ajax-php-300x171.png 300w, /wp-content/uploads/2015/11/ajax-php.png 1238w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption>Keterkaitan antara HTML, AJAX, PHP, dan MySQL</figcaption></figure>
+
+
+
+<p>Pada saat dibuka, web browser masih kosong. Kemudian browser membuka sebuah halaman sehingga browser melakukan request ke server. Hasil request adalah script HTML, CSS, JS (termasuk Ajax Engine), dan script-script tersebut di-load ke web browser. Selanjutnya seperti pada gambar di atas, ketika user akan melakukan suatu perintah pada aplikasi, halaman HTML tetap diam, namun di belakang layar, AJAX Engine yang melakukan http request ke server.</p>
+
+
+
+<p><strong>ANTARA JQUERY DAN&nbsp;AJAX</strong></p>
+
+
+
+<p>jQuery merupakan sebuah library Javascript sehingga mempermudah manipulasi komponen di dokumen HTML, menangani event, animasi, efek, dll. Selain itu, jQuery mempermudah developer web untuk memproses interaksi AJAX. Tanpa library seperti jQuery, menerapkan AJAX akan lebih sulit, panjang, dan rumit, terutama untuk pemula yang baru belajar Javascript.</p>
+
+
+
+<p><b>MEMULAI PROJECT</b></p>
+
+
+
+<p>Sebagai latihan, akan dibuat sebuah aplikasi ajax berdasarkan project yang sebelumnya (aplikasi insert nama dan hobi). Project sebelumnya bisa dilihat di <a rel="noopener" href="/2015/11/06/koneksi-php-dan-mysql/" target="_blank">sini</a>. Aplikasi ajax ini akan mencari nama pada tabel ‘daftar_hobi’ dan akan menampilkan hobinya. So, jalankan web server pada komputer anda. Dari project yang sebelumnya (folder latihan), buatlah folder untuk project yang baru dengan nama ‘ajax’. Buatlah sebuah file html, dengan nama ‘index.html’.</p>
+
+
+
+<pre class="wp-block-preformatted lang:default decode:true">&lt;html&gt;
+&lt;head&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+    &lt;title&gt;Latihan AJAX&lt;/title&gt;
+	
+    &lt;!-- Jquery Mobile --&gt;
+    &lt;link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"&gt;
+    &lt;link href="css/my-style.css" rel="stylesheet"&gt;
+	
+    &lt;style&gt;
+		@media (min-width: 720px) {
+			#main{
+				width: 50%;
+				margin: auto;
+			}
+		}
+    &lt;/style&gt;
+	
+    &lt;!-- jQuery  --&gt;
+    &lt;script src="js/jquery.js"&gt;&lt;/script&gt;
+    &lt;script src="js/jquery.mobile-1.4.5.min.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;div data-role="page" class="jqm-demos jqm-home"&gt;		
+		&lt;div style="margin-top: 50px; margin-bottom: 30px;" id="main" role="main" class="ui-content"&gt;						
+			&lt;div id="result" style="margin-bottom: 20px; display: none"&gt;
+			  &lt;h3 class="ui-bar ui-bar-a ui-corner-all"&gt;Hasil Pencarian&lt;/h3&gt;
+			  &lt;div class="ui-body ui-body-a ui-corner-all"&gt;
+				
+			  &lt;/div&gt;
+			&lt;/div&gt;
+			
+			&lt;div id="pencarian"&gt;
+			  &lt;h3 class="ui-bar ui-bar-a ui-corner-all"&gt;Form Pencarian&lt;/h3&gt;
+			  &lt;div class="ui-body ui-body-a ui-corner-all"&gt;
+				&lt;form id="form-pencarian" action="get_hobi.php" method="post"&gt;
+					&lt;label for="search-1"&gt;Masukkan Nama anda:&lt;/label&gt;
+					&lt;input name="nama" id="nama" value="" placeholder="Cari nama . . . " type="search"&gt;
+					&lt;input value="C A R I" data-theme="a" type="submit"&gt;
+				&lt;/form&gt;
+			  &lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;!-- /content --&gt;
+	&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+
+
+
+<p>?Project ini memanfaatkan library jQueryMobile untuk mempercantik tampilan web dan library jQuery untuk mempermudah penggunaan AJAX.&nbsp;?Poin yang paling penting adalah:</p>
+
+
+
+<ol><li>?Menyediakan element untuk menampilkan hasil pencarian, yaitu div dengan id=“result”</li><li>?Membuat form untuk pengiriman data, dengan id=“form-pencarian” action=“get_hobi.php” method=“post”</li><li>Form tersebut terdiri dari input dengan type=“text” dan input dengan type=“submit”</li></ol>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><a href="/wp-content/uploads/2015/11/index.html.png"><img loading="lazy" decoding="async" width="699" height="264" src="/wp-content/uploads/2015/11/index.html.png" alt="Tampilan index.html" class="wp-image-40" srcset="/wp-content/uploads/2015/11/index.html.png 699w, /wp-content/uploads/2015/11/index.html-300x113.png 300w" sizes="(max-width: 699px) 100vw, 699px" /></a><figcaption>Tampilan index.html</figcaption></figure></div>
+
+
+
+<p><strong>BUAT SCRIPT UNTUK AJAX</strong></p>
+
+
+
+<p>?Setelah selesai membuat script HTML, selanjutnya buat script untuk penanganan AJAX.&nbsp;?Script bisa ditulis di file terpisah atau ditulis di bagian head file index.html.&nbsp;?Dalam project ini, script ditulis di bagian head file index.html karena code-nya sedikit.</p>
+
+
+
+<pre class="wp-block-preformatted lang:default decode:true">&lt;script type='text/javascript'&gt;
+		var temp;
+		$(document).ready(function (){
+			$('#form-pencarian').submit(function(event) {
+				
+				/* stop form from submitting normally */
+				event.preventDefault();
+				
+				$('#result .ui-body').html('');
+				
+				var url = $(this).attr('action');
+				
+				$.ajax({
+					type: $(this).attr('method'),
+					url: url,
+					data: $(this).serialize(),
+					dataType: "JSON",
+					success: function(data){
+//						alert(data);
+						if (data == null){
+							$('#result .ui-body').html('Data tidak ditemukan');
+						}else{
+							$('#result .ui-body').html(data[0].nama+' memiliki hobi '+data[0].hobi);
+						}
+						$('#result').show();
+					}
+				});
+			});
+		});
+	&lt;/script&gt;</pre>
+
+
+
+<p>Keterangan Singkat:?</p>
+
+
+
+<p><i>$(document).ready() </i>berfungsi untuk pengecek event, jadi apabila semua elemen pada dokumen HTML sudah di-load semua, maka script di dalam blok fungsi <i>$(</i><i>document).ready() </i>akan dijalankan.?</p>
+
+
+
+<p>?<i>$(&#8216;#form-pencarian&#8217;).submit</i><i>() </i>berfungsi sebagai listener event submit. Jadi, apabila form pencarian di-klik submit, maka script di dalam blok fungsi <i>$(&#8216;#form-pencarian&#8217;).submit() </i>akan dijalankan.</p>
+
+
+
+<p>?<i>event.preventDefault</i><i>() </i>berfungsi untuk menghentikan pengiriman data pada form secara normal. Fungsi tersebut digunakan karena pada project ini akan menggunakan pengiriman data melalui AJAX sehingga pengiriman data secara normal harus dihentikan.</p>
+
+
+
+<p>?$.ajax() merupakan proses pengiriman data dengan AJAX, dengan parameter:</p>
+
+
+
+<ul><li>?type ==&gt; method pengiriman, bisa “GET” atau “POST”</li><li>url ==&gt; server tujuan pengiriman data</li><li>?data ==&gt; data form yang akan dikirimkan ke server, bisa didapatkan dengan menggunakan <i>form.serialize(). </i>Jika ingin menulis data form secara manual, carany adalah:&nbsp;?“nama=“+$(‘#nama’).val()”</li><li>dataType ==&gt; format data yang akan diterima dari server, bisa “XML” atau “JSON”</li><li>success ==&gt; fungsi yang akan dijalankan ketika AJAX berhasil mengirimkan data ke server dan server memberikan respon balik. Respon balik dari server akan disimpan di variabel data.</li></ul>
+
+
+
+<p><strong>BUAT FILE PHP UNTUK KONEKSI KE DATABASE</strong></p>
+
+
+
+<p>?File PHP untuk koneksi ke database sudah dibahas pada project sebelumnya.&nbsp;?Untuk itu, buatlah file dengan nama <i>database.php </i>yang disalin dari project sebelumnya.&nbsp;?File ini hanya khusus menangani koneksi ke database, sedangkan penggunaan database (query database) akan dilakukan di file PHP yang lain dengan meng-include-kan file <i>database.php.</i></p>
+
+
+
+<pre class="wp-block-preformatted lang:default decode:true">&lt;?php
+	$dbhost = 'localhost';
+	$dbuser = 'root';
+	$dbpass = '';
+	$dbname = 'latihan';
+	$db = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+
+	// Check connection
+	if ($db-&gt;connect_error) {
+		die("Connection failed: " . $db-&gt;connect_error);
+	}
+?&gt;</pre>
+
+
+
+<p><strong>BUAT FILE PHP SEBAGAI SERVER TUJUAN AJAX</strong></p>
+
+
+
+<p>?Setelah file <i>database.php</i> selesai dibuat, sekarang buatlah file yang menjadi target pengiriman form (<i>get_hobi.php</i>).&nbsp;?File tersebut akan meng-include-kan file <i>database.php</i> agar bisa terhubung ke database.&nbsp;File <i>get_hobi.php</i> mirip dengan file project sebelumnya yang meng-query data, namun&nbsp; di file <i>get_hobi.php</i> akan dibuat untuk me-<i>return</i> data dalam bentuk JSON.</p>
+
+
+
+<pre class="wp-block-preformatted lang:default decode:true">&lt;?php
+	require "database.php";
+   
+	$namaku = $_POST['nama'];
+	
+	// prepare and bind
+	$stmt = $db-&gt;prepare("SELECT * FROM daftar_hobi WHERE nama=?");
+	$stmt-&gt;bind_param("s", $namaku);	
+	$stmt-&gt;execute();
+
+	$stmt-&gt;bind_result($nama,$hobi);
+	
+	$result = null;
+	while ($stmt-&gt;fetch()) {
+		$result[] = array(
+			'nama' =&gt; $nama,
+			'hobi' =&gt; $hobi
+		);
+	}
+	echo json_encode($result);
+
+	$stmt-&gt;close();
+	$db-&gt;close();
+?&gt;</pre>
+
+
+
+<p>?Require “database.php” merupakan code untuk memanggil file <i>database.php</i> dan meng-include-kan semua variabel dan code-nya ke dalam <i>get_hobi.php.&nbsp;</i>?Penggunaan prepare statement sama dengan project sebelumnya.&nbsp;Untuk mendapatkan hasil dari prepare statement, digunakan method <i>bind_result($nama,$hobi)</i>, dimana jumlah variabel pada parameternya <i>bind_result </i>disesuaikan dengan jumlah kolom yang di-query dari database.</p>
+
+
+
+<p>?Untuk mendapatkan hasil per baris-nya, gunakan fungsi fetch(), dimana fungsi ini akan menggeser pointer dari satu row hasil data query ke row selanjutnya dan menyimpan datanya ke variabel <i>$nama </i>dan <i>$hobi </i>.&nbsp;?Fungsi tersebut akan menghasilkan true jika baris yang ditunjuk memiliki data dan menghasilkan false jika baris yang ditunjuk tidak ada.&nbsp;?Fungsi json_encode adalah fungsi untuk mengubah array menjadi format JSON sehingga mudah dibaca oleh AJAX engine.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><a href="/wp-content/uploads/2015/11/dir.png"><img loading="lazy" decoding="async" width="762" height="313" src="/wp-content/uploads/2015/11/dir.png" alt="dir" class="wp-image-41" srcset="/wp-content/uploads/2015/11/dir.png 762w, /wp-content/uploads/2015/11/dir-300x123.png 300w" sizes="(max-width: 762px) 100vw, 762px" /></a></figure></div>
+
+
+
+<p><strong>SCREENSHOT AKHIR DIREKTORI PROJECT</strong></p>
+
+
+
+<p><strong>HASIL RUNNING PROJECT</strong></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><a href="/wp-content/uploads/2015/11/result.png"><img loading="lazy" decoding="async" width="708" height="380" src="/wp-content/uploads/2015/11/result.png" alt="result" class="wp-image-42" srcset="/wp-content/uploads/2015/11/result.png 708w, /wp-content/uploads/2015/11/result-300x161.png 300w" sizes="(max-width: 708px) 100vw, 708px" /></a></figure></div>
+
+
+
+<p><strong>PENUTUP</strong></p>
+
+
+
+<p>?AJAX mendukung asynchronous sehingga halaman web dapat di-update seperlunya.&nbsp;?Proses update website menjadi lebih cepat karena tidak seluruh halaman di-download.&nbsp;?</p>
+
+
+
+<p>Untuk mendapatkan source code lengkap dari project tadi, bisa diunduh secara gratis di&nbsp;<a href="http://adf.ly/1Rf5Ph" target="_blank" rel="noopener">sini</a>.</p>
+
+
+
+<p>?Untuk membaca materi ini dalam bentuk PDF atau POWERPOINT, silahkan diunduh secara gratis di <a href="http://adf.ly/1RiHn9" target="_blank" rel="noopener">sini</a>.</p>
+
+
+
+<p><strong>NEXT</strong></p>
+
+
+
+<p>Pada materi berikutnya, kita akan mempelajari Framework CodeIgniter.</p>
+
+
+
+<p><strong>REFERENSI</strong></p>
+
+
+
+<p>?<a href="http://jquery.com/">http://jquery.com/</a></p>
+
+
+
+<p>?<a href="http://w3school.com/">http://w3school.com/</a></p>
+
+
+
+<p>?<a href="http://php.net/manual">http://php.net/manual</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2015/11/15/kolaborasi-jquery-ajax-php-mysql/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

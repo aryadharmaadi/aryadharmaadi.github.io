@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>helper &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/helper/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Sun, 23 Oct 2016 15:01:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>helper &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Pembuatan SQLite pada Android</title>
+		<link>/2016/10/23/pembuatan-sqlite-pada-android/</link>
+					<comments>/2016/10/23/pembuatan-sqlite-pada-android/#comments</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Sun, 23 Oct 2016 11:06:40 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Android Lanjut]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[column]]></category>
+		<category><![CDATA[create]]></category>
+		<category><![CDATA[delete]]></category>
+		<category><![CDATA[helper]]></category>
+		<category><![CDATA[insert]]></category>
+		<category><![CDATA[row]]></category>
+		<category><![CDATA[sqlite]]></category>
+		<category><![CDATA[update]]></category>
+		<guid isPermaLink="false">/?p=171</guid>
+
+					<description><![CDATA[PENDAHULUAN SQLite merupakan sebuah database management system yang telah tersedia pada sistem operasi Android. Anda bisa memanfaatkannya tanpa perlu melakukan instalasi lagi. Berbeda dengan DBMS <a class="mh-excerpt-more" href="/2016/10/23/pembuatan-sqlite-pada-android/" title="Pembuatan SQLite pada Android">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p><strong>PENDAHULUAN</strong></p>
+<p>SQLite merupakan sebuah database management system yang telah tersedia pada sistem operasi Android. Anda bisa memanfaatkannya tanpa perlu melakukan instalasi lagi. Berbeda dengan DBMS lain seperti MySQL atau Oracle, SQLite merupakan database yang berukuran kecil dan berdiri sendiri (bukan client server) Untuk lebih jelasnya, anda bisa membuka situs resmi SQLite di <a href="http://www.sqlite.org/" target="_blank">http://www.sqlite.org/</a>.</p>
+<p><strong>STUDI KASUS</strong></p>
+<p>Untuk memudahkan pemahaman, berikut akan dijelaskan langkah demi langkah dalam pembuatan code untuk memanfaatkan database SQLite pada Android. Studi kasus yang digunakan adalah studi kasus pada toko retail, dimana akan dibangun sebuah aplikasi yang mencatat Barang atau Produk yang dijual. Diasumsikan anda sudah memahami sintaks Java Programming beserta Android Studio.</p>
+<p><strong>SQLITE OPEN HELPER</strong></p>
+<p>Untuk memulai pembuatan database dengan SQLite pada Android, anda perlu membuat sebuah kelas helper yang merupakan turunan dari kelas SQLiteOpenHelper. Dengan anda menurunkan kelas ini, maka otomatis anda akan diminta untuk mengimplementasikan beberapa callback (override) berikut:</p>
+<ul>
+<li>onCreate, merupakan method yang akan dijalankan secara otomatis ketika database tidak ada (ketika database pertama kali dibuat). Isi dari method onCreate umumnya adalah mengeksekusi sql (query yang anda buat sendiri untuk create tabel-tabel) dari objek SQLiteDatabase.</li>
+<li>onUpgrade, merupakan method yang akan dijalankan secara otomatis jika ada perubahan versi dari database</li>
+<li>onOpen, bersifat opsional, merupakan method yang dijalankan secara otomatis ketika database dibuka</li>
+</ul>
+<p>Berikut merupakan contoh code pembuatan kelas helper.</p>
+<pre class="lang:default decode:true" title="DBHelper.java">package ardev.id.myapplication.database;
+
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
+import android.widget.Toast;
+
+public class DBHelper extends SQLiteOpenHelper {
+
+    public static final String DATABASE_NAME = "Latihan.db";
+    public static final int DATABASE_VERSION = 1;
+    public static final String TABLE_PRODUCT = "product";
+
+    public static final String COLUMN_ID = "id";
+    public static final String COLUMN_NAME = "name";
+    public static final String COLUMN_PRICE = "price";
+    public static final String COLUMN_UNIT = "unit";
+    public static final String COLUMN_STOCK = "stock";
+
+    private Context context;
+
+    public DBHelper(Context context) {
+        super(context, DATABASE_NAME, null, DATABASE_VERSION);
+        this.context = context;
+    }
+
+    @Override
+    public void onCreate(SQLiteDatabase db) {
+        try {
+            db.execSQL(
+                    "CREATE TABLE IF NOT EXISTS " + TABLE_PRODUCT + " (" +
+                            COLUMN_ID +" integer primary key," +
+                            COLUMN_NAME +" text NOT NULL," +
+                            COLUMN_PRICE +" real NOT NULL," +
+                            COLUMN_UNIT +" text NOT NULL," +
+                            COLUMN_STOCK +" integer NOT NULL"+
+                    ");"
+            );
+
+            Log.i("INFO", "Tabel "+TABLE_PRODUCT+" was Created");
+            Toast.makeText(context,"Tabel "+TABLE_PRODUCT+" was Created",Toast.LENGTH_LONG);
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void onUpgrade(SQLiteDatabase sqLiteDatabase, int oldVersion, int newVersion) {
+
+    }
+}
+</pre>
+<p><strong>MENYIAPKAN SEBUAH KELAS MODEL</strong></p>
+<p>Pada project ini akan digunakan pendekatan MVC (Model-View-Controller) untuk membangun aplikasi Android dengan SQLite untuk penyimpanan data produk. Untuk itu, langkah berikutnya, anda perlu membuat sebuah kelas Model yang merepresentasikan objek data yang akan disimpan. Kelas model tersebut dinamakan Product.java dengan isinya adalah atribut-atribut tabel Product beserta method get dan set untuk pengaksesannya.</p>
+<pre class="lang:default decode:true" title="Product.java">package ardev.id.myapplication.model;
+
+public class Product {
+
+    private String id;
+    private String name;
+    private long price;
+    private String unit;
+    private int stock;
+
+    public Product(String id, String name, long price, String unit, int stock) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+        this.unit = unit;
+        this.stock = stock;
+    }
+
+    public Product(){
+
+    }
+
+    public int getStock() {
+        return stock;
+    }
+
+    public void setStock(int stock) {
+        this.stock = stock;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public long getPrice() {
+        return price;
+    }
+
+    public void setPrice(long price) {
+        this.price = price;
+    }
+
+    public String getUnit() {
+        return unit;
+    }
+
+    public void setUnit(String unit) {
+        this.unit = unit;
+    }
+
+    @Override
+    public String toString() {
+        return getName()+ " | STOCK : "+getStock();
+    }
+}
+</pre>
+<p><strong>MEMBUKA DATABASE</strong></p>
+<p>Untuk membuka dan memanipulasi database yang telah dibuat, sebaiknya anda perlu membuat sebuah kelas terpisah dimana kelas tersebut akan memanggil kelas DBHelper yang telah dibuat tadi. Untuk mendapatkan objek SQLiteDatabase (objek database yang dimanipulasi), gunakanlah method getWritableDatabase() yang ada pada kelas DBHelper.</p>
+<p><strong>MEMANIPULASI DATA</strong></p>
+<p>Untuk melakukan penambahan (insert), perbaikan (edit), dan penghapusan (delete) data pada sebuah tabel, buatlah sebuah kelas terpisah yang khusus menangani hal tersebut. Kelas tersebut diistilahkan dengan DAO (Data Access Object). Pada kelas tersebut, akan dipanggil kelas Helper yang sudah dibuat tadi untuk membuka database. Selanjutnya, dengan bantuan kelas ContentValues, akan disisipkan data dengan format &#8220;key-value&#8221;.</p>
+<p>1. Penambahan (Insert)</p>
+<p>Untuk melakukan perintah insert, gunakan method berikut yang disediakan oleh objek SQLiteDatabase.</p>
+<pre class="lang:default decode:true ">public long insert (String table, String nullColumnHack, ContentValues values)
+</pre>
+<ul>
+<li>Parameter tabel merupakan nama tabel yang akan dituju untuk pengisian data</li>
+<li>Parameter nullColumnHack diisi dengan nama kolom yang akan diisi dengan nilai kosong (null). Jika tidak ada, parameter tersebut bisa dikosongkan atau diisi dengan nilai null</li>
+<li>Parameter values, diisi dengan objek ContentValues yang sudah dibuat</li>
+</ul>
+<p>Method tersebut diatas akan menghasil return -1 jika terjadi kesalahan. Jika tidak ada kesalahan, maka akan menghasilkan return berupa row ID.</p>
+<p>2. Perbaikan (Edit)</p>
+<p>Untuk melakukan perintah edit, gunakan method berikut yang disediakan oleh objek SQLiteDatabase.</p>
+<pre class="lang:default decode:true">public int update (String table, ContentValues values, String whereClause, String[] whereArgs) 
+</pre>
+<ul>
+<li>Parameter tabel adalah nama tabel yang akan diupdate</li>
+<li>Parameter values, diisi dengan objek ContentValues yang sudah dibuat</li>
+<li>Parameter whereClause diisi dengan string query sql bagian statement where, jika diisi dengan null maka dianggap akan mengupdate semua baris data</li>
+<li>Parameter whereArgs, diisi dengan nilai masing-masing parameter ? pada string whereClause. Diisi dengan null jika tidak menggunakan parameter ?</li>
+</ul>
+<p>Method tersebut akan menghasilkan int yang berarti jumlah baris yang telah berhasil diupdate.</p>
+<p>3. Penghapusan (Delete)</p>
+<p>Untuk melakukan perintah delete, gunakan method berikut yang disediakan oleh objek SQLiteDatabase.</p>
+<pre class="lang:default decode:true ">public int delete (String table, String whereClause, String[] whereArgs) 
+</pre>
+<p>Penjelasan tiap parameter sama dengan penjelasan parameter edit di atas. Untuk lebih jelasnya, bisa melihat contoh kelas ProductDAO.java di bawah.</p>
+<pre class="lang:default decode:true " title="ProductDAO.java">package ardev.id.myapplication.database;
+
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import ardev.id.myapplication.model.Product;
+
+public class ProductDAO {
+    private DBHelper dbHelper;
+    private String TABLE_NAME = DBHelper.TABLE_PRODUCT;
+
+    public ProductDAO(Context c){
+        dbHelper = new DBHelper(c);
+    }
+
+    public boolean checkDB(){
+        if (dbHelper.getWritableDatabase()==null){
+            return false;
+        }else{
+            return true;
+        }
+    }
+
+    public long insert(Product p){
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(DBHelper.COLUMN_NAME, p.getName());
+        contentValues.put(DBHelper.COLUMN_PRICE, p.getPrice());
+        contentValues.put(DBHelper.COLUMN_UNIT, p.getUnit());
+        contentValues.put(DBHelper.COLUMN_STOCK, p.getStock());
+        long id = db.insert(TABLE_NAME, null, contentValues);
+        db.close();
+
+        return id;
+    }
+
+    public int update(Product p){
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(DBHelper.COLUMN_NAME, p.getName());
+        contentValues.put(DBHelper.COLUMN_PRICE, p.getPrice());
+        contentValues.put(DBHelper.COLUMN_UNIT, p.getUnit());
+        contentValues.put(DBHelper.COLUMN_STOCK, p.getStock());
+
+        // updating row
+        return db.update(
+                DBHelper.TABLE_PRODUCT,
+                contentValues,
+                DBHelper.COLUMN_ID+" = ?",
+                new String[]{
+                        p.getId()
+                });
+    }
+
+    public int delete(Product p){
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
+        return db.delete(
+                DBHelper.TABLE_PRODUCT,
+                DBHelper.COLUMN_ID+" = ? ",
+                new String[]{
+                        p.getId()
+                });
+    }
+
+    public List&lt;Product&gt; getAllData(){
+        String sql = "select * from " + DBHelper.TABLE_PRODUCT;
+        return executeQuery(sql);
+    }
+
+    private List&lt;Product&gt; executeQuery(String sql){
+        List&lt;Product&gt; productList = new ArrayList&lt;Product&gt;();
+        SQLiteDatabase db = dbHelper.getReadableDatabase();
+        Cursor res =  db.rawQuery(sql, null);
+        res.moveToFirst();
+
+        while(res.isAfterLast() == false){
+            productList.add(
+                    new Product(
+                            res.getString(res.getColumnIndex(DBHelper.COLUMN_ID)),
+                            res.getString(res.getColumnIndex(DBHelper.COLUMN_NAME)),
+                            res.getLong(res.getColumnIndex(DBHelper.COLUMN_PRICE)),
+                            res.getString(res.getColumnIndex(DBHelper.COLUMN_UNIT)),
+                            res.getInt(res.getColumnIndex(DBHelper.COLUMN_STOCK))
+                    )
+            );
+            res.moveToNext();
+        }
+        return productList;
+    }
+}
+</pre>
+<p><strong>PEMBUATAN ACTIVITY</strong></p>
+<p>Setelah selesai dengan pembuatan kelas DAO, selanjutnya buatlah kelas-kelas Activity yang akan memanfaatkan kelas DAO tadi. Akan dibuat 2 buah activity, yaitu MainActivity yang akan menampilkan list produk yang sudah tersimpan di database, dan ProductActivity sebagai halaman untuk menambahkan produk ke database.</p>
+<pre class="lang:default decode:true" title="MainActivity.java">package ardev.id.myapplication;
+
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.Toast;
+
+import java.util.List;
+
+import ardev.id.myapplication.database.ProductDAO;
+import ardev.id.myapplication.model.Product;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        getListData();
+    }
+
+    private void getListData(){
+        ProductDAO productDAO = new ProductDAO(this);
+        final List&lt;Product&gt; productList = productDAO.getAllData();
+
+        final ListView listView = (ListView) findViewById(R.id.list_view);
+
+        ArrayAdapter&lt;Product&gt; adapter = new ArrayAdapter&lt;Product&gt;(this,
+                android.R.layout.simple_list_item_1, android.R.id.text1, productList);
+
+        listView.setAdapter(adapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView&lt;?&gt; parent, View view, int position, long id) {
+                int itemPosition     = position;
+
+                Product product = productList.get(position);
+                Toast.makeText(getApplicationContext(), "Anda menge-klik "+product.getName() , Toast.LENGTH_LONG).show();
+            }
+        });
+    }
+
+    public void openAddNew(View v){
+        Intent myIntent = new Intent(this, ProductActivity.class);
+        startActivity(myIntent);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        getListData();
+    }
+}
+</pre>
+<pre class="lang:default decode:true ">package ardev.id.myapplication;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import ardev.id.myapplication.database.ProductDAO;
+import ardev.id.myapplication.model.Product;
+
+public class ProductActivity extends AppCompatActivity {
+
+    private ProductDAO productDAO;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_product);
+
+        productDAO = new ProductDAO(this);
+
+        ((Button) findViewById(R.id.button_save)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String name = ((TextView) findViewById(R.id.edit_txt_name)).getText().toString();
+                String priceString = ((TextView) findViewById(R.id.edit_txt_price)).getText().toString();
+                String unit = ((TextView) findViewById(R.id.edit_txt_unit)).getText().toString();
+                String stockString = ((TextView) findViewById(R.id.edit_txt_stock)).getText().toString();
+
+                if (priceString.isEmpty()){
+                    priceString = "0";
+                }
+
+                if (stockString.isEmpty()){
+                    stockString = "0";
+                }
+
+                long price = Long.parseLong(priceString);
+                int stock = Integer.parseInt(stockString);
+
+                Product p = new Product(null,name,price,unit,stock);
+
+                if (productDAO.insert(p)&gt;0){
+                    Toast.makeText(ProductActivity.this,"Data berhasil disimpan",Toast.LENGTH_LONG).show();
+                    finish();
+                }else{
+                    Toast.makeText(ProductActivity.this,"Data GAGAL disimpan",Toast.LENGTH_LONG).show();
+                }
+            }
+        });
+    }
+}
+</pre>
+<p>Berikutnya adalah pengaturan layout yang dibuat pada file XML berikut.</p>
+<pre class="lang:default decode:true " title="activity_main.xml">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ardev.id.myapplication.MainActivity"&gt;
+
+    &lt;ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"&gt;
+
+    &lt;/ListView&gt;
+
+    &lt;Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openAddNew"
+        android:text="ADD NEW"/&gt;
+&lt;/LinearLayout&gt;
+</pre>
+<pre class="lang:default decode:true " title="activity_product.xml">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ProductActivity"&gt;
+
+    &lt;EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_txt_name"
+        android:hint="Product Name"
+        android:inputType="text"/&gt;
+
+    &lt;EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_txt_price"
+        android:hint="Product Price"
+        android:inputType="number"/&gt;
+
+    &lt;EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_txt_unit"
+        android:hint="Product Unit"
+        android:inputType="text"/&gt;
+
+    &lt;EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_txt_stock"
+        android:hint="Product Stock"
+        android:inputType="number"/&gt;
+
+    &lt;Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"/&gt;
+
+&lt;/LinearLayout&gt;
+</pre>
+<p><strong>HASIL RUNNING</strong></p>
+<p><a href="/wp-content/uploads/2016/10/Screenshot_1477219320.png"><img fetchpriority="high" decoding="async" class="aligncenter wp-image-186 size-large" src="/wp-content/uploads/2016/10/Screenshot_1477219320-576x1024.png" alt="screenshot_1477219320" width="576" height="1024" srcset="/wp-content/uploads/2016/10/Screenshot_1477219320-576x1024.png 576w, /wp-content/uploads/2016/10/Screenshot_1477219320-169x300.png 169w, /wp-content/uploads/2016/10/Screenshot_1477219320-768x1365.png 768w, /wp-content/uploads/2016/10/Screenshot_1477219320.png 1080w" sizes="(max-width: 576px) 100vw, 576px" /></a></p>
+<p><a href="/wp-content/uploads/2016/10/Screenshot_1477220393.png"><img decoding="async" class="aligncenter wp-image-185 size-large" src="/wp-content/uploads/2016/10/Screenshot_1477220393-576x1024.png" alt="screenshot_1477220393" width="576" height="1024" srcset="/wp-content/uploads/2016/10/Screenshot_1477220393-576x1024.png 576w, /wp-content/uploads/2016/10/Screenshot_1477220393-169x300.png 169w, /wp-content/uploads/2016/10/Screenshot_1477220393-768x1365.png 768w, /wp-content/uploads/2016/10/Screenshot_1477220393.png 1080w" sizes="(max-width: 576px) 100vw, 576px" /></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/10/23/pembuatan-sqlite-pada-android/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

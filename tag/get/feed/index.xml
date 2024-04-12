@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>get &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/get/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Sun, 15 Nov 2015 08:38:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>get &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Koneksi PHP dan MySQL</title>
+		<link>/2015/11/06/koneksi-php-dan-mysql/</link>
+					<comments>/2015/11/06/koneksi-php-dan-mysql/#comments</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Fri, 06 Nov 2015 15:29:58 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Web]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[get]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[post]]></category>
+		<category><![CDATA[prepared]]></category>
+		<category><![CDATA[server]]></category>
+		<category><![CDATA[statement]]></category>
+		<category><![CDATA[table]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[xampp]]></category>
+		<guid isPermaLink="false">/?p=14</guid>
+
+					<description><![CDATA[Untuk materi ini, saya asumsikan anda sudah mampu menginstall aplikasi web server XAMPP pada komputer anda dan memahami sintaks dasar PHP. PENDAHULUAN ?PHP adalah bahasa <a class="mh-excerpt-more" href="/2015/11/06/koneksi-php-dan-mysql/" title="Koneksi PHP dan MySQL">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p>Untuk materi ini, saya asumsikan anda sudah mampu menginstall aplikasi web server XAMPP pada komputer anda dan memahami sintaks dasar PHP.</p>
+<p><strong>PENDAHULUAN</strong></p>
+<p>?PHP adalah bahasa scripting yang kuat yang cocok untuk pengembangan HTML. ?PHP merupakan tools  yang dimanfaatkan untuk membuat web HTML menjadi dinamis. ?Sedangkan MySQL adalah database management system (DBMS) yang bersifat open source yang sangat populer di dunia. ?Dalam pengembangan web HTML dinamis, PHP berkolaborasi dengan MySQL untuk menyimpan data yang diinputkan oleh user.</p>
+<p><b>INPUT DATA USER KE PHP</b></p>
+<p>Setelah memahami bagaimana sintaks-sintaks dasar PHP (umumnya sangat mirip dengan sintaks bahasa C atau Java), sekarang muncul pertanyaan, bagaimana cara PHP untuk mendapatkan input dari user? ?Jika pada bahasa C atau Java kita menggunakan fungsi <em><strong>scanf</strong></em><strong>()</strong> untuk menerima input dari user, lalu bagaimana halnya dengan PHP?</p>
+<p>Jawabannya adalah gunakan Form HTML! ?User memasukkan data pada form, kemudian di-”tangkap” oleh server PHP. ?Dan oleh PHP, data tersebut disimpan pada variabel, kemudian diproses (atau disimpan ke database).</p>
+<p><b>MEMULAI PROJECT SEDERHANA</b></p>
+<p>?Asumsi bahwa anda sudah meng-install aplikasi web server, contoh: LAMPP (jika Linux), atau XAMPP (jika Windows). ?Buatlah folder baru (misal: latihan) pada folder htdoc di direktori anda menginstall XAMPP. ?Lalu buatlah sebuah file html untuk menginputkan script html form.</p>
+<figure id="attachment_19" aria-describedby="caption-attachment-19" style="width: 846px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/11/PHP1.png"><img fetchpriority="high" decoding="async" class="wp-image-19 size-full" src="/wp-content/uploads/2015/11/PHP1.png" alt="Direktori Project" width="846" height="560" srcset="/wp-content/uploads/2015/11/PHP1.png 846w, /wp-content/uploads/2015/11/PHP1-300x200.png 300w" sizes="(max-width: 846px) 100vw, 846px" /></a><figcaption id="caption-attachment-19" class="wp-caption-text">Direktori Project</figcaption></figure>
+<p>&nbsp;</p>
+<p><b>MEMBUAT FORM HTML</b></p>
+<p>Isilah file input_nama.html dengan code sebagai berikut:</p>
+<pre class="lang:xhtml decode:true" title="input_nama.html">&lt;html&gt; 
+&lt;head&gt; 
+	&lt;title&gt;My Form&lt;/title&gt;
+&lt;/head&gt; 
+&lt;body&gt;
+	&lt;form action="simpan_nama.php" method="post"&gt; 
+		Nama : &lt;input type="text" name="namaku"&gt;&lt;br&gt;
+		Hobi : &lt;input type="text" name="hobi"&gt;&lt;br&gt;
+		&lt;input type="submit" name="submit" value="Kirim"&gt;	
+	&lt;/form&gt;
+ &lt;/body&gt; 
+&lt;/html&gt;</pre>
+<p>Penjelasan singkat:</p>
+<p>?Action pada atribut form (<i>action=“simpan_nama.php</i>”)  bertujuan untuk memberitahu browser bahwa file tersebut yang akan memproses form HTML. ?Name pada atribut input (<i>name=“namaku”</i>) akan menjadi nama variabel yang akan digunakan oleh PHP untuk menangkap data input oleh user. ?Code <i>input type=“submit” </i>akan menghasilkan sebuah tombol yang jika klik oleh user, akan mengirimkan data form html ke file tujuan (<i>simpan_nama.php</i>).</p>
+<figure id="attachment_20" aria-describedby="caption-attachment-20" style="width: 751px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/11/PHP2.png"><img decoding="async" class="wp-image-20 size-full" src="/wp-content/uploads/2015/11/PHP2.png" alt="PHP2" width="751" height="163" srcset="/wp-content/uploads/2015/11/PHP2.png 751w, /wp-content/uploads/2015/11/PHP2-300x65.png 300w" sizes="(max-width: 751px) 100vw, 751px" /></a><figcaption id="caption-attachment-20" class="wp-caption-text">Hasil Running Sementara</figcaption></figure>
+<p>&nbsp;</p>
+<p><strong>MEMBUAT FILE PHP SEBAGAI PENERIMA DATA</strong></p>
+<p>?Berdasarkan form <i>input_nama.html</i> tersebut, akan dilanjutkan membuat file PHP yang berfungsi sebagai “penangkap” kiriman data.? Diasumsikan bahwa anda sudah mengetahui dasar-dasar sintaks PHP. ?Untuk “menangkap” data, digunakan fungsi <i>$_GET </i>atau <i>$_POST</i>, tergantung attribute <i>method </i> yang digunakan pada form HTML. ?Pada contoh file <i>input_nama.html</i>, digunakan <i>method=“post”.</i></p>
+<pre class="lang:default decode:true" title="simpan_nama.php">&lt;html&gt;
+&lt;head&gt;
+	&lt;title&gt;Lihat Hasil&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;?php
+		$namaku = $_POST['namaku'] ;
+		$hobi = $_POST['hobi'] ;
+	?&gt;
+	&lt;p&gt;
+		Haloo &lt;?php echo $namaku; ?&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		Hobimu adalah &lt;b&gt; &lt;?php echo $hobi; ?&gt;&lt;/b&gt;
+	&lt;/p&gt;
+	&lt;p&gt;Terima kasih&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+<p>&nbsp;</p>
+<p><strong>GET VERSUS POST</strong></p>
+<p>?Method GET diproses lebih sederhana karena permintaan dikirim melalui alamat URL</p>
+<p>?Contoh: <i><a href="http://aryadharmaadi.com/index.php?nama=arya&amp;hobi=futsal">http://aryadharmaadi.com/index.php?nama=arya&amp;hobi=futsal</a></i></p>
+<p>?Method POST lebih tertutup dan data tersimpan lebih aman selama pengiriman karena data tidak terlihat. Data dikirimkan melalui <i>body of request</i>. ?Method POST bersifat non-cacheable.</p>
+<p><strong>HASIL RUNNING</strong></p>
+<figure id="attachment_21" aria-describedby="caption-attachment-21" style="width: 341px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/11/php3.png"><img decoding="async" class="wp-image-21 size-full" src="/wp-content/uploads/2015/11/php3.png" alt="php3" width="341" height="148" srcset="/wp-content/uploads/2015/11/php3.png 341w, /wp-content/uploads/2015/11/php3-300x130.png 300w" sizes="(max-width: 341px) 100vw, 341px" /></a><figcaption id="caption-attachment-21" class="wp-caption-text">File input_nama.html setelah dijalankan</figcaption></figure>
+<figure id="attachment_22" aria-describedby="caption-attachment-22" style="width: 329px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/11/php4.png"><img loading="lazy" decoding="async" class="wp-image-22 size-full" src="/wp-content/uploads/2015/11/php4.png" alt="php4" width="329" height="187" srcset="/wp-content/uploads/2015/11/php4.png 329w, /wp-content/uploads/2015/11/php4-300x171.png 300w" sizes="(max-width: 329px) 100vw, 329px" /></a><figcaption id="caption-attachment-22" class="wp-caption-text">Hasil setelah menge-klik tombol &#8220;Kirim&#8221;</figcaption></figure>
+<p>&nbsp;</p>
+<p><b>KONEKSI PHP DAN MYSQL</b></p>
+<p>?Untuk menghubungkan PHP ke MySQL, dibutuhkan fungsi: <b><i>mysqli_connect</i></b><i>([string server [, string username [, string password [, string database_name [, int port_number [, string socket</i><i>]]]]]])</i></p>
+<p>?Contoh:</p>
+<pre class="lang:default decode:true " title="contoh koneksi ke mysql">&lt;?php
+  $db = mysqli_connect("localhost","root","","latihan");
+?&gt;</pre>
+<p>?Untuk menutup koneksi, gunakan:  <i>mysqli_close($db);</i></p>
+<p><b>QUERY MYSQL</b></p>
+<p>?Untuk memasukkan query ke MySQL melalui PHP, digunakan fungsi: <b><i>mysqli_query</i></b><i> ( resource link_identifier, string query [, int mode = MYSQLI_STORE_RESULT])  </i></p>
+<p>?Contoh:</p>
+<pre class="lang:default decode:true " title="contoh query">&lt;?php
+    $db = mysqli_connect("localhost", "phpuser", "alm65z", "phpdb");
+    $result = mysqli_query($db, "SELECT * FROM usertable");
+    $numrows = mysqli_num_rows($result);
+    print "There are $numrows people in usertable\n";
+?&gt;</pre>
+<p><b>PREPARED STATEMENT</b></p>
+<p>?Prepare Statement adalah fitur  yang digunakan untuk mengeksekusi SQL statement berulang-ulang dengan sangat efisien. ?Prepare Statement mengandung SQL Statement Template, dimana nilai yang akan dimasukkan diisi dengan tanda tanya (?)</p>
+<p>?Contoh:</p>
+<p><i>    INSERT </i><i>INTO daftar_hobi (nama, hobi) VALUES (?,?)</i></p>
+<p><strong>MELANJUTKAN PROJECT</strong></p>
+<p>?Dari project yang pertama (<i>input_nama.html</i>),  akan dilanjutkan dengan memasukkan data yang diinput oleh user ke database MySQL. ?Buka <i><a href="http://localhost/phpmyadmin">http://</a></i><i><a href="http://localhost/phpmyadmin">localhost/phpmyadmin</a></i> melalui browser untuk membuka tampilan MySQL. Selanjutnya, buatlah database di MySQL dengan nama “latihan” dan buat tabel dengan nama daftar_hobi”, dengan kolom sebagai berikut:</p>
+<p>?               nama   varchar (25)</p>
+<p>?               hobi  varchar(25)</p>
+<p><b>INSERT DATA</b></p>
+<p>?Untuk insert data ke database, buatlah file <i>koneksi_db.php. </i>?Pada form di file <i>input_nama.html, </i>ubah atribut <i>action=“simpan_nama.php”</i> menjadi <i>action=“koneksi_db.php</i>” agar data dikirim ke file <i>koneksi_db.php</i> yang akan dibuat.</p>
+<pre class="lang:default decode:true" title="koneksi_db.php">&lt;?php
+	$namaku = $_POST['namaku'] ;
+	$hobi = $_POST['hobi'] ;
+
+	$dbhost = 'localhost';
+	$dbuser = 'root';
+	$dbpass = '';
+	$dbname = 'latihan';
+	$db = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+
+	// Check connection
+	if ($db-&gt;connect_error) {
+		die("Connection failed: " . $db-&gt;connect_error);
+	}
+   
+	// prepare and bind
+	$stmt = $db-&gt;prepare("INSERT INTO daftar_hobi (nama, hobi) VALUES (?,?)");
+	$stmt-&gt;bind_param("ss", $namaku, $hobi);	
+	$stmt-&gt;execute();
+
+	echo "New records created successfully";
+
+	$stmt-&gt;close();
+	$db-&gt;close();
+?&gt;</pre>
+<p><b>MEMBACA DATA</b></p>
+<p>?Untuk membaca data pada database, digunakan fungsi: <b>mysqli_fetch_assoc</b> ( resource <i>result</i>)<i>. </i>?Fungsi tersebut mengambil satu row dan mengubahnya menjadi array asosiatif. ?Selain itu, untuk mengetahui ada berapa baris data (row) yang didapatkan, digunakan fungsi: <b>mysqli_num_rows</b> ( resource <i>result</i>).</p>
+<pre class="lang:default decode:true " title="query.php">&lt;?php
+    $db = mysqli_connect("localhost", "root", "", "latihan");
+    $result = mysqli_query($db, "SELECT * FROM daftar_hobi");
+
+    if ($result &amp;&amp; mysqli_num_rows($result)) {
+        $numrows = mysqli_num_rows($result);
+        $rowcount = 1;
+        print "There are $numrows people in usertable:&lt;br /&gt;&lt;br /&gt;";
+    
+        while ($row = mysqli_fetch_assoc($result)) {
+            print "Row $rowcount&lt;br /&gt;";
+    
+            while(list($var, $val) = each($row)) {
+                print "&lt;B&gt;$var&lt;/B&gt;: $val&lt;br /&gt;";
+            }
+    
+            print "&lt;br /&gt;";
+            ++$rowcount;
+        }
+    }
+?&gt;</pre>
+<p>Hasil Running query.php:</p>
+<p><a href="/wp-content/uploads/2015/11/PHP5.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-24" src="/wp-content/uploads/2015/11/PHP5.png" alt="PHP5" width="391" height="263" srcset="/wp-content/uploads/2015/11/PHP5.png 391w, /wp-content/uploads/2015/11/PHP5-300x202.png 300w" sizes="(max-width: 391px) 100vw, 391px" /></a></p>
+<p><b>PENUTUP</b></p>
+<p>?PHP dan MySQL dimanfaatkan untuk membentuk web HTML menjadi dinamis. ?Lebih lanjut, anda bisa mencoba bagaimana cara meng-update dan delete data pada MySQL.</p>
+<p><strong>DOWNLOAD SOURCE CODE DAN MATERI PDF</strong></p>
+<p>Jika anda ingin mendapatkan source code lengkap dari project di atas, silahkan unduh secara gratis di <a href="http://adf.ly/4392232/latihan-php-mysql" target="_blank">sini</a>.</p>
+<p>Selain itu, jika anda tertarik untuk mendownload dan membaca materi ini dalam bentuk PDF/Power Point, silahkan unduh secara gratis di <a href="http://adf.ly/1Rf9PR" target="_blank">sini</a>. Terima kasih.</p>
+<p><strong>NEXT . . .</strong></p>
+<p><a href="/2015/11/15/kolaborasi-jquery-ajax-php-mysql/" target="_blank">?Kombinasi JQuery, AJAX, dan PHP</a></p>
+<p><strong>REFERENSI</strong></p>
+<p>?<a href="http://www.webmonkey.com/2010/02/php_tutorial_for_beginners/">http://www.webmonkey.com/2010/02/php_tutorial_for_beginners</a><a href="http://www.webmonkey.com/2010/02/php_tutorial_for_beginners/">/</a></p>
+<p>?<a href="http://www.hackingwithphp.com/">http://www.hackingwithphp.com/</a><a href="http://www.hackingwithphp.com/">/</a></p>
+<p>?<a href="http://www.w3schools.com/">http://</a><a href="http://www.w3schools.com/">www.w3schools.com</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2015/11/06/koneksi-php-dan-mysql/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

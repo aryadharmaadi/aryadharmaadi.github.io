@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>rumusan &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/rumusan/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Thu, 20 Oct 2016 03:04:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>rumusan &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Teknik Penulisan Tugas Akhir (Bab I)</title>
+		<link>/2016/10/20/teknik-penulisan-tugas-akhir-bab-i/</link>
+					<comments>/2016/10/20/teknik-penulisan-tugas-akhir-bab-i/#comments</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Thu, 20 Oct 2016 03:04:22 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Penulisan Ilmiah]]></category>
+		<category><![CDATA[akhir]]></category>
+		<category><![CDATA[belakang]]></category>
+		<category><![CDATA[hipotesis]]></category>
+		<category><![CDATA[latar]]></category>
+		<category><![CDATA[masalah]]></category>
+		<category><![CDATA[penulisan]]></category>
+		<category><![CDATA[question]]></category>
+		<category><![CDATA[research]]></category>
+		<category><![CDATA[rumusan]]></category>
+		<category><![CDATA[teknik]]></category>
+		<category><![CDATA[tips]]></category>
+		<category><![CDATA[tugas]]></category>
+		<category><![CDATA[tujuan]]></category>
+		<guid isPermaLink="false">/?p=174</guid>
+
+					<description><![CDATA[LATAR BELAKANG MASALAH (BACKGROUND) Latar Belakang masalah adalah informasi yang tersusun sistematis berkenaan dengan fenomena dan masalah problematik yang menarik untuk di teliti. Latar belakang dimaksudkan <a class="mh-excerpt-more" href="/2016/10/20/teknik-penulisan-tugas-akhir-bab-i/" title="Teknik Penulisan Tugas Akhir (Bab I)">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p><strong>LATAR BELAKANG MASALAH (BACKGROUND)</strong></p>
+<p>Latar Belakang masalah adalah informasi yang tersusun sistematis berkenaan dengan fenomena dan masalah problematik yang menarik untuk di teliti. Latar belakang dimaksudkan untuk menjelaskan alasan mengapa masalah dalam penelitian ingin diteliti, pentingnya permasalahan dan pendekatan yang digunakan untukan untuk menyelesaikan masalah tersebut baik dari sisi teoritis dan praktis.</p>
+<p><strong>PENULISAN LATAR BELAKANG</strong></p>
+<ul>
+<li>Penelitian TA dilakukan untuk menjawab keingintahuan mahasiswa mengenai suatu gejala/konsep/dugaan.</li>
+<li>Kemukakan argumentasi pentingnya dilakukan penelitian TA yang diusulkan tersebut dengan menyampaikan hasil-hasil penelitian sebelumnya yang ada pada referensi.</li>
+<li>Uraikan proses-proses yang dilakukan dalam mengidentifikasi masalah yang akan dicari solusinya.</li>
+</ul>
+<p><strong>TIPS PENULISAN LATAR BELAKANG</strong></p>
+<ol>
+<li>Gunakan pendekatan Umum ke Khusus</li>
+<li>Di paragraf awal, ceritakan gambaran umum masalah yang akan diangkat</li>
+<li>Di paragraf-paragraf berikutnya, mulailah mengerucut dari hal global ke fokus pada masalah inti, objek serta ruang lingkup penelitian.</li>
+<li>Dilanjutkan dengan pemaparan data, fakta, atau pendapat dari pakar-pakar yang pada intinya menguatkan pentingnya masalah tersebut harus segera dicarikan solusi</li>
+<li>Jelaskan juga dampak negatif (yang berdasarkan data, fakta, atau penelitian) dari masalah yang akan diangkat tersebut jika tidak segera dibuatkan penyelesaian masalah</li>
+<li>Tampilkan pula secara ringkas alternatif solusi yang telah dirumuskan oleh peneliti-peneliti yang lainnya</li>
+<li>Paparkan kekurangan dari alternatif solusi tersebut</li>
+<li>Terakhir, munculkan secara ringkas rumusan solusi yang akan ditawarkan yang memperbaiki kekurangan dari alternatif solusi sebelumnya</li>
+</ol>
+<p><strong>RUMUSAN MASALAH (RESEARCH QUESTIONS)</strong></p>
+<p>Fungsi rumusan masalah adalah sebagai pedoman, penentu arah atau fokus dari suatu penelitian. Rumusan masalah harus spesifik, jelas, dan padat dan biasanya dirumuskan dalam bentuk pertanyaan. Rumusan masalah harus menjadi dasar bagi judul penelitian.</p>
+<p><strong>TUJUAN (RESEARCH GOALS)</strong></p>
+<ul>
+<li>Berikan pernyataan singkat mengenai tujuan TA.</li>
+<li>Tujuan dapat berupa menguraikan, menerangkan, membuktikan atau menerapkan suatu gejala/konsep/dugaan, atau membuat suatu model.</li>
+<li>Rumuskan tujuan yang akan dicapai secara spesifik yang merupakan kondisi baru yang diharapkan terwujud setelah TA selesai.</li>
+<li>Tujuan harus jelas dan dapat diukur.</li>
+</ul>
+<p><strong>HIPOTESIS</strong></p>
+<p>Hipotesis merupakan dugaan atau jawaban sementara yang cepat yang berpatokan pada fakta-fakta, teori, dan penelitian-penelitian sebelumnya di landasan teori. Hipotesis akan dibuktikan kebenarannya melalui data-data atau fakta-fakta hasil penelitian. Hipotesis harus dibuat berdasarkan fakta-fakta, teori, dan penelitian-penelitian terdahulu yang mendukung pembuatan hipotesis.</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><strong>SELAMAT MENGERJAKAN PENELITIAN</strong></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/10/20/teknik-penulisan-tugas-akhir-bab-i/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

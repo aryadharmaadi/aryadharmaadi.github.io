@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>final &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/final/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Thu, 24 Jan 2019 07:54:43 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>final &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Dilema Aturan Pajak untuk WP Badan</title>
+		<link>/2018/04/22/dilema-aturan-pajak-untuk-wp-badan/</link>
+					<comments>/2018/04/22/dilema-aturan-pajak-untuk-wp-badan/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Sun, 22 Apr 2018 15:39:50 +0000</pubDate>
+				<category><![CDATA[Pemikiran]]></category>
+		<category><![CDATA[badan]]></category>
+		<category><![CDATA[final]]></category>
+		<category><![CDATA[jasa]]></category>
+		<category><![CDATA[pajak]]></category>
+		<category><![CDATA[pph]]></category>
+		<category><![CDATA[skb]]></category>
+		<category><![CDATA[wajib]]></category>
+		<guid isPermaLink="false">/?p=308</guid>
+
+					<description><![CDATA[Mengingat belakangan ini sibuk mengurus SPT Tahunan, tiba-tiba terbesit sebuah gagasan untuk perbaikan pelayanan pajak pada Wajib Pajak Badan dengan omset yang kecil. &#160; LATAR <a class="mh-excerpt-more" href="/2018/04/22/dilema-aturan-pajak-untuk-wp-badan/" title="Dilema Aturan Pajak untuk WP Badan">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p>Mengingat belakangan ini sibuk mengurus SPT Tahunan, tiba-tiba terbesit sebuah gagasan untuk perbaikan pelayanan pajak pada Wajib Pajak Badan dengan omset yang kecil.</p>
+<p>&nbsp;</p>
+<p><em><strong>LATAR BELAKANG</strong></em></p>
+<p>Ketika selesai mengerjakan proyek dengan instansi negeri, sebuah CV mendapatkan pembayaran bersih yang sudah dipotong PPh Jasa 2%. Bukti potong PPh tersebut dikumpulkan untuk dilaporkan pada SPT Tahunan. Pada saat dilaporkan di awal tahun, petugas pajak menyatakan bahwa pajak yang telah dibayar tersebut adalah SALAH karena CV memiliki omzet kecil (di bawah 4.8 M) sehingga yang HARUS dibayar adalah PPh Final sebesar 1%, bukan PPh Jasa 2%.</p>
+<p>Dari segi aturan, hal tersebut tampak sangat membantu usaha kecil karena pajak yang dibayar cukup 1%, bukan 2%. Namun, ketika diimplementasikan, aturan ini menimbulkan celah yang sangat merugikan usaha kecil yang baru mengenal dunia pajak.</p>
+<p>&nbsp;</p>
+<p><em><strong>MASALAH</strong></em></p>
+<p><strong>a. PPh Jasa vs PPh Final</strong></p>
+<p>Dua jenis pajak ini adalah pajak yang berbeda, sehingga nominal pajak yang sudah dibayar untuk PPh Jasa tidak bisa ditransfer atau diubah menjadi PPh Final. Sehingga, CV tadi tetap wajib membayar PPh Final 1% walaupun sudah membayar PPh Jasa 2%. Hal ini malah lebih memberatkan CV karena CV yang harusnya mendapatkan keringanan malah dikenakan pajak dua kali. Sebaiknya disediakan sistem untuk mentransfer pembayaran PPh Jasa ke PPh Final.</p>
+<p><strong>b. Aturan PPh Final Tidak Sinkron dengan SKB</strong></p>
+<p>Agar tidak terkena pemotongan langsung PPh Jasa 2%, CV yang memiliki omzet kecil bisa mengajukan penerbitan SKB (Surat Keterangan Bebas) PPh Jasa. Aturan penerbitan SKB ini akan sangat bermanfaat jika seirama dengan penerapan PPh Final. Artinya, jika dikenakan PPh Final, maka otomatis CV mendapatkan SKB. Atau sebaliknya, jika CV belum mengajukan SKB, maka otomatis tidak diwajibkan membayar PPh Final. Dengan kata lain, walaupun omzetnya kecil, CV bisa melunasi kewajibannya dengan skema pembayaran PPh Jasa saja tanpa perlu membayar PPh Final lagi karena belum mengajukan SKB.</p>
+<p>Pengurusan SKB itu sendiri cukup memakan waktu dan tenaga karena harus bolak balik ke Kantor Pajak dan ada syarat penerbitan menyebabkan proses pengajuan menjadi lama dan tidak mudah. Yaitu CV harus memiliki semacam surat perjanjian kerja (SPK) antara CV dengan instansi negeri di tahun berjalan. Untuk mendapatkan surat ini tentu tidak mudah, tergantung birokrasi instansi negerinya. SKB yang berhasil terbit hanya berlaku setahun, yang artinya tahun depan CV harus menyiapkan waktu dan tenaga untuk mengurus SKB lagi.</p>
+<p><strong>Dan yang lebih aneh lagi, pada pengajuan SKB harus membawa laporan SPT Tahunan versi cetak. Padahal SPT Tahunan sudah dilaporkan via e-SPT online. Pelunasan pajak juga sudah dilakukan via online.</strong></p>
+<p>&nbsp;</p>
+<p><em><strong>USULAN</strong></em></p>
+<p>Jika ingin mereformasi pola kerjanya, alangkah baiknya jika Kantor Pajak aktif melayani Wajib Pajak dengan memberikan informasi perpajakan yang sesuai dengan kondisi wajib pajak. Minimalkan skema Wajib Pajak yang harus memohon terlebih dahulu. Artinya, ketika selesai melaporkan SPT Tahunan dan terbukti omsetnya kecil, sebuah CV <strong>OTOMATIS</strong> mendapatkan:</p>
+<ol>
+<li>pemberitahuan (bisa melalui surat atau email) bahwa yang harus dibayarkan adalah PPh Final 1%, bukan PPh yang lain,</li>
+<li>SKB yang sudah dibuatkan tanpa perlu memohon lagi ke Kantor Pajak. Dan yang paling penting, Kantor Pajak TIDAK AKAN RUGI BESAR ketika SKB yang diterbitkan tidak digunakan karena CV bertransaksi dengan instansi swasta. Paling tidak, hal ini bisa menekan kerugian CV apabila suatu saat CV bertransaksi dengan instansi negeri.</li>
+</ol>
+<p>&nbsp;</p>
+<p>Dengan lebih aktif dan logisnya pelayanan pajak, maka wajib pajak dengan senang hati akan melunasi kewajiban yang dibebankan kepadanya. Saat ini terlihat kesadaran perpajakan sudah tumbuh di lingkungan usaha-usaha kecil, dan untuk memaksimalkannya tentu diperlukan pelayanan yang memudahkan dan aturan-aturan yang masuk akal, tidak hanya dari perspektif Kantor Pajak, namun juga masuk akal dari sudut pandang wajib pajak.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2018/04/22/dilema-aturan-pajak-untuk-wp-badan/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

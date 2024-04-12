@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>dimensi &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/dimensi/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Tue, 01 Mar 2016 05:49:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>dimensi &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>String dan Array</title>
+		<link>/2016/03/01/string/</link>
+					<comments>/2016/03/01/string/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Tue, 01 Mar 2016 05:38:45 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Berorientasi Objek (Java)]]></category>
+		<category><![CDATA[array]]></category>
+		<category><![CDATA[arraylist]]></category>
+		<category><![CDATA[char]]></category>
+		<category><![CDATA[character]]></category>
+		<category><![CDATA[dimensi]]></category>
+		<category><![CDATA[escape]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[list]]></category>
+		<category><![CDATA[multi]]></category>
+		<category><![CDATA[objek]]></category>
+		<category><![CDATA[string]]></category>
+		<category><![CDATA[stringbuffer]]></category>
+		<guid isPermaLink="false">/?p=88</guid>
+
+					<description><![CDATA[PENDAHULUAN ?Tipe data String merupakan tipe data spesial pada pemrograman Java karena diperlakukan secara berbeda (tidak seperti tipe data yang lain). ?String merupakan sebuah kelas yang <a class="mh-excerpt-more" href="/2016/03/01/string/" title="String dan Array">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p><strong>PENDAHULUAN</strong></p>
+<p>?Tipe data <b><i>String</i></b> merupakan tipe data spesial pada pemrograman Java karena diperlakukan secara berbeda (tidak seperti tipe data yang lain). ?String merupakan sebuah kelas yang memiliki beberapa method.</p>
+<p>Contoh:</p>
+<pre class="lang:default decode:true ">String nama = “Arya”;
+System.out.println(nama.length());
+System.out.println(nama.substr(0,2));
+</pre>
+<p>?String merupakan deretan karakter, sehingga:</p>
+<pre class="lang:default decode:true">String nama = “arya”;</pre>
+<p>?Sama dengan:</p>
+<pre class="lang:default decode:true ">char[] arrayNama = {‘a’,‘r’,‘y’,‘a’ };
+String nama = new String(arrayNama);</pre>
+<p><strong>PANJANG STRING</strong></p>
+<p>?Method length()digunakan untuk mendapatkan panjang string.</p>
+<pre class="lang:default decode:true ">String name = “arya d”;
+System.out.println(name.length()); 
+System.out.println(“ary”.length());</pre>
+<p><strong>PENGGABUNGAN STRING</strong></p>
+<p>?Dua buah string bisa digabungkan dengan menggunakan method concat() atau dengan menggunakan operator +</p>
+<pre class="lang:default decode:true ">String name = “arya”;
+String lastname = name.concat(“ dharmaadi”);
+String fullname = “putu ” + lastname;
+</pre>
+<p><strong>PERBANDINGAN STRING</strong></p>
+<ul>
+<li>?equals() ==&gt; mengecek kesamaan string, menghasilkan true/false</li>
+<li>?equalsIgnoreCase() ==&gt; mengecek kesamaan string tanpa melihat huruf besar maupun huruf kecil, menghasilkan true/false</li>
+<li>?compareTo() ==&gt; mengecek string per masing-masing karakter, menghasilkan integer. Bernilai nol jika string sama.</li>
+</ul>
+<p><strong>SUB STRING</strong></p>
+<p>?Digunakan untuk mendapatkan string yang merupakan bagian dari string. ?Bentuk method:</p>
+<pre class="lang:default decode:true ">String substring(int beginIndex);
+String substring(int beginIndex, int endIndex);
+</pre>
+<p>Contoh:</p>
+<pre class="lang:default decode:true ">“hello”.substring(1,3);</pre>
+<p><strong>FORMAT STRING</strong></p>
+<p>?Gunakan method printf() atau format() untuk mempermudah mencetak beberapa variabel pada sebuah string.</p>
+<p>Contoh:</p>
+<pre class="lang:default decode:true ">System.out.printf(“Halo %s, umur anda %d”, name, age);
+String s = String.format(“Halo %s, umur	anda %d”, name, age);
+System.out.println(s);
+</pre>
+<p><strong>ESCAPE STRING</strong></p>
+<p>?Karakter yang digunakan oleh Java untuk mengetikkan karakter khusus, biasanya diawali oleh karakter \ (backslash)</p>
+<ul>
+<li>?\n  untuk newline</li>
+<li>?\t   untuk tab</li>
+<li>?\\   untuk karakter \ (backslash)</li>
+<li>?\”   untuk karakter “ (double quote)</li>
+<li>?\’   untuk karakter ‘ (apostrophe)</li>
+</ul>
+<p><strong>IMMUTABLE STRING</strong></p>
+<p>?String bersifat immutable (tidak bisa diubah)</p>
+<pre class="lang:default decode:true">String name = “arya”;
+name = name + “dharmaadi”;</pre>
+<p>?Pada code di atas, dibuat sebuah objek untuk menampung nilai “arya” dan disimpan alamatnya oleh variabel name. ?Kemudian dibuat objek baru untuk menampung nilai “aryadharmadi”. Objek yang baru disimpan alamatnya oleh variabel name dan objek yang lama tidak dipakai lagi.</p>
+<pre class="lang:default decode:true ">String name = “arya”;
+Name = name + “dharmaadi”;
+</pre>
+<p>Kode di atas equivalen dengan:</p>
+<pre class="lang:default decode:true ">String name = new String(“Arya”);
+name = new String(name+”dharmaadi”);</pre>
+<p><strong>STRINGBUFFER</strong></p>
+<p>?Untuk operasi yang melakukan perubahan isi variabel string, gunakan kelas StringBuffer agar penggunaan memori lebih optimal. ?Kelas StringBuffer lebih cepat dalam memanipulasi string yang memerlukan perubahan pada String. ?Hal ini disebabkan karena untuk mengubah string, kelas StringBuffer tidak perlu objek baru.</p>
+<p><strong>METHOD STRINGBUFFER</strong></p>
+<ul>
+<li>?setCharAt() ==&gt; mengganti suatu karakter</li>
+<li>?replace() ==&gt; mengganti suatu string</li>
+<li>?append()  ==&gt; menambahkan string</li>
+<li>?charAt() ==&gt; mengakses karakter di posisi tertentu</li>
+<li>?trim() ==&gt; menghilangkan spasi di awal dan di akhir string</li>
+</ul>
+<p>Contoh:</p>
+<pre class="lang:default decode:true ">StringBuffer name = new StringBuffer(“Arya”);
+name.setCharAt(2,’i’);
+name.append(“ Dharmaadi”);
+</pre>
+<p><strong>CHARACTER</strong></p>
+<p>?Kelas Character  merupakan kelas untuk membungkus (wrap) nilai dari sebuah tipe primitif char pada sebuah objek.</p>
+<pre class="lang:default decode:true ">/* contoh tipe primitif char */
+char primitif = 'a';
+
+/* contoh objek char */
+Character obj = new Character('a');</pre>
+<p>?Ketika pengembangan program Java, ada kemungkinan lebih dibutuhkan penggunaan objek Character dibandingkan tipe primitif char.</p>
+<p>?Kelas Character memiliki banyak method untuk memanipulasi tipe primitif char. Method tersebut antara lain:</p>
+<ul>
+<li>?isLetter()</li>
+<li>?isDigit()</li>
+<li>?isWhitespace()</li>
+<li>?isUpperCase()</li>
+<li>?toUpperCase()</li>
+<li>?isLowerCase()</li>
+<li>?toLowerCase()</li>
+</ul>
+<p><strong>ARRAY</strong></p>
+<p>?Array merupakan wadah untuk menyimpan beberapa atau himpunan nilai yang bertipe sejenis. ?Panjang array ditentukan ketika array dideklarasikan dan tidak bisa diubah (fixed). ?Pada Java, array adalah sebuah objek sehingga memiliki sifat-sifat objek pada umumnya. ?Salah satu method yang dimiliki oleh array sebagai objek adalah length(), yang berfungsi untuk mengetahui panjang array.</p>
+<p>?Karena bersifat sebagai objek, array diciptakan dengan keyword <em>new</em>. ?Java menyediakan cara yang lebih ringkas untuk menciptakan sekaligus mengisi nilai array, yaitu sebagai berikut:</p>
+<pre class="lang:default decode:true ">int myval[] = new int[3];
+char vowel[] = { 'a','i','u','e','o' };
+System.out.println(vowel.length);</pre>
+<p><strong>ARRAY SEBAGAI HIMPUNAN OBJEK</strong></p>
+<p>?Array juga bisa digunakan untuk menyimpan beberapa atau himpunan objek yang berasal dari kelas yang sama.</p>
+<p>Contoh:</p>
+<pre class="lang:default decode:true">Mahasiswa kelasA[] = new Mahasiswa[14];
+        
+// Kode berikut akan gagal running
+System.out.println(kelasA[0].age);</pre>
+<p>Kode di atas gagal karena penciptaan array (dengan keyword new) tidak berarti meng-create objek baru untuk setiap anggota array. Karena itu, solusinya adalah create objek baru sebanyak anggota array sebagai berikut:</p>
+<pre class="lang:default decode:true">Mahasiswa kelasA[] = new Mahasiswa[14];
+for (int i=0;i&lt;14;i++){ 
+     kelasA[i] = new Mahasiswa(); 
+} 
+/* Kode berikut tidak akan gagal */
+System.out.println(kelasA[0].age);</pre>
+<p><strong>ARRAY MULTIDIMENSI</strong></p>
+<p>?Array bisa dibuat menjadi banyak dimensi. ?Pembuatan array menjadi banyak dimensi dilakukan dengan penambahan operator []. ?Array multidimensi pada Java dimungkinkan untuk memiliki jumlah baris yang berbeda-beda sesuai kebutuhan.</p>
+<p>Contoh:</p>
+<pre class="lang:default decode:true ">// Jumlah baris array semua sama 
+Mahasiswa ti15[][] = new Mahasiswa[3][40];
+
+// Jumlah baris array tidak sama 
+Mahasiswa ti14[][] = new Mahasiswa[3][];
+ti14[0] = new Mahasiswa[38];
+ti14[1] = new Mahasiswa[40];
+ti14[2] = new Mahasiswa[35];</pre>
+<p><strong>ARRAYLIST</strong></p>
+<p>?Array memiliki kekurangan yaitu panjangnya tidak bisa diubah setelah dideklarasikan. ?Untuk itu, Java menyediakan kelas ArrayList yang berfungsi sebagai array yang bersifat dinamis. ?Kelas ArrayList diturunkan dari kelas AbstractList dan menggunakan interface List. ?Untuk menggunakan kelas ArrayList, anda wajib meng-import library <b>java.util.ArrayList</b><b>;</b></p>
+<p>Contoh:</p>
+<pre class="lang:default decode:true ">        ArrayList al = new ArrayList();   
+        al.add(10);
+        al.add("String");
+        al.remove(2);
+        int t = (int) al.get(0);
+        
+        ArrayList&lt;Integer&gt; al2 = new ArrayList&lt;Integer&gt;();
+        al2.add(10);
+        // Kode berikut akan gagal 
+        al2.add("String");</pre>
+<p><strong>LOOPING ARRAYLIST</strong></p>
+<p>Ada beberapa cara untuk melakukan looping pada sebuah arraylist. Perhatikan contoh berikut:</p>
+<pre class="lang:default decode:true ">ArrayList&lt;String&gt; list = new ArrayList();
+
+/* 1. NORMAL FOR..TO..DO LOOP */
+for (int i=0; i&lt;list.size();i++){
+	System.out.println(list.get(i));
+}	
+
+/* 2. ADVANCED FOR LOOP */
+for (String s : list){
+	System.out.println(s);
+}	
+
+/* 3. WHILE..DO LOOP */
+int i=0;
+while (i&lt;list.size()){
+	System.out.println(list.get(i));
+	i++;
+}	
+
+/* 4. ITERATOR CLASS */
+Iterator&lt;String&gt; iterator = list.iterator();
+while (iterator.hasNext()){
+	System.out.println(iterator.next());
+}</pre>
+<p><strong>PENUTUP</strong></p>
+<p>?String dan StringBuffer merupakan kelas khusus yang disediakan oleh Java untuk memanipulasi String</p>
+<p><strong>NEXT . . .</strong></p>
+<p>?Kelas, Kontrol Kelas, dan Konstruktor</p>
+<p><strong>DOWNLOAD</strong></p>
+<p>Download materi ini dalam bentuk PDF / PowerPoint di <a href="http://adf.ly/1XfuYn" target="_blank">sini</a>.</p>
+<p><strong>REFERENSI</strong></p>
+<p>?Sierra, K., &amp; Bates, B. (2005) “A Brain-Friendly Guide: Head First Java 2nd Edition”. O’Reilly</p>
+<p>?Yohanes Nugroho, (2009) “Slide Kuliah: Bahasa Pemrograman Java”. STEI ITB</p>
+<p>?http://www.tutorialspoint.com/java/java_characters.htm</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/03/01/string/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

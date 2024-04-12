@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>pegawai &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/pegawai/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Thu, 13 Apr 2017 13:31:48 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>pegawai &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Latihan Soal Pewarisan, Overriding, dan Polymorfisme</title>
+		<link>/2016/03/30/latihan-soal-penggunaan-pewarisan/</link>
+					<comments>/2016/03/30/latihan-soal-penggunaan-pewarisan/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Wed, 30 Mar 2016 06:00:25 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Berorientasi Objek (Java)]]></category>
+		<category><![CDATA[agregasi]]></category>
+		<category><![CDATA[class]]></category>
+		<category><![CDATA[diagram]]></category>
+		<category><![CDATA[dosen]]></category>
+		<category><![CDATA[gaji]]></category>
+		<category><![CDATA[hitung]]></category>
+		<category><![CDATA[inheritance]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[kampus]]></category>
+		<category><![CDATA[latihan]]></category>
+		<category><![CDATA[overriding]]></category>
+		<category><![CDATA[pegawai]]></category>
+		<category><![CDATA[pewarisan]]></category>
+		<category><![CDATA[polymorfisme]]></category>
+		<category><![CDATA[soal]]></category>
+		<category><![CDATA[staf]]></category>
+		<guid isPermaLink="false">/?p=116</guid>
+
+					<description><![CDATA[STUDI KASUS: Hitung Gaji di Sebuah Universitas ?Terdapat dua golongan pegawai di universitas, yaitu Dosen dan Staf biasa. Semua pegawai mendapatkan gaji awal yang sama, <a class="mh-excerpt-more" href="/2016/03/30/latihan-soal-penggunaan-pewarisan/" title="Latihan Soal Pewarisan, Overriding, dan Polymorfisme">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p><strong>STUDI KASUS: Hitung Gaji di Sebuah Universitas</strong></p>
+<ul>
+<li>?Terdapat dua golongan pegawai di universitas, yaitu Dosen dan Staf biasa. Semua pegawai mendapatkan gaji awal yang sama, yaitu 1.500.000</li>
+<li>?Gaji tambahan dosen dihitung dari jumlah sks yang diampu</li>
+<li>?Gaji tambahan staf dihitung dari jumlah kehadiran per bulan</li>
+<li>?Buatlah program untuk mencetak semua gaji pegawai</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>JAWAB:</strong></p>
+<p>Dari requirement di atas, kita bisa mendesain diagram class sebagai berikut:</p>
+<figure id="attachment_117" aria-describedby="caption-attachment-117" style="width: 1447px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/03/diagram_class_kampus.png"><img fetchpriority="high" decoding="async" class="size-full wp-image-117" src="/wp-content/uploads/2016/03/diagram_class_kampus.png" alt="Diagram Class" width="1447" height="920" srcset="/wp-content/uploads/2016/03/diagram_class_kampus.png 1447w, /wp-content/uploads/2016/03/diagram_class_kampus-300x191.png 300w, /wp-content/uploads/2016/03/diagram_class_kampus-1024x651.png 1024w, /wp-content/uploads/2016/03/diagram_class_kampus-550x350.png 550w" sizes="(max-width: 1447px) 100vw, 1447px" /></a><figcaption id="caption-attachment-117" class="wp-caption-text">Diagram Class</figcaption></figure>
+<p>&nbsp;</p>
+<p><b>IMPLEMENTASI DALAM BAHASA JAVA</b></p>
+<p>Class Pegawai:</p>
+<pre class="lang:default decode:true" title="Pegawai.java">package penggajian;
+
+/**
+ *
+ * @author AryaDharmaadi
+ */
+public class Pegawai {
+
+    private String nip;
+    private String nama;
+    private String alamat;
+    
+    public Pegawai(){
+        
+    }
+
+    public Pegawai(String nip, String nama, String alamat) {
+        this.nip = nip;
+        this.nama = nama;
+        this.alamat = alamat;
+    }
+    
+    public void setNama(String nama){
+        this.nama = nama;
+    }
+    
+    public String getNama(){
+        return this.nama;
+    }
+    
+    public int getGaji(){        
+        return 1500000;
+    }
+}</pre>
+<p>Class Staf:</p>
+<pre class="lang:default decode:true">package penggajian;
+
+/**
+ *
+ * @author AryaDharmaadi
+ */
+public class Staf extends Pegawai{
+    
+    private int jumlah_kehadiran;
+    private final int TARIF_HARIAN = 50000;
+    
+    public Staf(){
+        
+    }
+
+    public Staf(String nip, String nama, String alamat) {
+        super(nip, nama, alamat);
+    }    
+    
+    public void setKehadiran(int jumlah_kehadiran){
+        this.jumlah_kehadiran = jumlah_kehadiran;
+    }
+    
+    @Override
+    public int getGaji(){
+        int total_gaji = jumlah_kehadiran*TARIF_HARIAN;       
+        return total_gaji+super.getGaji();
+    }
+}</pre>
+<p>Class Dosen:</p>
+<pre class="lang:default decode:true" title="Dosen.java">package penggajian;
+
+/**
+ *
+ * @author AryaDharmaadi
+ */
+public class Dosen extends Pegawai{
+
+    private int jumlahSKS;
+    private final int TARIF_SKS = 120000;
+    
+    public Dosen(){
+        
+    }
+
+    public Dosen(String nip, String nama, String alamat) {
+        super(nip, nama, alamat);
+    }
+    
+    public void setSKS(int SKS){
+        this.jumlahSKS = SKS;
+    }
+    
+    @Override
+    public int getGaji(){
+        int total_gaji = jumlahSKS*TARIF_SKS;
+        return total_gaji+super.getGaji();
+    }
+}</pre>
+<p>Class DaftarGaji:</p>
+<pre class="lang:default decode:true " title="DaftarGaji.java">package penggajian;
+
+/**
+ *
+ * @author AryaDharmaadi
+ */
+public class DaftarGaji {
+    
+    private Pegawai[] listPegawai;
+    private int jumlahPegawaiSekarang = 0;
+    
+    public DaftarGaji(int jumlah_pegawai){
+        listPegawai = new Pegawai[jumlah_pegawai];
+    }
+    
+    public void addPegawai(Pegawai p){
+        listPegawai[jumlahPegawaiSekarang] = p;
+        jumlahPegawaiSekarang++;
+    }
+    
+    public void printSemuaGaji(){
+        for (int i=0;i&lt;jumlahPegawaiSekarang;i++){
+            System.out.print(listPegawai[i].getNama()+" mendapatkan gaji ");
+            System.out.println(listPegawai[i].getGaji());
+        }
+    }
+}</pre>
+<p>Class ProgramUtama:</p>
+<pre class="lang:default decode:true " title="ProgramUtama.java">package penggajian;
+
+/**
+ *
+ * @author AryaDharmaadi
+ */
+public class ProgramUtama {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        Staf s1 = new Staf();
+        s1.setNama("Putu");
+        s1.setKehadiran(20);
+        
+        Dosen d1 = new Dosen();
+        d1.setNama("Dharmadi");
+        d1.setSKS(12);
+        
+        Pegawai p1 = new Pegawai();
+        p1.setNama("Kadek");
+        
+        DaftarGaji daftar_gaji = new DaftarGaji(3);
+        daftar_gaji.addPegawai(s1);
+        daftar_gaji.addPegawai(d1);
+        daftar_gaji.addPegawai(p1);
+        daftar_gaji.printSemuaGaji();
+    }    
+}</pre>
+<p>&nbsp;</p>
+<p>Hasil Running:</p>
+<figure id="attachment_119" aria-describedby="caption-attachment-119" style="width: 240px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/03/running.jpg"><img decoding="async" class="size-full wp-image-119" src="/wp-content/uploads/2016/03/running.jpg" alt="Hasil Running" width="240" height="47" /></a><figcaption id="caption-attachment-119" class="wp-caption-text">Hasil Running</figcaption></figure>
+<p>&nbsp;</p>
+<p>Selamat mencoba. Happy Coding <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/03/30/latihan-soal-penggunaan-pewarisan/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

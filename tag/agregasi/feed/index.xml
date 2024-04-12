@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>agregasi &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/agregasi/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Thu, 13 Apr 2017 13:31:48 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>agregasi &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Hubungan Antar Kelas dan Konsep Pewarisan</title>
+		<link>/2016/03/30/hubungan-antar-kelas-dan-konsep-pewarisan/</link>
+					<comments>/2016/03/30/hubungan-antar-kelas-dan-konsep-pewarisan/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Wed, 30 Mar 2016 06:04:58 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Berorientasi Objek (Java)]]></category>
+		<category><![CDATA[agregasi]]></category>
+		<category><![CDATA[antar]]></category>
+		<category><![CDATA[asosiasi]]></category>
+		<category><![CDATA[hubungan]]></category>
+		<category><![CDATA[inheritance]]></category>
+		<category><![CDATA[kelas]]></category>
+		<category><![CDATA[komposisi]]></category>
+		<category><![CDATA[pewarisan]]></category>
+		<guid isPermaLink="false">/?p=110</guid>
+
+					<description><![CDATA[PENDAHULUAN ?Konsep pemrograman berorientasi objek mengambil realita dari dunia nyata. ?Setiap objek di dunia nyata memiliki hubungan dengan objek lain, baik hubungan yang bersifat kuat maupun <a class="mh-excerpt-more" href="/2016/03/30/hubungan-antar-kelas-dan-konsep-pewarisan/" title="Hubungan Antar Kelas dan Konsep Pewarisan">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p><strong>PENDAHULUAN</strong></p>
+<p>?Konsep pemrograman berorientasi objek mengambil realita dari dunia nyata. ?Setiap objek di dunia nyata memiliki hubungan dengan objek lain, baik hubungan yang bersifat kuat maupun yang bersifat lemah. ?Begitu pula dengan kelas (yang merupakan abstraksi objek dari dunia nyata) pada PBO, akan memiliki hubungan dengan kelas-kelas yang lainnya.</p>
+<p><strong>HUBUNGAN ANTAR KELAS</strong></p>
+<p>?Untuk memodelkan kelas-kelas yang ada beserta hubungan antar kelas, digunakanlah DIAGRAM KELAS. Ada 4 hubungan antar kelas, yaitu:</p>
+<ul>
+<li>?Asosiasi</li>
+<li>?Agregasi</li>
+<li>?Komposisi</li>
+<li>?Inheritance (Pewarisan)</li>
+</ul>
+<p><strong>ASOSIASI</strong></p>
+<p>?Merupakan hubungan yang bersifat stuktural, artinya suatu kelas digunakan di kelas yang lainnya. ?Atribut suatu kelas digunakan sebagai referensi di kelas lainnya. ?Contoh: antara kelas Dosen dan kelas Mahasiswa (terdapat hubungan ‘Dosen mengajar Mahasiswa’).</p>
+<p>?Pada diagram kelas, hubungan asosiasi digambarkan dengan garis penghubung biasa. ?Asosiasi pada Java direalisasikan dengan menggunakan link atribut class lain.</p>
+<figure id="attachment_111" aria-describedby="caption-attachment-111" style="width: 1086px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/03/asosiasi.png"><img fetchpriority="high" decoding="async" class="size-full wp-image-111" src="/wp-content/uploads/2016/03/asosiasi.png" alt="Hubungan Asosiasi" width="1086" height="396" srcset="/wp-content/uploads/2016/03/asosiasi.png 1086w, /wp-content/uploads/2016/03/asosiasi-300x109.png 300w, /wp-content/uploads/2016/03/asosiasi-1024x373.png 1024w, /wp-content/uploads/2016/03/asosiasi-700x255.png 700w" sizes="(max-width: 1086px) 100vw, 1086px" /></a><figcaption id="caption-attachment-111" class="wp-caption-text">Hubungan Asosiasi</figcaption></figure>
+<p>&nbsp;</p>
+<p><strong>AGREGASI</strong></p>
+<p>?Merupakan hubungan dimana kelas yang satu merupakan bagian dari kelas yang lain, namun kedua kelas ini bisa berdiri sendiri. ?Merupakan hubungan yang lebih kuat dari hubungan asosiasi. ?Contoh: kelas Mahasiswa dengan kelas Jurusan, dimana Mahasiswa merupakan bagian dari Jurusan.</p>
+<p>?Pada diagram kelas, hubungan agregasi digambarkan dengan garis penghubung dengan simbol hollow diamond di ujungnya. ?Agregasi pada Java direalisasikan dengan menggunakan atribut dengan tipe data class lain.</p>
+<figure id="attachment_112" aria-describedby="caption-attachment-112" style="width: 1086px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/03/agregasi.png"><img decoding="async" class="size-full wp-image-112" src="/wp-content/uploads/2016/03/agregasi.png" alt="Hubungan Agregasi" width="1086" height="395" srcset="/wp-content/uploads/2016/03/agregasi.png 1086w, /wp-content/uploads/2016/03/agregasi-300x109.png 300w, /wp-content/uploads/2016/03/agregasi-1024x372.png 1024w, /wp-content/uploads/2016/03/agregasi-700x255.png 700w" sizes="(max-width: 1086px) 100vw, 1086px" /></a><figcaption id="caption-attachment-112" class="wp-caption-text">Hubungan Agregasi</figcaption></figure>
+<p>?</p>
+<p><strong>KOMPOSISI</strong></p>
+<p>?Merupakan teknik desain untuk mengimplementasikan hubungan ‘has a’ pada kelas. ?Artinya, kelas yang lebih kompleks tersusun atas kelas-kelas lainnya yang lebih sederhana. ?Merupakan hubungan yang lebih kuat dari hubungan agregasi.</p>
+<p>?Contoh: kelas Mobil tersusun atas kelas Roda, kelas Setir, dll</p>
+<p>?Pada diagram kelas, hubungan komposisi digambarkan dengan garis penghubung dengan bentuk diamond berwarna hitam di ujungnya. ?Komposisi pada Java direalisasikan dengan menggunakan instance variabel yang mengacu ke objek lain.</p>
+<figure id="attachment_113" aria-describedby="caption-attachment-113" style="width: 1079px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/03/komposisi.png"><img decoding="async" class="size-full wp-image-113" src="/wp-content/uploads/2016/03/komposisi.png" alt="Hubungan Komposisi" width="1079" height="207" srcset="/wp-content/uploads/2016/03/komposisi.png 1079w, /wp-content/uploads/2016/03/komposisi-300x58.png 300w, /wp-content/uploads/2016/03/komposisi-1024x196.png 1024w, /wp-content/uploads/2016/03/komposisi-700x134.png 700w" sizes="(max-width: 1079px) 100vw, 1079px" /></a><figcaption id="caption-attachment-113" class="wp-caption-text">Hubungan Komposisi</figcaption></figure>
+<p>&nbsp;</p>
+<p><strong>INHERINTANCE</strong></p>
+<p>?Merupakan kelas baru yang diciptakan dari sebuah kelas (kelas induk), dimana kelas baru tersebut akan mewarisi semua atribut dan method yang dimiliki oleh kelas induk. ?Kelas baru (kelas turunan) bisa memiliki atribut dan method tambahan yang lain sehingga kelas turunan akan menjadi lebih luas (atau lebih spesifik) daripada kelas induk. ?Pada bahasa Java, hanya dimungkinkan untuk melakukan pewarisan tunggal.</p>
+<p>?Pada diagram kelas, hubungan inheritance digambarkan dengan panah segitiga ke atas, dimana kelas induk digambarkan di atas kelas turunan.</p>
+<figure id="attachment_114" aria-describedby="caption-attachment-114" style="width: 354px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/03/inheritance.png"><img loading="lazy" decoding="async" class="size-full wp-image-114" src="/wp-content/uploads/2016/03/inheritance.png" alt="Hubungan Inheritance" width="354" height="482" srcset="/wp-content/uploads/2016/03/inheritance.png 354w, /wp-content/uploads/2016/03/inheritance-220x300.png 220w, /wp-content/uploads/2016/03/inheritance-257x350.png 257w" sizes="(max-width: 354px) 100vw, 354px" /></a><figcaption id="caption-attachment-114" class="wp-caption-text">Hubungan Inheritance</figcaption></figure>
+<p>&nbsp;</p>
+<p><strong>KONSEP PEWARISAN</strong></p>
+<p>?Penerapan konsep pewarisan (inheritance) akan benar-benar berguna ketika diterapkannya method overriding pada kelas turunan dan polymorfisme pada kelas lain yang menggunakan kelas turunan. ?Selain itu, kita bisa membuat semacam template kelas, yaitu kelas induk bisa berupa kerangka method tanpa implementasi (diistilahkan dengan kelas abstrak). ?Nantinya, kelas turunan yang wajib meng-implementasikan kerangka-kerangka method dari kelas abstrak.</p>
+<p><strong>PENUTUP</strong></p>
+<p>?Dalam konsep pemrograman berorientasi objek, kelas-kelas yang dibangun bisa memiliki hubungan dengan kelas yang lainnya.</p>
+<p><strong>NEXT . . .</strong></p>
+<p>?Latihan Soal Pewarisan</p>
+<p><strong>DOWNLOAD PDF</strong></p>
+<p>Silahkan donwload materi ini dalam format PDF di sini.</p>
+<p><strong>REFERENSI</strong></p>
+<p>?Sierra, K., &amp; Bates, B. (2005) “A Brain-Friendly Guide: Head First Java 2nd Edition”. O’Reilly</p>
+<p>?Reza Budiawan (2014) <i>Pemrograman</i> <i>Berorientasi</i> <i>Objek</i>. Slide Kuliah Fakultas Ilmu Terapan, Universitas Telkom</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/03/30/hubungan-antar-kelas-dan-konsep-pewarisan/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Latihan Soal Pewarisan, Overriding, dan Polymorfisme</title>
+		<link>/2016/03/30/latihan-soal-penggunaan-pewarisan/</link>
+					<comments>/2016/03/30/latihan-soal-penggunaan-pewarisan/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Wed, 30 Mar 2016 06:00:25 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Berorientasi Objek (Java)]]></category>
+		<category><![CDATA[agregasi]]></category>
+		<category><![CDATA[class]]></category>
+		<category><![CDATA[diagram]]></category>
+		<category><![CDATA[dosen]]></category>
+		<category><![CDATA[gaji]]></category>
+		<category><![CDATA[hitung]]></category>
+		<category><![CDATA[inheritance]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[kampus]]></category>
+		<category><![CDATA[latihan]]></category>
+		<category><![CDATA[overriding]]></category>
+		<category><![CDATA[pegawai]]></category>
+		<category><![CDATA[pewarisan]]></category>
+		<category><![CDATA[polymorfisme]]></category>
+		<category><![CDATA[soal]]></category>
+		<category><![CDATA[staf]]></category>
+		<guid isPermaLink="false">/?p=116</guid>
+
+					<description><![CDATA[STUDI KASUS: Hitung Gaji di Sebuah Universitas ?Terdapat dua golongan pegawai di universitas, yaitu Dosen dan Staf biasa. Semua pegawai mendapatkan gaji awal yang sama, <a class="mh-excerpt-more" href="/2016/03/30/latihan-soal-penggunaan-pewarisan/" title="Latihan Soal Pewarisan, Overriding, dan Polymorfisme">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p><strong>STUDI KASUS: Hitung Gaji di Sebuah Universitas</strong></p>
+<ul>
+<li>?Terdapat dua golongan pegawai di universitas, yaitu Dosen dan Staf biasa. Semua pegawai mendapatkan gaji awal yang sama, yaitu 1.500.000</li>
+<li>?Gaji tambahan dosen dihitung dari jumlah sks yang diampu</li>
+<li>?Gaji tambahan staf dihitung dari jumlah kehadiran per bulan</li>
+<li>?Buatlah program untuk mencetak semua gaji pegawai</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>JAWAB:</strong></p>
+<p>Dari requirement di atas, kita bisa mendesain diagram class sebagai berikut:</p>
+<figure id="attachment_117" aria-describedby="caption-attachment-117" style="width: 1447px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/03/diagram_class_kampus.png"><img loading="lazy" decoding="async" class="size-full wp-image-117" src="/wp-content/uploads/2016/03/diagram_class_kampus.png" alt="Diagram Class" width="1447" height="920" srcset="/wp-content/uploads/2016/03/diagram_class_kampus.png 1447w, /wp-content/uploads/2016/03/diagram_class_kampus-300x191.png 300w, /wp-content/uploads/2016/03/diagram_class_kampus-1024x651.png 1024w, /wp-content/uploads/2016/03/diagram_class_kampus-550x350.png 550w" sizes="(max-width: 1447px) 100vw, 1447px" /></a><figcaption id="caption-attachment-117" class="wp-caption-text">Diagram Class</figcaption></figure>
+<p>&nbsp;</p>
+<p><b>IMPLEMENTASI DALAM BAHASA JAVA</b></p>
+<p>Class Pegawai:</p>
+<pre class="lang:default decode:true" title="Pegawai.java">package penggajian;
+
+/**
+ *
+ * @author AryaDharmaadi
+ */
+public class Pegawai {
+
+    private String nip;
+    private String nama;
+    private String alamat;
+    
+    public Pegawai(){
+        
+    }
+
+    public Pegawai(String nip, String nama, String alamat) {
+        this.nip = nip;
+        this.nama = nama;
+        this.alamat = alamat;
+    }
+    
+    public void setNama(String nama){
+        this.nama = nama;
+    }
+    
+    public String getNama(){
+        return this.nama;
+    }
+    
+    public int getGaji(){        
+        return 1500000;
+    }
+}</pre>
+<p>Class Staf:</p>
+<pre class="lang:default decode:true">package penggajian;
+
+/**
+ *
+ * @author AryaDharmaadi
+ */
+public class Staf extends Pegawai{
+    
+    private int jumlah_kehadiran;
+    private final int TARIF_HARIAN = 50000;
+    
+    public Staf(){
+        
+    }
+
+    public Staf(String nip, String nama, String alamat) {
+        super(nip, nama, alamat);
+    }    
+    
+    public void setKehadiran(int jumlah_kehadiran){
+        this.jumlah_kehadiran = jumlah_kehadiran;
+    }
+    
+    @Override
+    public int getGaji(){
+        int total_gaji = jumlah_kehadiran*TARIF_HARIAN;       
+        return total_gaji+super.getGaji();
+    }
+}</pre>
+<p>Class Dosen:</p>
+<pre class="lang:default decode:true" title="Dosen.java">package penggajian;
+
+/**
+ *
+ * @author AryaDharmaadi
+ */
+public class Dosen extends Pegawai{
+
+    private int jumlahSKS;
+    private final int TARIF_SKS = 120000;
+    
+    public Dosen(){
+        
+    }
+
+    public Dosen(String nip, String nama, String alamat) {
+        super(nip, nama, alamat);
+    }
+    
+    public void setSKS(int SKS){
+        this.jumlahSKS = SKS;
+    }
+    
+    @Override
+    public int getGaji(){
+        int total_gaji = jumlahSKS*TARIF_SKS;
+        return total_gaji+super.getGaji();
+    }
+}</pre>
+<p>Class DaftarGaji:</p>
+<pre class="lang:default decode:true " title="DaftarGaji.java">package penggajian;
+
+/**
+ *
+ * @author AryaDharmaadi
+ */
+public class DaftarGaji {
+    
+    private Pegawai[] listPegawai;
+    private int jumlahPegawaiSekarang = 0;
+    
+    public DaftarGaji(int jumlah_pegawai){
+        listPegawai = new Pegawai[jumlah_pegawai];
+    }
+    
+    public void addPegawai(Pegawai p){
+        listPegawai[jumlahPegawaiSekarang] = p;
+        jumlahPegawaiSekarang++;
+    }
+    
+    public void printSemuaGaji(){
+        for (int i=0;i&lt;jumlahPegawaiSekarang;i++){
+            System.out.print(listPegawai[i].getNama()+" mendapatkan gaji ");
+            System.out.println(listPegawai[i].getGaji());
+        }
+    }
+}</pre>
+<p>Class ProgramUtama:</p>
+<pre class="lang:default decode:true " title="ProgramUtama.java">package penggajian;
+
+/**
+ *
+ * @author AryaDharmaadi
+ */
+public class ProgramUtama {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        Staf s1 = new Staf();
+        s1.setNama("Putu");
+        s1.setKehadiran(20);
+        
+        Dosen d1 = new Dosen();
+        d1.setNama("Dharmadi");
+        d1.setSKS(12);
+        
+        Pegawai p1 = new Pegawai();
+        p1.setNama("Kadek");
+        
+        DaftarGaji daftar_gaji = new DaftarGaji(3);
+        daftar_gaji.addPegawai(s1);
+        daftar_gaji.addPegawai(d1);
+        daftar_gaji.addPegawai(p1);
+        daftar_gaji.printSemuaGaji();
+    }    
+}</pre>
+<p>&nbsp;</p>
+<p>Hasil Running:</p>
+<figure id="attachment_119" aria-describedby="caption-attachment-119" style="width: 240px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/03/running.jpg"><img loading="lazy" decoding="async" class="size-full wp-image-119" src="/wp-content/uploads/2016/03/running.jpg" alt="Hasil Running" width="240" height="47" /></a><figcaption id="caption-attachment-119" class="wp-caption-text">Hasil Running</figcaption></figure>
+<p>&nbsp;</p>
+<p>Selamat mencoba. Happy Coding <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/03/30/latihan-soal-penggunaan-pewarisan/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

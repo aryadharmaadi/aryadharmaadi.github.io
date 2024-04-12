@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>oracle &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/oracle/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Mon, 30 Mar 2020 14:38:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>oracle &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Pengenalan Pemrograman Java</title>
+		<link>/2016/02/18/pengenalan-pemrograman-java/</link>
+					<comments>/2016/02/18/pengenalan-pemrograman-java/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Thu, 18 Feb 2016 04:59:55 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Berorientasi Objek (Java)]]></category>
+		<category><![CDATA[c]]></category>
+		<category><![CDATA[dasar]]></category>
+		<category><![CDATA[enumerasi]]></category>
+		<category><![CDATA[gosling]]></category>
+		<category><![CDATA[james]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[kopi]]></category>
+		<category><![CDATA[microsystem]]></category>
+		<category><![CDATA[oracle]]></category>
+		<category><![CDATA[pengenalan]]></category>
+		<category><![CDATA[primitif]]></category>
+		<category><![CDATA[reference]]></category>
+		<category><![CDATA[sun]]></category>
+		<category><![CDATA[tipe]]></category>
+		<guid isPermaLink="false">/?p=80</guid>
+
+					<description><![CDATA[PENDAHULUAN Java merupakan nama bahasa pemrograman. Java dibuat oleh James Gosling saat masih bergabung di Sun Microsystems, dan dirilis tahun 1995. Nama Java diambil dari <a class="mh-excerpt-more" href="/2016/02/18/pengenalan-pemrograman-java/" title="Pengenalan Pemrograman Java">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p><strong>PENDAHULUAN</strong></p>
+<p>Java merupakan nama bahasa pemrograman. Java dibuat oleh James Gosling saat masih bergabung di Sun Microsystems, dan dirilis tahun 1995. Nama Java diambil dari kopi jawa yang sangat terkenal di kalangan pegawai Sun Microsystem. Bahasa Java ini banyak mengadopsi sintaksis yang terdapat pada bahasa C. Java memiliki slogan “<i>write once, run everywhere</i>”.</p>
+<p><strong>BAHASA JAVA</strong></p>
+<p>Java mampu berjalan di segala jenis platform berkat adanya mesin virtual (JVM). Mesin virtual tersebut akan menerjemahkan kode pemrograman menjadi bahasa yang dikenali mesin apa pun. Saat ini bahasa pemrograman Java masih terus dikembangkan oleh <i>Oracle </i><i>Corporation</i>, dimana versi terkini adalah <i>Java 1.8</i> atau disebut <i>Java 8</i>.</p>
+<p><strong>PLATFORM JAVA</strong></p>
+<p>Java memiliki platform khusus untuk menjalankan program Java. Platform tersebut meliputi :</p>
+<ul>
+<li>Java Virtual Machine</li>
+<li>Java API (Application Programming Interface)</li>
+</ul>
+<figure id="attachment_82" aria-describedby="caption-attachment-82" style="width: 274px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2016/02/Picture1.png"><img decoding="async" class="size-full wp-image-82" src="/wp-content/uploads/2016/02/Picture1.png" alt="Arsitektur Platform Java" width="274" height="114" /></a><figcaption id="caption-attachment-82" class="wp-caption-text">Arsitektur Platform Java</figcaption></figure>
+<p> </p>
+<p><strong>JAVA DEVELOPMENT KIT (JDK)</strong></p>
+<p>JDK merupakan peralatan (kit) untuk mengembangkan program berbasis Java. JDK terdiri dari sebuah compiler, class library (prebuilt utilities), dan JRE (Java Runtime Environment). JDK digunakan untuk melakukan proses kompilasi dari source code ke bytecode yang bisa dijalankan oleh JVM. Sedangkan JRE terdiri dari JVM dan runtime library.</p>
+<p><strong>EKSTENSI FILE JAVA</strong></p>
+<p>Ketika menulis program dengan bahasa Java, sourcecode disimpan pada file *<i>.java. </i>Compiler memeriksa sintaks sourcecode dan mengubahnya menjadi <i>bytecode</i> dan disimpan pada file <i>*.class. </i>Bytecode tersebut kemudian dijalankan oleh Java Virtual Machine (JVM).</p>
+<p><strong>MEMULAI JAVA</strong></p>
+<ul>
+<li>Download dan install JDK (<a href="http://oracle.com/technetwork/java/javase/downloads">http://</a><a href="http://oracle.com/technetwork/java/javase/downloads">oracle.com/technetwork/java/javase/downloads</a>)</li>
+<li>Cek di command line (Windows) atau terminal (Linux), ketik perintah <b><i>java</i></b> dan <b><i>javac</i></b>. Jika perintah tersebut dikenali, maka JDK telah terinstall dengan baik</li>
+<li>Buat source code program dengan teks editor apapun. File yang dibuat memiliki ekstensi <b><i>*.java</i></b></li>
+<li>Meng-compile source code dengan perintah: <b><i>javac</i></b><b><i> namafile.java</i></b></li>
+<li>Mengeksekusi program dengan perintah <b><i>java </i></b><b><i>namafile</i></b></li>
+</ul>
+<p><strong>STRUKTUR UMUM SOURCE CODE</strong></p>
+<pre class="lang:default decode:true ">import aaa.bbb.ccc;
+
+public class Latihan {
+	static public void main(String args[]){
+		System.out.println("Hello World");
+	}
+}</pre>
+<p>Penjelasan:</p>
+<ul>
+<li>Nama file harus sama dengan nama kelas</li>
+<li><b><i>Import</i></b> merupakan pemanggilan package (library) lain ke dalam kelas. Bersifat opsional</li>
+<li><b><i>static </i></b><b><i>public void main(String </i></b><b><i>args</i></b><b><i>[]) </i></b>merupakan titik awal program berjalan</li>
+<li><b><i>System</i></b> merupakan salah satu kelas pada Java dan memiliki objek <b><i>out</i></b>. Objek <b><i>out</i></b> memiliki method <b><i>println</i></b></li>
+<li><b><i>System.out.println</i></b> berfungsi untuk mencetak string ke layar.</li>
+</ul>
+<p><strong>TIPE DATA</strong></p>
+<ul>
+<li>Tipe dasar merupakan tipe bawaan bahasa Java , contohnya adalah <b><i>int</i></b><b><i>, long, byte, char, float, double, </i></b><b><i>boolean</i></b>, dll.</li>
+<li>Tipe reference adalah tipe data buatan yang memiliki semantik serupa dengan pointer pada bahasa C
+<ul>
+<li>Operasi assignment pada variabel reference akan menghasilkan pengkopian reference, dimana variabel akan tetap mengacu ke objek yang sama</li>
+</ul>
+</li>
+<li>Tipe data <b><i>String</i></b> merupakan pengecualian karena berupa tipe reference namun memiliki sifat seperti tipe dasar</li>
+</ul>
+<p>Contoh:</p>
+<pre class="lang:default decode:true">/* Contoh tipe data primitif */
+int MyAge = 25;
+int YourAge = MyAge;
+int YourAge = 28;
+
+/* Contoh tipe data reference */
+Mahasiswa arya = new Mahasiswa();
+arya.age = 25;
+Mahasiswa budi = arya;
+budi.age = 28;</pre>
+<ul>
+<li>Berapakah nilai MyAge dan YourAge saat ini?</li>
+<li>Berapakah nilai arya.age dan budi.age saat ini?</li>
+</ul>
+<p><strong>KONSTANTA DAN VARIABEL</strong></p>
+<p>Penulisan variabel</p>
+<p><b><i>&lt;</i></b><b><i>tipe_data</i></b><b><i>&gt; &lt;</i></b><b><i>nama_variabel</i></b><b><i>&gt; = &lt;</i></b><b><i>nilai</i></b><b><i>&gt;;</i></b></p>
+<p><b><i>  </i></b>Contoh:</p>
+<p><b><i>  </i></b><b><i>  </i></b><b><i>boolean</i></b> <b><i>isStudent</i></b> <b><i>= true;</i></b></p>
+<p>Penulisan konstanta</p>
+<p><b><i>final </i></b><b><i>&lt;</i></b><b><i>tipe_data</i></b><b><i>&gt; &lt;</i></b><b><i>nama_variabel</i></b><b><i>&gt; = &lt;</i></b><b><i>nilai</i></b><b><i>&gt;;</i></b></p>
+<p><b><i>  </i></b>Contoh:</p>
+<p><b><i>  </i></b><b><i>  final String NAME = “</i></b><b><i>Putu</i></b> <b><i>Arya</i></b><b><i> D”;</i></b></p>
+<p> </p>
+<p><strong>TYPE ENUMERASI</strong></p>
+<p>Enum type merupakan tipe data spesial yang memungkinkan sebuah variabel menjadi satu himpunan konstanta yang telah ditetapkan. Pada java, digunakan keyword <b><i>enum</i></b> untuk mendefinisikan tipe enumerasi.</p>
+<p>Contoh:</p>
+<pre class="lang:default decode:true ">public enum Day {
+    SUNDAY, MONDAY, TUESDAY, WEDNESDAY,
+    THURSDAY, FRIDAY, SATURDAY 
+}
+
+public class EnumTest {
+    Day day;
+    
+    public void setDay(Day day) {
+        this.day = day;
+    }
+    
+    public void work() {
+        switch (day) {                         
+            case SATURDAY: case SUNDAY:
+                System.out.println("This day is holiday");
+                break;                        
+            default:
+                System.out.println("This day is work day");
+                break;
+        }
+    }
+    
+    public static void main(String[] args) {
+        EnumTest firstDay = new EnumTest();
+	firstDay.setDay(Day.MONDAY);
+        firstDay.work();
+    }
+}</pre>
+<p><strong>OPERATOR</strong></p>
+<ul>
+<li>Operator pada Java sama dengan operator pada C.
+<ul>
+<li>Matematika: <b><i>+, -, *,/,% (modulus), unary + &#8211;</i></b></li>
+<li>Perbandingan: <b><i>==, !=, &lt;, &gt;, &lt;=, &gt;=,</i></b></li>
+<li>Boolean: <b>&amp;&amp;, ||, </b><b>!</b></li>
+<li>Asignment<b>: =, += -= *= /= &lt;&lt;= &gt;&gt;= </b><b>&amp;=</b> <b>|=</b></li>
+</ul>
+</li>
+<li>Pada tipe dasar, operator perbandingan akan membandingkan nilai primitif dari variabel</li>
+<li>Pada tipe reference, operator perbandingan akan membandingkan reference <b>(BUKAN ISI OBJEK)</b></li>
+</ul>
+<p>Contoh:</p>
+<pre class="lang:default decode:true ">int myAge = 24;
+int yourAge = 24;
+if (myAge==yourAge){} // Bernilai TRUE
+
+Mahasiswa arya = new Mahasiswa();
+arya.age = 24;
+Mahasiswa budi = new Mahasiswa();
+budi.age = 24;
+Mahasiswa dimas = arya;
+dimas.age = 27;
+if (arya==budi){} // Bernilai FALSE
+if (dimas==arya){} // Bernilai TRUE</pre>
+<p><strong>CONSOLE INPUT DAN OUTPUT</strong></p>
+<ul>
+<li>Console Output</li>
+</ul>
+<p><i>System.out.print</i><i>(&#8220;Hello &#8220;);<br /></i><i>System.out.println</i><i>(&#8220;world</i><i>&#8220;);</i></p>
+<ul>
+<li>Console Input</li>
+</ul>
+<p><i>BufferedReader</i><i> in = new </i><i>BufferedReader</i><i>(new </i><i>InputStreamReader</i><i>(System.in));<br />String text =</i><i>in.readLine</i><i>();</i></p>
+<ul>
+<li>Converting Input Data<i><br /></i><i>  </i><i>int</i><i> x = </i><i>Integer.parseInt</i><i>(text);<br />double y =</i><i>Double.parseDouble</i><i>(text);</i></li>
+</ul>
+<p><strong>FILE INPUT DAN OUTPUT</strong></p>
+<ul>
+<li><b>File Output</b></li>
+</ul>
+<p><i>PrintWriter</i><i> out = new </i><i>PrintWriter</i><i>(new </i><i>FileWriter</i><i>(&#8220;K:\\location\\outputfile.txt</i><i>&#8220;)));</i><i><br /></i><i>out.print</i><i>(&#8220;Hello &#8220;);<br /></i><i>out.println</i><i>(&#8220;world&#8221;);<br /></i><i>out.close</i><i>();</i></p>
+<ul>
+<li><b>File </b><b>Input</b></li>
+</ul>
+<p>?<i>BufferedReader</i><i> in = new </i><i>BufferedReader</i><i>(new </i><i>FileReader</i><i>(&#8220;K:\\location\\inputfile.txt&#8221;));<br />String text =</i><i>in.readLine</i><i>();<br /></i><i>in.close</i><i>();</i></p>
+<p><strong>KONTROL PERCABANGAN</strong></p>
+<p>Percabangan merupakan pemilihan aksi yang akan dijalankan berdasarkan kondisi yang ditentukan. Java memiliki sintaks <b><i>if</i></b> dan <b><i>switch</i></b>, yang sama pada bahasa C, sebagai kontrol percabangan.</p>
+<ul>
+<li>Sintaks IF ..  ELSE</li>
+</ul>
+<pre class="lang:default decode:true">if(kondisi1){
+  //pernyataan1 dijalankan
+}else if(kondisi2){
+  //pernyataan2 dijalankan
+}else{
+  //pernyataan3 dijalankan
+}</pre>
+<ul>
+<li>Sintaks SWITCH .. CASE</li>
+</ul>
+<p> </p>
+<pre class="lang:default decode:true ">switch (variabel) { 
+    case nilai1: pernyataan1; 
+    break; 
+    case nilai2: pernyataan2; 
+    break; 
+    default: pernyataan3; 
+}</pre>
+<p> </p>
+<p> </p>
+<p><strong>PENGULANGAN</strong></p>
+<p>Pengulangan adalah bagian dari kode yang dijalankan terus menerus sampai suatu kondisi terpenuhi. Java memiliki sintaks <b><i>for, while</i></b>,  dan <b><i>do while </i></b>yang sama pada bahasa C sebagai pengulangan.</p>
+<ul>
+<li>Sintaks for</li>
+</ul>
+<pre class="lang:default decode:true ">for(inisialisasi; kondisi; iterasi){  
+    // Aksi yang akan diulangi
+}</pre>
+<p> </p>
+<p> </p>
+<ul>
+<li>Sintaks while</li>
+</ul>
+<pre class="lang:default decode:true">  inisialisasi;  
+  while(kondisi){  
+      // aksi yang akan diulangi
+      iterasi;
+  }</pre>
+<p> </p>
+<p> </p>
+<ul>
+<li>Sintaks do .. while</li>
+</ul>
+<p> </p>
+<pre class="lang:default decode:true">  inisialisasi;
+  do{  
+      // aksi yang akan diulangi 
+      iterasi;
+  }while(kondisi)</pre>
+<p> </p>
+<p><strong>KESIMPULAN</strong></p>
+<p>Bahasa pemrograman Java merupakan bahasa dengan sintaks yang mirip C++ tanpa fitur yang kompleks, yang mendukung konsep Pemrograman Berorientasi Objek.</p>
+<p><strong>DOWNLOAD</strong></p>
+<p>Silahkan download materi ini dalam format pdf di <a href="http://adf.ly/1XLfNL" target="_blank" rel="noopener noreferrer">sini</a>.</p>
+<p><strong>NEXT </strong></p>
+<p>String dan Array</p>
+<p><strong>REFERENSI</strong></p>
+<p>Sierra, K., &amp; Bates, B. (2005) “A Brain-Friendly Guide: Head First Java 2nd Edition”. O’Reilly</p>
+<p>Yohanes Nugroho, (2009) “Slide Kuliah: Bahasa Pemrograman Java”. STEI ITB</p>
+<p>http://www.vogella.com/tutorials/JavaIntroduction/article.html</p>
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/02/18/pengenalan-pemrograman-java/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

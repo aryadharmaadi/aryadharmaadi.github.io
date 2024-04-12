@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>html &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/html/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Mon, 01 Nov 2021 09:50:28 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>html &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>AJAX</title>
+		<link>/2021/11/01/ajax/</link>
+					<comments>/2021/11/01/ajax/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Mon, 01 Nov 2021 09:50:24 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Web]]></category>
+		<category><![CDATA[html]]></category>
+		<category><![CDATA[jquery]]></category>
+		<guid isPermaLink="false">/?p=1208</guid>
+
+					<description><![CDATA[Berikut adalah materi lanjutan dari mata kuliah pemrograman internet.]]></description>
+										<content:encoded><![CDATA[
+<p>Berikut adalah materi lanjutan dari mata kuliah pemrograman internet.</p>
+
+
+<div class="ead-preview"><div class="ead-document" style="position: relative;"><div class="ead-iframe-wrapper"><iframe src="//docs.google.com/viewer?url=%2Fwp-content%2Fuploads%2F2021%2F11%2FKolaborasi-Jquery-Ajax-PHP.pdf&amp;embedded=true&amp;hl=en" title="Embedded Document" class="ead-iframe" style="width: 100%;height: 500px;border: none;visibility: hidden;"></iframe></div>			<div class="ead-document-loading" style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;">
+				<div class="ead-loading-wrap">
+					<div class="ead-loading-main">
+						<div class="ead-loading">
+							<img decoding="async" src="/wp-content/plugins/embed-any-document/images/loading.svg" width="55" height="55" alt="Loader">
+							<span>Loading&#8230;</span>
+						</div>
+					</div>
+					<div class="ead-loading-foot">
+						<div class="ead-loading-foot-title">
+							<img decoding="async" src="/wp-content/plugins/embed-any-document/images/EAD-logo.svg" alt="EAD Logo" width="36" height="23"/>
+							<span>Taking too long?</span>
+						</div>
+						<p>
+							<div class="ead-document-btn ead-reload-btn" role="button">
+								<img decoding="async" src="/wp-content/plugins/embed-any-document/images/reload.svg" alt="Reload" width="12" height="12"/> Reload document							</div>
+							<span>|</span>
+							<a href="/wp-content/uploads/2021/11/Kolaborasi-Jquery-Ajax-PHP.pdf" class="ead-document-btn" target="_blank">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/open.svg" alt="Open" width="12" height="12"/> Open in new tab							</a>
+					</div>
+				</div>
+			</div>
+		</div></div>]]></content:encoded>
+					
+					<wfw:commentRss>/2021/11/01/ajax/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>JavaScript</title>
+		<link>/2020/11/04/javascript/</link>
+					<comments>/2020/11/04/javascript/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Wed, 04 Nov 2020 07:51:33 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Web]]></category>
+		<category><![CDATA[css]]></category>
+		<category><![CDATA[html]]></category>
+		<category><![CDATA[javascript]]></category>
+		<guid isPermaLink="false">/?p=764</guid>
+
+					<description><![CDATA[Materi ini merupakan materi lanjutan dari seri mata kuliah Pemrograman Internet.]]></description>
+										<content:encoded><![CDATA[
+<p>Materi ini merupakan materi lanjutan dari seri mata kuliah Pemrograman Internet.</p>
+
+
+<div class="ead-preview"><div class="ead-document" style="position: relative;"><div class="ead-iframe-wrapper"><iframe src="//docs.google.com/viewer?url=%2Fwp-content%2Fuploads%2F2020%2F11%2FMinggu-5.-JavaScript.pdf&amp;embedded=true&amp;hl=en" title="Embedded Document" class="ead-iframe" style="width: 100%;height: 500px;border: none;visibility: hidden;"></iframe></div>			<div class="ead-document-loading" style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;">
+				<div class="ead-loading-wrap">
+					<div class="ead-loading-main">
+						<div class="ead-loading">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/loading.svg" width="55" height="55" alt="Loader">
+							<span>Loading&#8230;</span>
+						</div>
+					</div>
+					<div class="ead-loading-foot">
+						<div class="ead-loading-foot-title">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/EAD-logo.svg" alt="EAD Logo" width="36" height="23"/>
+							<span>Taking too long?</span>
+						</div>
+						<p>
+							<div class="ead-document-btn ead-reload-btn" role="button">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/reload.svg" alt="Reload" width="12" height="12"/> Reload document							</div>
+							<span>|</span>
+							<a href="/wp-content/uploads/2020/11/Minggu-5.-JavaScript.pdf" class="ead-document-btn" target="_blank">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/open.svg" alt="Open" width="12" height="12"/> Open in new tab							</a>
+					</div>
+				</div>
+			</div>
+		</div></div>]]></content:encoded>
+					
+					<wfw:commentRss>/2020/11/04/javascript/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bootstrap</title>
+		<link>/2020/10/20/bootstrap/</link>
+					<comments>/2020/10/20/bootstrap/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Tue, 20 Oct 2020 13:22:36 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Web]]></category>
+		<category><![CDATA[bootstrap]]></category>
+		<category><![CDATA[css]]></category>
+		<category><![CDATA[framework]]></category>
+		<category><![CDATA[html]]></category>
+		<category><![CDATA[web]]></category>
+		<guid isPermaLink="false">/?p=736</guid>
+
+					<description><![CDATA[Berikut adalah materi tentang Bootstrap, sebuah framework CSS yang sangat bermanfaat dalam pembuatan desain sebuah halaman web.]]></description>
+										<content:encoded><![CDATA[
+<p>Berikut adalah materi tentang Bootstrap, sebuah framework CSS yang sangat bermanfaat dalam pembuatan desain sebuah halaman web.</p>
+
+
+<div class="ead-preview"><div class="ead-document" style="position: relative;"><div class="ead-iframe-wrapper"><iframe src="//docs.google.com/viewer?url=%2Fwp-content%2Fuploads%2F2020%2F10%2FMinggu-4.-Bootstrap.pdf&amp;embedded=true&amp;hl=en" title="Embedded Document" class="ead-iframe" style="width: 100%;height: 500px;border: none;visibility: hidden;"></iframe></div>			<div class="ead-document-loading" style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;">
+				<div class="ead-loading-wrap">
+					<div class="ead-loading-main">
+						<div class="ead-loading">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/loading.svg" width="55" height="55" alt="Loader">
+							<span>Loading&#8230;</span>
+						</div>
+					</div>
+					<div class="ead-loading-foot">
+						<div class="ead-loading-foot-title">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/EAD-logo.svg" alt="EAD Logo" width="36" height="23"/>
+							<span>Taking too long?</span>
+						</div>
+						<p>
+							<div class="ead-document-btn ead-reload-btn" role="button">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/reload.svg" alt="Reload" width="12" height="12"/> Reload document							</div>
+							<span>|</span>
+							<a href="/wp-content/uploads/2020/10/Minggu-4.-Bootstrap.pdf" class="ead-document-btn" target="_blank">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/open.svg" alt="Open" width="12" height="12"/> Open in new tab							</a>
+					</div>
+				</div>
+			</div>
+		</div></div>]]></content:encoded>
+					
+					<wfw:commentRss>/2020/10/20/bootstrap/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Pengenalan HTML</title>
+		<link>/2020/10/05/pengenalan-html/</link>
+					<comments>/2020/10/05/pengenalan-html/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Mon, 05 Oct 2020 14:53:30 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Web]]></category>
+		<category><![CDATA[body]]></category>
+		<category><![CDATA[form]]></category>
+		<category><![CDATA[head]]></category>
+		<category><![CDATA[html]]></category>
+		<category><![CDATA[table]]></category>
+		<category><![CDATA[web]]></category>
+		<guid isPermaLink="false">/?p=697</guid>
+
+					<description><![CDATA[Berikut merupakan materi tentang dasar-dasar pembuatan dokumen HTML.]]></description>
+										<content:encoded><![CDATA[
+<p>Berikut merupakan materi tentang dasar-dasar pembuatan dokumen HTML.</p>
+
+
+<div class="ead-preview"><div class="ead-document" style="position: relative;"><div class="ead-iframe-wrapper"><iframe src="//docs.google.com/viewer?url=%2Fwp-content%2Fuploads%2F2020%2F10%2FMinggu-2.-HTML.pdf&amp;embedded=true&amp;hl=en" title="Embedded Document" class="ead-iframe" style="width: 100%;height: 500px;border: none;visibility: hidden;"></iframe></div>			<div class="ead-document-loading" style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;">
+				<div class="ead-loading-wrap">
+					<div class="ead-loading-main">
+						<div class="ead-loading">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/loading.svg" width="55" height="55" alt="Loader">
+							<span>Loading&#8230;</span>
+						</div>
+					</div>
+					<div class="ead-loading-foot">
+						<div class="ead-loading-foot-title">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/EAD-logo.svg" alt="EAD Logo" width="36" height="23"/>
+							<span>Taking too long?</span>
+						</div>
+						<p>
+							<div class="ead-document-btn ead-reload-btn" role="button">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/reload.svg" alt="Reload" width="12" height="12"/> Reload document							</div>
+							<span>|</span>
+							<a href="/wp-content/uploads/2020/10/Minggu-2.-HTML.pdf" class="ead-document-btn" target="_blank">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/open.svg" alt="Open" width="12" height="12"/> Open in new tab							</a>
+					</div>
+				</div>
+			</div>
+		</div></div>]]></content:encoded>
+					
+					<wfw:commentRss>/2020/10/05/pengenalan-html/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Pengenalan Web</title>
+		<link>/2020/09/23/pengenalan-web-2/</link>
+					<comments>/2020/09/23/pengenalan-web-2/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Wed, 23 Sep 2020 07:55:55 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Web]]></category>
+		<category><![CDATA[css]]></category>
+		<category><![CDATA[html]]></category>
+		<category><![CDATA[js]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[web]]></category>
+		<guid isPermaLink="false">/?p=677</guid>
+
+					<description><![CDATA[Materi ini merupakan materi pertama dari seri mata kuliah Pemrograman Internet]]></description>
+										<content:encoded><![CDATA[
+<p>Materi ini merupakan materi pertama dari seri mata kuliah Pemrograman Internet</p>
+
+
+<div class="ead-preview"><div class="ead-document" style="position: relative;"><div class="ead-iframe-wrapper"><iframe src="//docs.google.com/viewer?url=%2Fwp-content%2Fuploads%2F2020%2F09%2FMinggu-1.-Pengenalan-Web.pdf&amp;embedded=true&amp;hl=en" title="Embedded Document" class="ead-iframe" style="width: 100%;height: 500px;border: none;visibility: hidden;"></iframe></div>			<div class="ead-document-loading" style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;">
+				<div class="ead-loading-wrap">
+					<div class="ead-loading-main">
+						<div class="ead-loading">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/loading.svg" width="55" height="55" alt="Loader">
+							<span>Loading&#8230;</span>
+						</div>
+					</div>
+					<div class="ead-loading-foot">
+						<div class="ead-loading-foot-title">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/EAD-logo.svg" alt="EAD Logo" width="36" height="23"/>
+							<span>Taking too long?</span>
+						</div>
+						<p>
+							<div class="ead-document-btn ead-reload-btn" role="button">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/reload.svg" alt="Reload" width="12" height="12"/> Reload document							</div>
+							<span>|</span>
+							<a href="/wp-content/uploads/2020/09/Minggu-1.-Pengenalan-Web.pdf" class="ead-document-btn" target="_blank">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/open.svg" alt="Open" width="12" height="12"/> Open in new tab							</a>
+					</div>
+				</div>
+			</div>
+		</div></div>]]></content:encoded>
+					
+					<wfw:commentRss>/2020/09/23/pengenalan-web-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

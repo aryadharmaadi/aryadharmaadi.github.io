@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Data Link Layer	</title>
+	<atom:link href="/2020/03/22/data-link-layer/feed/" rel="self" type="application/rss+xml" />
+	<link>/2020/03/22/data-link-layer/</link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Mon, 23 Mar 2020 04:20:56 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+	<item>
+		<title>
+		By: aryadharmaadi		</title>
+		<link>/2020/03/22/data-link-layer/#comment-41</link>
+
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Mon, 23 Mar 2020 04:20:56 +0000</pubDate>
+		<guid isPermaLink="false">/?p=600#comment-41</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2020/03/22/data-link-layer/#comment-40&quot;&gt;natasyah&lt;/a&gt;.
+
+Tolong disimak dengan baik ketentuan soalnya ya :)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2020/03/22/data-link-layer/#comment-40">natasyah</a>.</p>
+<p>Tolong disimak dengan baik ketentuan soalnya ya 🙂</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: natasyah		</title>
+		<link>/2020/03/22/data-link-layer/#comment-40</link>
+
+		<dc:creator><![CDATA[natasyah]]></dc:creator>
+		<pubDate>Mon, 23 Mar 2020 00:28:58 +0000</pubDate>
+		<guid isPermaLink="false">/?p=600#comment-40</guid>
+
+					<description><![CDATA[Nama		:Natasyah
+NIM		:1905551022
+Kelas		:Jaringan Komunikasi(A)
+
+KELEBIHAN DAN KEKURANGAN ACKNOWLEDGET CONNECTIONLESS SERVICE
+
+1.	Kelebihan
+•	Penerima bisa mengirimkan konfirmasi(ACK) apakah frame diterima dengan benar atau jaringan error
+•	Jika pengirim menerima konfirmasi bahwa frame yang dikirim error maka pengirim akan mengirim ulang frame yang diminta
+•	Jika tidak ada konfirmasi dari penerima apakah frame yang dikirimkan error atau tidak pengirim tetap akan melakukan pengiriman ulang framee yang diminta
+2.	Kekurangan 
+•	Frame yang dikirim dapat memilih jalur yang berbeda untuk menuju mesin tujuan artinya frame yang dikirimka tidak berkelompok sehingga frame yang dikirimkan tidak terurut atau beraturan]]></description>
+			<content:encoded><![CDATA[<p>Nama		:Natasyah<br />
+NIM		:1905551022<br />
+Kelas		:Jaringan Komunikasi(A)</p>
+<p>KELEBIHAN DAN KEKURANGAN ACKNOWLEDGET CONNECTIONLESS SERVICE</p>
+<p>1.	Kelebihan<br />
+•	Penerima bisa mengirimkan konfirmasi(ACK) apakah frame diterima dengan benar atau jaringan error<br />
+•	Jika pengirim menerima konfirmasi bahwa frame yang dikirim error maka pengirim akan mengirim ulang frame yang diminta<br />
+•	Jika tidak ada konfirmasi dari penerima apakah frame yang dikirimkan error atau tidak pengirim tetap akan melakukan pengiriman ulang framee yang diminta<br />
+2.	Kekurangan<br />
+•	Frame yang dikirim dapat memilih jalur yang berbeda untuk menuju mesin tujuan artinya frame yang dikirimka tidak berkelompok sehingga frame yang dikirimkan tidak terurut atau beraturan</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

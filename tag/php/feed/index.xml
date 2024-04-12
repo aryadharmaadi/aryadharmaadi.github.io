@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>php &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/php/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Mon, 01 Nov 2021 09:45:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>php &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>PHP &#038; MySQL</title>
+		<link>/2020/11/17/php-mysql/</link>
+					<comments>/2020/11/17/php-mysql/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Tue, 17 Nov 2020 12:57:48 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Web]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[php]]></category>
+		<guid isPermaLink="false">/?p=792</guid>
+
+					<description><![CDATA[Materi ini adalah lanjutan dari materi pemrograman Web.]]></description>
+										<content:encoded><![CDATA[
+<p>Materi ini adalah lanjutan dari materi pemrograman Web.</p>
+
+
+<div class="ead-preview"><div class="ead-document" style="position: relative;"><div class="ead-iframe-wrapper"><iframe src="//docs.google.com/viewer?url=%2Fwp-content%2Fuploads%2F2020%2F11%2FMinggu-7.-PHP-MySQL.pdf&amp;embedded=true&amp;hl=en" title="Embedded Document" class="ead-iframe" style="width: 100%;height: 500px;border: none;visibility: hidden;"></iframe></div>			<div class="ead-document-loading" style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;">
+				<div class="ead-loading-wrap">
+					<div class="ead-loading-main">
+						<div class="ead-loading">
+							<img decoding="async" src="/wp-content/plugins/embed-any-document/images/loading.svg" width="55" height="55" alt="Loader">
+							<span>Loading&#8230;</span>
+						</div>
+					</div>
+					<div class="ead-loading-foot">
+						<div class="ead-loading-foot-title">
+							<img decoding="async" src="/wp-content/plugins/embed-any-document/images/EAD-logo.svg" alt="EAD Logo" width="36" height="23"/>
+							<span>Taking too long?</span>
+						</div>
+						<p>
+							<div class="ead-document-btn ead-reload-btn" role="button">
+								<img decoding="async" src="/wp-content/plugins/embed-any-document/images/reload.svg" alt="Reload" width="12" height="12"/> Reload document							</div>
+							<span>|</span>
+							<a href="/wp-content/uploads/2020/11/Minggu-7.-PHP-MySQL.pdf" class="ead-document-btn" target="_blank">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/open.svg" alt="Open" width="12" height="12"/> Open in new tab							</a>
+					</div>
+				</div>
+			</div>
+		</div></div>]]></content:encoded>
+					
+					<wfw:commentRss>/2020/11/17/php-mysql/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Pengenalan Web</title>
+		<link>/2020/09/23/pengenalan-web-2/</link>
+					<comments>/2020/09/23/pengenalan-web-2/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Wed, 23 Sep 2020 07:55:55 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Web]]></category>
+		<category><![CDATA[css]]></category>
+		<category><![CDATA[html]]></category>
+		<category><![CDATA[js]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[web]]></category>
+		<guid isPermaLink="false">/?p=677</guid>
+
+					<description><![CDATA[Materi ini merupakan materi pertama dari seri mata kuliah Pemrograman Internet]]></description>
+										<content:encoded><![CDATA[
+<p>Materi ini merupakan materi pertama dari seri mata kuliah Pemrograman Internet</p>
+
+
+<div class="ead-preview"><div class="ead-document" style="position: relative;"><div class="ead-iframe-wrapper"><iframe src="//docs.google.com/viewer?url=%2Fwp-content%2Fuploads%2F2020%2F09%2FMinggu-1.-Pengenalan-Web.pdf&amp;embedded=true&amp;hl=en" title="Embedded Document" class="ead-iframe" style="width: 100%;height: 500px;border: none;visibility: hidden;"></iframe></div>			<div class="ead-document-loading" style="width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;">
+				<div class="ead-loading-wrap">
+					<div class="ead-loading-main">
+						<div class="ead-loading">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/loading.svg" width="55" height="55" alt="Loader">
+							<span>Loading&#8230;</span>
+						</div>
+					</div>
+					<div class="ead-loading-foot">
+						<div class="ead-loading-foot-title">
+							<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/EAD-logo.svg" alt="EAD Logo" width="36" height="23"/>
+							<span>Taking too long?</span>
+						</div>
+						<p>
+							<div class="ead-document-btn ead-reload-btn" role="button">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/reload.svg" alt="Reload" width="12" height="12"/> Reload document							</div>
+							<span>|</span>
+							<a href="/wp-content/uploads/2020/09/Minggu-1.-Pengenalan-Web.pdf" class="ead-document-btn" target="_blank">
+								<img loading="lazy" decoding="async" src="/wp-content/plugins/embed-any-document/images/open.svg" alt="Open" width="12" height="12"/> Open in new tab							</a>
+					</div>
+				</div>
+			</div>
+		</div></div>]]></content:encoded>
+					
+					<wfw:commentRss>/2020/09/23/pengenalan-web-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Pengenalan Framework CodeIgniter</title>
+		<link>/2015/11/27/pengenalan-framework-codeigniter/</link>
+					<comments>/2015/11/27/pengenalan-framework-codeigniter/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Fri, 27 Nov 2015 01:43:58 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Web]]></category>
+		<category><![CDATA[codeigniter]]></category>
+		<category><![CDATA[framework]]></category>
+		<category><![CDATA[php]]></category>
+		<guid isPermaLink="false">/?p=48</guid>
+
+					<description><![CDATA[Pada materi kali ini, akan dibahas mengenai pengembangan sebuah web yang lebih cepat dan efektif dibandingkan dengan menggunakan cara biasa. Cara yang digunakan adalah dengan memanfaatkan sebuah <a class="mh-excerpt-more" href="/2015/11/27/pengenalan-framework-codeigniter/" title="Pengenalan Framework CodeIgniter">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p>Pada materi kali ini, akan dibahas mengenai pengembangan sebuah web yang lebih cepat dan efektif dibandingkan dengan menggunakan cara biasa. Cara yang digunakan adalah dengan memanfaatkan sebuah framework PHP yang terkenal, yaitu Framework CodeIgniter.</p>
+<p><strong>APA ITU FRAMEWORK?</strong></p>
+<p>?Framework merupakan sebuah <b>KERANGKA KERJA </b>yang <b>MEMUDAHKAN PENGEMBANG </b>aplikasi untuk membangun software sesuai dengan bahasa pemrograman tertentu. ?Framework untuk bahasa pemrograman PHP umumnya terdiri dari <b>SEKUMPULAN FOLDER  </b>yang berisi file-file PHP, dimana file-file tersebut merupakan <b>CLASS LIBRARY, HELPER, PLUGIN</b>, atau <b>KONFIGURASI</b> lainnya.</p>
+<p><strong>MENGAPA MENGGUNAKAN FRAMEWORK?</strong></p>
+<p>?Pembuatan aplikasi dengan memanfaatkan framework akan sangat membantu dari segi <b>KECEPATAN PENGEMBANGAN</b> dan efisiensi source code aplikasi. ?Hal tersebut disebabkan karena:</p>
+<ul>
+<li>?pengembang tinggal mengikuti alur framework, ?</li>
+<li>pengembang bisa memanfaatkan library dari framework untuk perintah-perintah umum, seperti CRUD (Create Read Update Delete) data, session, dll,</li>
+<li>setiap project yang dibuat akan memiliki alur yang sama persis, sehingga saat pembuatan project berikutnya bisa meng-copy project sebelumnya, lalu sedikit dimodifikasi</li>
+</ul>
+<p><strong>BEDA FRAMEWORK DENGAN CMS</strong></p>
+<p>?Framework berbeda jika dibandingkan dengan CMS (Content Management System), walaupun sama-sama mempermudah pembuatan web. ?Pada CMS (misalnya wordpress), pengembang tidak perlu menuliskan code program PHP karena semuanya sudah jadi, tinggal mengatur konten dan tampilannya saja. ?Sedangkan Framework, pengembang harus menuliskan code program PHP sesuai dengan ruang lingkup yang diatur oleh framework.</p>
+<p><strong>FRAMEWORK CI</strong></p>
+<p>?CodeIgniter (CI) merupakan framework PHP yang tangguh dan sangat mudah dipelajari sehingga diperuntukkan kepada developer PHP yang ingin membangun aplikasi web yang full-featured dengan mudah dan elegan. ?CI hadir dengan dokumentasi yang lengkap dan menyediakan contoh-contoh koding yang bervariasi. ?CI juga memiliki komunitas yang besar sehingga ada banyak forum yang siap membantu ketika  anda merasa kesulitan dalam menggunakan CI.</p>
+<p><strong>VERSI FRAMEWORK CI</strong></p>
+<p>?Framework CI dibangun oleh EllisLab. ?EllisLab masih terus menyempurnakan Framework CI, baik dari segi keamanan (security), penanganan error atau bug, dan penambahan fitur-fitur. ?Saat ini framework CI sudah berada pada versi 3.0.3 dan biasanya setiap bulan diperbaharui dengan me-release versi terbaru. ?Framework CI bisa didownload secara gratis di situs resminya <a href="http://codeigniter.com/">http://codeigniter.com/</a></p>
+<p><strong>FITUR UTAMA FRAMEWORK CI</strong></p>
+<ul>
+<li>?Model-View-Controller Based System</li>
+<li>?Query Builder Database Support</li>
+<li>?Form and Data Validation</li>
+<li>?Security and XSS Filtering</li>
+<li>?Session Management</li>
+<li>?Email Sending Class. Supports Attachments, HTML/Text email, multiple protocols (sendmail, SMTP, and Mail)</li>
+<li>?Image Manipulation Library (cropping, resizing, rotating, etc.)</li>
+<li>?File Uploading Class</li>
+<li>?FTP Class</li>
+<li>?Localization</li>
+<li>?Pagination Data</li>
+<li>?Encryption</li>
+<li>?Search-engine Friendly</li>
+<li>?URLs Flexible</li>
+<li>?URI Routing</li>
+<li>?Large library of “helper” functions</li>
+</ul>
+<p><strong>KONSEP MVC</strong></p>
+<p>?Framework CI menggunakan metode pengembangan berbasis MVC (Model-View-Controller) sehingga developer wajib memahami konsep MVC sebelum menggunakan Framework CI. ?Konsep MVC adalah konsep pemisahan antara logik dari aplikasi (Controller) dengan tampilan aplikasi (View) dan database aplikasi (Model).</p>
+<p>?Umumnya, bagian Model dikerjakan oleh programmer sekaligus database analyst, dimana code-code di bagian ini merupakan code struktur data yang berisi koneksi dan fungsi di dalam pengolahan database. ?Sedangkan View dikerjakan oleh designer html, css, dan js karena code-code di bagian ini untuk menampilkan tampilan web yang menarik dan interaktif. ?Terakhir, Controller dikerjakan oleh programmer inti PHP karena menangani hubungan Model dengan View, algoritma, logic, HttpRequest, dll.</p>
+<p><figure id="attachment_52" aria-describedby="caption-attachment-52" style="width: 1341px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/11/mvc.png"><img loading="lazy" decoding="async" class="size-full wp-image-52" src="/wp-content/uploads/2015/11/mvc.png" alt="Arsitektur MVC pada CI" width="1341" height="806" srcset="/wp-content/uploads/2015/11/mvc.png 1341w, /wp-content/uploads/2015/11/mvc-300x180.png 300w, /wp-content/uploads/2015/11/mvc-1024x615.png 1024w" sizes="(max-width: 1341px) 100vw, 1341px" /></a><figcaption id="caption-attachment-52" class="wp-caption-text">Arsitektur MVC pada CI</figcaption></figure></p>
+<p>&nbsp;</p>
+<p><strong>STRUKTUR DIREKTORI CI</strong></p>
+<p>Setelah anda berhasil mendownload framework CI (dalam bentuk rar), maka ekstrak-lah file tersebut dan simpan di directory localhost anda. Berikut merupakan folder-folder yang terdapat di dalam framework CI.</p>
+<p><strong><br />
+<a href="/wp-content/uploads/2015/11/ci.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-53" src="/wp-content/uploads/2015/11/ci.png" alt="ci" width="759" height="298" srcset="/wp-content/uploads/2015/11/ci.png 759w, /wp-content/uploads/2015/11/ci-300x118.png 300w" sizes="(max-width: 759px) 100vw, 759px" /></a> </strong></p>
+<p>&nbsp;</p>
+<p>Terdapat 3 folder utama pada framework CI. Folder &#8216;application&#8217; merupakan area kerja dari pengembang web karena code-code yang akan dikembangkan akan dituliskan di direktori tersebut. Kemudian folder &#8216;system&#8217; merupakan folder yang mengandung definisi kelas-kelas inti, helper, dan lain-lain yang sudah dibuat oleh pengembang CI. Terakhir, folder &#8216;user_guide&#8217; merupakan direktori yang berisi tutorial atau dokumentasi cara penggunaan framework CI.</p>
+<p>Untuk pembuatan website, kita hanya diperkenankan untuk memodifikasi folder &#8216;application&#8217;. Isi dari folder tersebut adalah sebagai berikut:</p>
+<p><strong><a href="/wp-content/uploads/2015/11/dir-application-ci.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-55" src="/wp-content/uploads/2015/11/dir-application-ci.png" alt="dir application ci" width="172" height="440" srcset="/wp-content/uploads/2015/11/dir-application-ci.png 172w, /wp-content/uploads/2015/11/dir-application-ci-117x300.png 117w" sizes="(max-width: 172px) 100vw, 172px" /></a></strong></p>
+<p>FLOWCHART FRAMEWORK CI</p>
+<p><a href="/wp-content/uploads/2015/11/appflowchart.gif"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-56" src="/wp-content/uploads/2015/11/appflowchart.gif" alt="appflowchart" width="697" height="205" /></a></p>
+<p><strong>MEMULAI MENGGUNAKAN CI</strong></p>
+<p>Secara umum, tahapan untuk menggunakan framework CI pertama kali adalah sebagai berikut:</p>
+<ol>
+<li>Konfigurasi Framework CI</li>
+<li>Buat Library (jika membutuhkan library tambahan)</li>
+<li>Persiapkan Model</li>
+<li>Persiapkan Controller</li>
+<li>Persiapkan View</li>
+</ol>
+<p><strong>KONFIGURASI CI</strong></p>
+<ol>
+<li>Buka folder config</li>
+</ol>
+<p><a href="/wp-content/uploads/2015/11/konfig-ci.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-54" src="/wp-content/uploads/2015/11/konfig-ci.png" alt="konfig ci" width="285" height="455" srcset="/wp-content/uploads/2015/11/konfig-ci.png 285w, /wp-content/uploads/2015/11/konfig-ci-188x300.png 188w" sizes="(max-width: 285px) 100vw, 285px" /></a></p>
+<ol>
+<li>Buka file config.php</li>
+<li>Isilah  $config[&#8216;encryption_key&#8217;]</li>
+<li>Buka file database.php</li>
+<li>Isilah hostname, username, password, database</li>
+<li>Buka file route.php</li>
+<li>Tentukan $route[&#8216;default_controller&#8217;]</li>
+</ol>
+<p><strong>BUAT LIBRARY</strong></p>
+<p>?Jika anda ingin membuat sebuah library, silahkan buka folder ‘libraries’. ?Namun, saat ini penulisan library baru belum dibutuhkan.</p>
+<p><strong>PERSIAPKAN MODEL</strong></p>
+<ol>
+<li>?Buka folder ‘Models’ di folder ‘application’</li>
+<li>?Buat file baru, misal ‘user_model.php’</li>
+<li>?Buka file tersebut dan deklarasi kelas dengan nama yang sama dengan nama file tersebut</li>
+<li>?Kelas yang baru dideklarasikan wajib menurunkan kelas ‘CI_model’</li>
+</ol>
+<pre class="lang:default decode:true " title="user_model.php">&lt;?php
+
+class User_model extends CI_Model {
+
+	var $tabel = "user";
+	var $primary_key = "userid";
+
+	function User_model(){
+		 parent::__construct();
+	}
+	
+	function get_data_by_pk($username){
+		$this-&gt;db-&gt;select('*');
+		$this-&gt;db-&gt;where($this-&gt;primary_key,$username);
+		$result = $this-&gt;db-&gt;get($this-&gt;tabel);
+		
+		return $result-&gt;row();
+	}
+	
+	
+	function insert($data){
+		return $this-&gt;db-&gt;insert($this-&gt;tabel,$data);	
+	}
+	
+	function update($username,$data){
+		$this-&gt;db-&gt;where($this-&gt;primary_key,$username);
+		return $this-&gt;db-&gt;update($this-&gt;tabel,$data);
+	}
+	
+	function delete($username){
+		$this-&gt;db-&gt;where($this-&gt;primary_key,$username);
+		return $this-&gt;db-&gt;delete($this-&gt;tabel);
+	}
+}
+
+?&gt;</pre>
+<p><strong>PERSIAPKAN CONTROLLER</strong></p>
+<ol>
+<li>?Buka folder ‘Controllers’ di folder ‘application’</li>
+<li>?Buat file baru, misal ‘user.php’</li>
+<li>?Buka file tersebut dan deklarasi kelas dengan nama yang sama dengan nama file tersebut</li>
+<li>?Kelas yang baru dideklarasikan wajib menurunkan kelas ‘CI_Controller’</li>
+</ol>
+<pre class="lang:default decode:true " title="user.php">&lt;?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class User extends CI_Controller {
+	 
+	function __construct(){
+		parent::__construct();
+		$this-&gt;load-&gt;model('user_model','','TRUE');
+		date_default_timezone_set("Asia/Singapore");
+	}
+	
+	public function index(){		
+		$this-&gt;load-&gt;view('home');
+	}
+	
+	public function register(){
+		$item['email'] = $this-&gt;input-&gt;post('email',true);
+		$item['password'] = sha1($this-&gt;input-&gt;post('password',true));
+		$item['nama_lengkap'] = $this-&gt;input-&gt;post('nama_lengkap',true);
+		$item['alamat'] = $this-&gt;input-&gt;post('alamat',true);
+		$item['phone'] = $this-&gt;input-&gt;post('phone',true);		
+		$item['datetime'] = date("Y-m-d H:i:s");
+		$item['userid'] = strtotime($item['datetime']);
+		
+		$this-&gt;user_model-&gt;insert($item);					
+		redirect('/', 'refresh');
+	}
+}</pre>
+<p><strong>PERSIAPKAN VIEW</strong></p>
+<ol>
+<li>?Buka folder ‘Views’ di folder ‘application’</li>
+<li>?Buat file baru dengan nama misalnya ‘home.php’</li>
+<li>?Isilah file tersebut dengan script-script html biasa untuk menampilkan halaman web</li>
+</ol>
+<pre class="lang:default decode:true " title="home.php">&lt;?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+	&lt;title&gt;Halaman Awal&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id="container"&gt;
+	&lt;h1&gt;Registrasi&lt;/h1&gt;
+	&lt;form method="post" action="&lt;? echo base_url().'index.php/'?&gt;user/register"&gt;
+		&lt;input type="email" id="email" name="email" /&gt;
+		&lt;input type="text" id="nama_lengkap" name="nama_lengkap" /&gt;
+		&lt;input type="password" id="password" name="password" /&gt;
+		&lt;input type="text" id="phone" name="phone" /&gt;
+		&lt;textarea name="alamat" id="alamat" &gt;&lt;/textarea&gt;		
+		&lt;button type="submit"&gt;SEND&lt;/button&gt;
+	&lt;/form&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+<p><strong>PEMANGGILAN FUNGSI </strong></p>
+<p>?Pemanggilan fungsi yang sudah dibuat pada class Controller bisa dipanggil melalui url dengan format:</p>
+<p><i>host/index.php/class_name/function_name/data</i></p>
+<p>Contoh:</p>
+<p><i>http://locahost/codeigniter/index.php/user/index</i></p>
+<p><strong>PENUTUP</strong></p>
+<p>?Selain ringan dan cepat, CodeIgniter memiliki dokumentasi yang super lengkap disertai dengan contoh implementasi kodenya, sehingga hal ini menjadi salah satu alasan kuat mengapa banyak orang memilih CodeIgniter sebagai framework pilihannya.</p>
+<p>?Slide materi di sini hanya membahas tahap dasar penggunaan CodeIgniter. Untuk pemanfaatan fitur-fitur unggulan CodeIgniter yang lainnya akan dibahas di slide yang lain.</p>
+<p><strong>NEXT . . .</strong></p>
+<p>?Web Service dan XML</p>
+<p><strong>DOWNLOAD PDF</strong></p>
+<p>Jika anda tertarik untuk membaca materi ini dalam bentuk powerpoint atau PDF, silahkan download secara GRATIS di <a href="http://adf.ly/1SOdTD" target="_blank">sini</a>.</p>
+<p><strong>REFERENSI</strong></p>
+<p>?<a href="http://codeigniter.com/">http://codeigniter.com/</a></p>
+<p>?<a href="https://ellislab.com/codeigniter">https://</a><a href="https://ellislab.com/codeigniter">ellislab.com/codeigniter</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2015/11/27/pengenalan-framework-codeigniter/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Kolaborasi jQuery + AJAX +  PHP + MySQL</title>
+		<link>/2015/11/15/kolaborasi-jquery-ajax-php-mysql/</link>
+					<comments>/2015/11/15/kolaborasi-jquery-ajax-php-mysql/#comments</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Sun, 15 Nov 2015 05:18:51 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Web]]></category>
+		<category><![CDATA[ajax]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[jquery]]></category>
+		<category><![CDATA[jquerymobile]]></category>
+		<category><![CDATA[json]]></category>
+		<category><![CDATA[localhost]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[server]]></category>
+		<category><![CDATA[xampp]]></category>
+		<category><![CDATA[xml]]></category>
+		<guid isPermaLink="false">/?p=35</guid>
+
+					<description><![CDATA[Untuk materi ini, saya asumsikan anda sudah mampu menginstall aplikasi web server XAMPP pada komputer anda dan memahami sintaks dasar PHP, Javascript, dan penggunaan MySQL. <a class="mh-excerpt-more" href="/2015/11/15/kolaborasi-jquery-ajax-php-mysql/" title="Kolaborasi jQuery + AJAX +  PHP + MySQL">[...]</a>]]></description>
+										<content:encoded><![CDATA[
+<p>Untuk materi ini, saya asumsikan anda sudah mampu menginstall aplikasi web server XAMPP pada komputer anda dan memahami sintaks dasar PHP, Javascript, dan penggunaan MySQL.</p>
+
+
+
+<p><strong>PENDAHULUAN</strong></p>
+
+
+
+<p>AJAX (Asynchronous JavaScript and XML) dimanfaatkan untuk membuat web interaktif dan dinamis tanpa perlu membuat browser melakukan refresh ketika meminta data ke server. AJAX memungkinkan semua dapat dilakukan secara instan, tanpa perlu lagi menunggu halaman di-reload, sehingga aplikasi web mirip dengan aplikasi desktop dalam hal responsibilitas maupun interaktifitas. Saat ini, AJAX sudah menjadi teknologi yang wajib diterapkan dalam pengembangan web modern (web 2.0).</p>
+
+
+
+<p><strong>HUBUNGAN ANTARA&nbsp;HTML, AJAX, PHP, DAN&nbsp;MYSQL</strong></p>
+
+
+
+<p>Secara ringkas, keterhubungan antara semua topik bahasan di materi ini (HTML, AJAX, PHP, dan MySQL) digambarkan sebagai berikut:</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="/wp-content/uploads/2015/11/ajax-php.png"><img loading="lazy" decoding="async" width="1024" height="585" src="/wp-content/uploads/2015/11/ajax-php-1024x585.png" alt="" class="wp-image-38" srcset="/wp-content/uploads/2015/11/ajax-php-1024x585.png 1024w, /wp-content/uploads/2015/11/ajax-php-300x171.png 300w, /wp-content/uploads/2015/11/ajax-php.png 1238w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption>Keterkaitan antara HTML, AJAX, PHP, dan MySQL</figcaption></figure>
+
+
+
+<p>Pada saat dibuka, web browser masih kosong. Kemudian browser membuka sebuah halaman sehingga browser melakukan request ke server. Hasil request adalah script HTML, CSS, JS (termasuk Ajax Engine), dan script-script tersebut di-load ke web browser. Selanjutnya seperti pada gambar di atas, ketika user akan melakukan suatu perintah pada aplikasi, halaman HTML tetap diam, namun di belakang layar, AJAX Engine yang melakukan http request ke server.</p>
+
+
+
+<p><strong>ANTARA JQUERY DAN&nbsp;AJAX</strong></p>
+
+
+
+<p>jQuery merupakan sebuah library Javascript sehingga mempermudah manipulasi komponen di dokumen HTML, menangani event, animasi, efek, dll. Selain itu, jQuery mempermudah developer web untuk memproses interaksi AJAX. Tanpa library seperti jQuery, menerapkan AJAX akan lebih sulit, panjang, dan rumit, terutama untuk pemula yang baru belajar Javascript.</p>
+
+
+
+<p><b>MEMULAI PROJECT</b></p>
+
+
+
+<p>Sebagai latihan, akan dibuat sebuah aplikasi ajax berdasarkan project yang sebelumnya (aplikasi insert nama dan hobi). Project sebelumnya bisa dilihat di <a rel="noopener" href="/2015/11/06/koneksi-php-dan-mysql/" target="_blank">sini</a>. Aplikasi ajax ini akan mencari nama pada tabel ‘daftar_hobi’ dan akan menampilkan hobinya. So, jalankan web server pada komputer anda. Dari project yang sebelumnya (folder latihan), buatlah folder untuk project yang baru dengan nama ‘ajax’. Buatlah sebuah file html, dengan nama ‘index.html’.</p>
+
+
+
+<pre class="wp-block-preformatted lang:default decode:true">&lt;html&gt;
+&lt;head&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+    &lt;title&gt;Latihan AJAX&lt;/title&gt;
+	
+    &lt;!-- Jquery Mobile --&gt;
+    &lt;link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"&gt;
+    &lt;link href="css/my-style.css" rel="stylesheet"&gt;
+	
+    &lt;style&gt;
+		@media (min-width: 720px) {
+			#main{
+				width: 50%;
+				margin: auto;
+			}
+		}
+    &lt;/style&gt;
+	
+    &lt;!-- jQuery  --&gt;
+    &lt;script src="js/jquery.js"&gt;&lt;/script&gt;
+    &lt;script src="js/jquery.mobile-1.4.5.min.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;div data-role="page" class="jqm-demos jqm-home"&gt;		
+		&lt;div style="margin-top: 50px; margin-bottom: 30px;" id="main" role="main" class="ui-content"&gt;						
+			&lt;div id="result" style="margin-bottom: 20px; display: none"&gt;
+			  &lt;h3 class="ui-bar ui-bar-a ui-corner-all"&gt;Hasil Pencarian&lt;/h3&gt;
+			  &lt;div class="ui-body ui-body-a ui-corner-all"&gt;
+				
+			  &lt;/div&gt;
+			&lt;/div&gt;
+			
+			&lt;div id="pencarian"&gt;
+			  &lt;h3 class="ui-bar ui-bar-a ui-corner-all"&gt;Form Pencarian&lt;/h3&gt;
+			  &lt;div class="ui-body ui-body-a ui-corner-all"&gt;
+				&lt;form id="form-pencarian" action="get_hobi.php" method="post"&gt;
+					&lt;label for="search-1"&gt;Masukkan Nama anda:&lt;/label&gt;
+					&lt;input name="nama" id="nama" value="" placeholder="Cari nama . . . " type="search"&gt;
+					&lt;input value="C A R I" data-theme="a" type="submit"&gt;
+				&lt;/form&gt;
+			  &lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;!-- /content --&gt;
+	&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+
+
+
+<p>?Project ini memanfaatkan library jQueryMobile untuk mempercantik tampilan web dan library jQuery untuk mempermudah penggunaan AJAX.&nbsp;?Poin yang paling penting adalah:</p>
+
+
+
+<ol><li>?Menyediakan element untuk menampilkan hasil pencarian, yaitu div dengan id=“result”</li><li>?Membuat form untuk pengiriman data, dengan id=“form-pencarian” action=“get_hobi.php” method=“post”</li><li>Form tersebut terdiri dari input dengan type=“text” dan input dengan type=“submit”</li></ol>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><a href="/wp-content/uploads/2015/11/index.html.png"><img loading="lazy" decoding="async" width="699" height="264" src="/wp-content/uploads/2015/11/index.html.png" alt="Tampilan index.html" class="wp-image-40" srcset="/wp-content/uploads/2015/11/index.html.png 699w, /wp-content/uploads/2015/11/index.html-300x113.png 300w" sizes="(max-width: 699px) 100vw, 699px" /></a><figcaption>Tampilan index.html</figcaption></figure></div>
+
+
+
+<p><strong>BUAT SCRIPT UNTUK AJAX</strong></p>
+
+
+
+<p>?Setelah selesai membuat script HTML, selanjutnya buat script untuk penanganan AJAX.&nbsp;?Script bisa ditulis di file terpisah atau ditulis di bagian head file index.html.&nbsp;?Dalam project ini, script ditulis di bagian head file index.html karena code-nya sedikit.</p>
+
+
+
+<pre class="wp-block-preformatted lang:default decode:true">&lt;script type='text/javascript'&gt;
+		var temp;
+		$(document).ready(function (){
+			$('#form-pencarian').submit(function(event) {
+				
+				/* stop form from submitting normally */
+				event.preventDefault();
+				
+				$('#result .ui-body').html('');
+				
+				var url = $(this).attr('action');
+				
+				$.ajax({
+					type: $(this).attr('method'),
+					url: url,
+					data: $(this).serialize(),
+					dataType: "JSON",
+					success: function(data){
+//						alert(data);
+						if (data == null){
+							$('#result .ui-body').html('Data tidak ditemukan');
+						}else{
+							$('#result .ui-body').html(data[0].nama+' memiliki hobi '+data[0].hobi);
+						}
+						$('#result').show();
+					}
+				});
+			});
+		});
+	&lt;/script&gt;</pre>
+
+
+
+<p>Keterangan Singkat:?</p>
+
+
+
+<p><i>$(document).ready() </i>berfungsi untuk pengecek event, jadi apabila semua elemen pada dokumen HTML sudah di-load semua, maka script di dalam blok fungsi <i>$(</i><i>document).ready() </i>akan dijalankan.?</p>
+
+
+
+<p>?<i>$(&#8216;#form-pencarian&#8217;).submit</i><i>() </i>berfungsi sebagai listener event submit. Jadi, apabila form pencarian di-klik submit, maka script di dalam blok fungsi <i>$(&#8216;#form-pencarian&#8217;).submit() </i>akan dijalankan.</p>
+
+
+
+<p>?<i>event.preventDefault</i><i>() </i>berfungsi untuk menghentikan pengiriman data pada form secara normal. Fungsi tersebut digunakan karena pada project ini akan menggunakan pengiriman data melalui AJAX sehingga pengiriman data secara normal harus dihentikan.</p>
+
+
+
+<p>?$.ajax() merupakan proses pengiriman data dengan AJAX, dengan parameter:</p>
+
+
+
+<ul><li>?type ==&gt; method pengiriman, bisa “GET” atau “POST”</li><li>url ==&gt; server tujuan pengiriman data</li><li>?data ==&gt; data form yang akan dikirimkan ke server, bisa didapatkan dengan menggunakan <i>form.serialize(). </i>Jika ingin menulis data form secara manual, carany adalah:&nbsp;?“nama=“+$(‘#nama’).val()”</li><li>dataType ==&gt; format data yang akan diterima dari server, bisa “XML” atau “JSON”</li><li>success ==&gt; fungsi yang akan dijalankan ketika AJAX berhasil mengirimkan data ke server dan server memberikan respon balik. Respon balik dari server akan disimpan di variabel data.</li></ul>
+
+
+
+<p><strong>BUAT FILE PHP UNTUK KONEKSI KE DATABASE</strong></p>
+
+
+
+<p>?File PHP untuk koneksi ke database sudah dibahas pada project sebelumnya.&nbsp;?Untuk itu, buatlah file dengan nama <i>database.php </i>yang disalin dari project sebelumnya.&nbsp;?File ini hanya khusus menangani koneksi ke database, sedangkan penggunaan database (query database) akan dilakukan di file PHP yang lain dengan meng-include-kan file <i>database.php.</i></p>
+
+
+
+<pre class="wp-block-preformatted lang:default decode:true">&lt;?php
+	$dbhost = 'localhost';
+	$dbuser = 'root';
+	$dbpass = '';
+	$dbname = 'latihan';
+	$db = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+
+	// Check connection
+	if ($db-&gt;connect_error) {
+		die("Connection failed: " . $db-&gt;connect_error);
+	}
+?&gt;</pre>
+
+
+
+<p><strong>BUAT FILE PHP SEBAGAI SERVER TUJUAN AJAX</strong></p>
+
+
+
+<p>?Setelah file <i>database.php</i> selesai dibuat, sekarang buatlah file yang menjadi target pengiriman form (<i>get_hobi.php</i>).&nbsp;?File tersebut akan meng-include-kan file <i>database.php</i> agar bisa terhubung ke database.&nbsp;File <i>get_hobi.php</i> mirip dengan file project sebelumnya yang meng-query data, namun&nbsp; di file <i>get_hobi.php</i> akan dibuat untuk me-<i>return</i> data dalam bentuk JSON.</p>
+
+
+
+<pre class="wp-block-preformatted lang:default decode:true">&lt;?php
+	require "database.php";
+   
+	$namaku = $_POST['nama'];
+	
+	// prepare and bind
+	$stmt = $db-&gt;prepare("SELECT * FROM daftar_hobi WHERE nama=?");
+	$stmt-&gt;bind_param("s", $namaku);	
+	$stmt-&gt;execute();
+
+	$stmt-&gt;bind_result($nama,$hobi);
+	
+	$result = null;
+	while ($stmt-&gt;fetch()) {
+		$result[] = array(
+			'nama' =&gt; $nama,
+			'hobi' =&gt; $hobi
+		);
+	}
+	echo json_encode($result);
+
+	$stmt-&gt;close();
+	$db-&gt;close();
+?&gt;</pre>
+
+
+
+<p>?Require “database.php” merupakan code untuk memanggil file <i>database.php</i> dan meng-include-kan semua variabel dan code-nya ke dalam <i>get_hobi.php.&nbsp;</i>?Penggunaan prepare statement sama dengan project sebelumnya.&nbsp;Untuk mendapatkan hasil dari prepare statement, digunakan method <i>bind_result($nama,$hobi)</i>, dimana jumlah variabel pada parameternya <i>bind_result </i>disesuaikan dengan jumlah kolom yang di-query dari database.</p>
+
+
+
+<p>?Untuk mendapatkan hasil per baris-nya, gunakan fungsi fetch(), dimana fungsi ini akan menggeser pointer dari satu row hasil data query ke row selanjutnya dan menyimpan datanya ke variabel <i>$nama </i>dan <i>$hobi </i>.&nbsp;?Fungsi tersebut akan menghasilkan true jika baris yang ditunjuk memiliki data dan menghasilkan false jika baris yang ditunjuk tidak ada.&nbsp;?Fungsi json_encode adalah fungsi untuk mengubah array menjadi format JSON sehingga mudah dibaca oleh AJAX engine.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><a href="/wp-content/uploads/2015/11/dir.png"><img loading="lazy" decoding="async" width="762" height="313" src="/wp-content/uploads/2015/11/dir.png" alt="dir" class="wp-image-41" srcset="/wp-content/uploads/2015/11/dir.png 762w, /wp-content/uploads/2015/11/dir-300x123.png 300w" sizes="(max-width: 762px) 100vw, 762px" /></a></figure></div>
+
+
+
+<p><strong>SCREENSHOT AKHIR DIREKTORI PROJECT</strong></p>
+
+
+
+<p><strong>HASIL RUNNING PROJECT</strong></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><a href="/wp-content/uploads/2015/11/result.png"><img loading="lazy" decoding="async" width="708" height="380" src="/wp-content/uploads/2015/11/result.png" alt="result" class="wp-image-42" srcset="/wp-content/uploads/2015/11/result.png 708w, /wp-content/uploads/2015/11/result-300x161.png 300w" sizes="(max-width: 708px) 100vw, 708px" /></a></figure></div>
+
+
+
+<p><strong>PENUTUP</strong></p>
+
+
+
+<p>?AJAX mendukung asynchronous sehingga halaman web dapat di-update seperlunya.&nbsp;?Proses update website menjadi lebih cepat karena tidak seluruh halaman di-download.&nbsp;?</p>
+
+
+
+<p>Untuk mendapatkan source code lengkap dari project tadi, bisa diunduh secara gratis di&nbsp;<a href="http://adf.ly/1Rf5Ph" target="_blank" rel="noopener">sini</a>.</p>
+
+
+
+<p>?Untuk membaca materi ini dalam bentuk PDF atau POWERPOINT, silahkan diunduh secara gratis di <a href="http://adf.ly/1RiHn9" target="_blank" rel="noopener">sini</a>.</p>
+
+
+
+<p><strong>NEXT</strong></p>
+
+
+
+<p>Pada materi berikutnya, kita akan mempelajari Framework CodeIgniter.</p>
+
+
+
+<p><strong>REFERENSI</strong></p>
+
+
+
+<p>?<a href="http://jquery.com/">http://jquery.com/</a></p>
+
+
+
+<p>?<a href="http://w3school.com/">http://w3school.com/</a></p>
+
+
+
+<p>?<a href="http://php.net/manual">http://php.net/manual</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2015/11/15/kolaborasi-jquery-ajax-php-mysql/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Koneksi PHP dan MySQL</title>
+		<link>/2015/11/06/koneksi-php-dan-mysql/</link>
+					<comments>/2015/11/06/koneksi-php-dan-mysql/#comments</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Fri, 06 Nov 2015 15:29:58 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Web]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[get]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[post]]></category>
+		<category><![CDATA[prepared]]></category>
+		<category><![CDATA[server]]></category>
+		<category><![CDATA[statement]]></category>
+		<category><![CDATA[table]]></category>
+		<category><![CDATA[web]]></category>
+		<category><![CDATA[xampp]]></category>
+		<guid isPermaLink="false">/?p=14</guid>
+
+					<description><![CDATA[Untuk materi ini, saya asumsikan anda sudah mampu menginstall aplikasi web server XAMPP pada komputer anda dan memahami sintaks dasar PHP. PENDAHULUAN ?PHP adalah bahasa <a class="mh-excerpt-more" href="/2015/11/06/koneksi-php-dan-mysql/" title="Koneksi PHP dan MySQL">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p>Untuk materi ini, saya asumsikan anda sudah mampu menginstall aplikasi web server XAMPP pada komputer anda dan memahami sintaks dasar PHP.</p>
+<p><strong>PENDAHULUAN</strong></p>
+<p>?PHP adalah bahasa scripting yang kuat yang cocok untuk pengembangan HTML. ?PHP merupakan tools  yang dimanfaatkan untuk membuat web HTML menjadi dinamis. ?Sedangkan MySQL adalah database management system (DBMS) yang bersifat open source yang sangat populer di dunia. ?Dalam pengembangan web HTML dinamis, PHP berkolaborasi dengan MySQL untuk menyimpan data yang diinputkan oleh user.</p>
+<p><b>INPUT DATA USER KE PHP</b></p>
+<p>Setelah memahami bagaimana sintaks-sintaks dasar PHP (umumnya sangat mirip dengan sintaks bahasa C atau Java), sekarang muncul pertanyaan, bagaimana cara PHP untuk mendapatkan input dari user? ?Jika pada bahasa C atau Java kita menggunakan fungsi <em><strong>scanf</strong></em><strong>()</strong> untuk menerima input dari user, lalu bagaimana halnya dengan PHP?</p>
+<p>Jawabannya adalah gunakan Form HTML! ?User memasukkan data pada form, kemudian di-”tangkap” oleh server PHP. ?Dan oleh PHP, data tersebut disimpan pada variabel, kemudian diproses (atau disimpan ke database).</p>
+<p><b>MEMULAI PROJECT SEDERHANA</b></p>
+<p>?Asumsi bahwa anda sudah meng-install aplikasi web server, contoh: LAMPP (jika Linux), atau XAMPP (jika Windows). ?Buatlah folder baru (misal: latihan) pada folder htdoc di direktori anda menginstall XAMPP. ?Lalu buatlah sebuah file html untuk menginputkan script html form.</p>
+<p><figure id="attachment_19" aria-describedby="caption-attachment-19" style="width: 846px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/11/PHP1.png"><img loading="lazy" decoding="async" class="wp-image-19 size-full" src="/wp-content/uploads/2015/11/PHP1.png" alt="Direktori Project" width="846" height="560" srcset="/wp-content/uploads/2015/11/PHP1.png 846w, /wp-content/uploads/2015/11/PHP1-300x200.png 300w" sizes="(max-width: 846px) 100vw, 846px" /></a><figcaption id="caption-attachment-19" class="wp-caption-text">Direktori Project</figcaption></figure></p>
+<p>&nbsp;</p>
+<p><b>MEMBUAT FORM HTML</b></p>
+<p>Isilah file input_nama.html dengan code sebagai berikut:</p>
+<pre class="lang:xhtml decode:true" title="input_nama.html">&lt;html&gt; 
+&lt;head&gt; 
+	&lt;title&gt;My Form&lt;/title&gt;
+&lt;/head&gt; 
+&lt;body&gt;
+	&lt;form action="simpan_nama.php" method="post"&gt; 
+		Nama : &lt;input type="text" name="namaku"&gt;&lt;br&gt;
+		Hobi : &lt;input type="text" name="hobi"&gt;&lt;br&gt;
+		&lt;input type="submit" name="submit" value="Kirim"&gt;	
+	&lt;/form&gt;
+ &lt;/body&gt; 
+&lt;/html&gt;</pre>
+<p>Penjelasan singkat:</p>
+<p>?Action pada atribut form (<i>action=“simpan_nama.php</i>”)  bertujuan untuk memberitahu browser bahwa file tersebut yang akan memproses form HTML. ?Name pada atribut input (<i>name=“namaku”</i>) akan menjadi nama variabel yang akan digunakan oleh PHP untuk menangkap data input oleh user. ?Code <i>input type=“submit” </i>akan menghasilkan sebuah tombol yang jika klik oleh user, akan mengirimkan data form html ke file tujuan (<i>simpan_nama.php</i>).</p>
+<p><figure id="attachment_20" aria-describedby="caption-attachment-20" style="width: 751px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/11/PHP2.png"><img loading="lazy" decoding="async" class="wp-image-20 size-full" src="/wp-content/uploads/2015/11/PHP2.png" alt="PHP2" width="751" height="163" srcset="/wp-content/uploads/2015/11/PHP2.png 751w, /wp-content/uploads/2015/11/PHP2-300x65.png 300w" sizes="(max-width: 751px) 100vw, 751px" /></a><figcaption id="caption-attachment-20" class="wp-caption-text">Hasil Running Sementara</figcaption></figure></p>
+<p>&nbsp;</p>
+<p><strong>MEMBUAT FILE PHP SEBAGAI PENERIMA DATA</strong></p>
+<p>?Berdasarkan form <i>input_nama.html</i> tersebut, akan dilanjutkan membuat file PHP yang berfungsi sebagai “penangkap” kiriman data.? Diasumsikan bahwa anda sudah mengetahui dasar-dasar sintaks PHP. ?Untuk “menangkap” data, digunakan fungsi <i>$_GET </i>atau <i>$_POST</i>, tergantung attribute <i>method </i> yang digunakan pada form HTML. ?Pada contoh file <i>input_nama.html</i>, digunakan <i>method=“post”.</i></p>
+<pre class="lang:default decode:true" title="simpan_nama.php">&lt;html&gt;
+&lt;head&gt;
+	&lt;title&gt;Lihat Hasil&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;?php
+		$namaku = $_POST['namaku'] ;
+		$hobi = $_POST['hobi'] ;
+	?&gt;
+	&lt;p&gt;
+		Haloo &lt;?php echo $namaku; ?&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		Hobimu adalah &lt;b&gt; &lt;?php echo $hobi; ?&gt;&lt;/b&gt;
+	&lt;/p&gt;
+	&lt;p&gt;Terima kasih&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+<p>&nbsp;</p>
+<p><strong>GET VERSUS POST</strong></p>
+<p>?Method GET diproses lebih sederhana karena permintaan dikirim melalui alamat URL</p>
+<p>?Contoh: <i><a href="http://aryadharmaadi.com/index.php?nama=arya&amp;hobi=futsal">http://aryadharmaadi.com/index.php?nama=arya&amp;hobi=futsal</a></i></p>
+<p>?Method POST lebih tertutup dan data tersimpan lebih aman selama pengiriman karena data tidak terlihat. Data dikirimkan melalui <i>body of request</i>. ?Method POST bersifat non-cacheable.</p>
+<p><strong>HASIL RUNNING</strong></p>
+<p><figure id="attachment_21" aria-describedby="caption-attachment-21" style="width: 341px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/11/php3.png"><img loading="lazy" decoding="async" class="wp-image-21 size-full" src="/wp-content/uploads/2015/11/php3.png" alt="php3" width="341" height="148" srcset="/wp-content/uploads/2015/11/php3.png 341w, /wp-content/uploads/2015/11/php3-300x130.png 300w" sizes="(max-width: 341px) 100vw, 341px" /></a><figcaption id="caption-attachment-21" class="wp-caption-text">File input_nama.html setelah dijalankan</figcaption></figure></p>
+<p><figure id="attachment_22" aria-describedby="caption-attachment-22" style="width: 329px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/11/php4.png"><img loading="lazy" decoding="async" class="wp-image-22 size-full" src="/wp-content/uploads/2015/11/php4.png" alt="php4" width="329" height="187" srcset="/wp-content/uploads/2015/11/php4.png 329w, /wp-content/uploads/2015/11/php4-300x171.png 300w" sizes="(max-width: 329px) 100vw, 329px" /></a><figcaption id="caption-attachment-22" class="wp-caption-text">Hasil setelah menge-klik tombol &#8220;Kirim&#8221;</figcaption></figure></p>
+<p>&nbsp;</p>
+<p><b>KONEKSI PHP DAN MYSQL</b></p>
+<p>?Untuk menghubungkan PHP ke MySQL, dibutuhkan fungsi: <b><i>mysqli_connect</i></b><i>([string server [, string username [, string password [, string database_name [, int port_number [, string socket</i><i>]]]]]])</i></p>
+<p>?Contoh:</p>
+<pre class="lang:default decode:true " title="contoh koneksi ke mysql">&lt;?php
+  $db = mysqli_connect("localhost","root","","latihan");
+?&gt;</pre>
+<p>?Untuk menutup koneksi, gunakan:  <i>mysqli_close($db);</i></p>
+<p><b>QUERY MYSQL</b></p>
+<p>?Untuk memasukkan query ke MySQL melalui PHP, digunakan fungsi: <b><i>mysqli_query</i></b><i> ( resource link_identifier, string query [, int mode = MYSQLI_STORE_RESULT])  </i></p>
+<p>?Contoh:</p>
+<pre class="lang:default decode:true " title="contoh query">&lt;?php
+    $db = mysqli_connect("localhost", "phpuser", "alm65z", "phpdb");
+    $result = mysqli_query($db, "SELECT * FROM usertable");
+    $numrows = mysqli_num_rows($result);
+    print "There are $numrows people in usertable\n";
+?&gt;</pre>
+<p><b>PREPARED STATEMENT</b></p>
+<p>?Prepare Statement adalah fitur  yang digunakan untuk mengeksekusi SQL statement berulang-ulang dengan sangat efisien. ?Prepare Statement mengandung SQL Statement Template, dimana nilai yang akan dimasukkan diisi dengan tanda tanya (?)</p>
+<p>?Contoh:</p>
+<p><i>    INSERT </i><i>INTO daftar_hobi (nama, hobi) VALUES (?,?)</i></p>
+<p><strong>MELANJUTKAN PROJECT</strong></p>
+<p>?Dari project yang pertama (<i>input_nama.html</i>),  akan dilanjutkan dengan memasukkan data yang diinput oleh user ke database MySQL. ?Buka <i><a href="http://localhost/phpmyadmin">http://</a></i><i><a href="http://localhost/phpmyadmin">localhost/phpmyadmin</a></i> melalui browser untuk membuka tampilan MySQL. Selanjutnya, buatlah database di MySQL dengan nama “latihan” dan buat tabel dengan nama daftar_hobi”, dengan kolom sebagai berikut:</p>
+<p>?               nama   varchar (25)</p>
+<p>?               hobi  varchar(25)</p>
+<p><b>INSERT DATA</b></p>
+<p>?Untuk insert data ke database, buatlah file <i>koneksi_db.php. </i>?Pada form di file <i>input_nama.html, </i>ubah atribut <i>action=“simpan_nama.php”</i> menjadi <i>action=“koneksi_db.php</i>” agar data dikirim ke file <i>koneksi_db.php</i> yang akan dibuat.</p>
+<pre class="lang:default decode:true" title="koneksi_db.php">&lt;?php
+	$namaku = $_POST['namaku'] ;
+	$hobi = $_POST['hobi'] ;
+
+	$dbhost = 'localhost';
+	$dbuser = 'root';
+	$dbpass = '';
+	$dbname = 'latihan';
+	$db = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+
+	// Check connection
+	if ($db-&gt;connect_error) {
+		die("Connection failed: " . $db-&gt;connect_error);
+	}
+   
+	// prepare and bind
+	$stmt = $db-&gt;prepare("INSERT INTO daftar_hobi (nama, hobi) VALUES (?,?)");
+	$stmt-&gt;bind_param("ss", $namaku, $hobi);	
+	$stmt-&gt;execute();
+
+	echo "New records created successfully";
+
+	$stmt-&gt;close();
+	$db-&gt;close();
+?&gt;</pre>
+<p><b>MEMBACA DATA</b></p>
+<p>?Untuk membaca data pada database, digunakan fungsi: <b>mysqli_fetch_assoc</b> ( resource <i>result</i>)<i>. </i>?Fungsi tersebut mengambil satu row dan mengubahnya menjadi array asosiatif. ?Selain itu, untuk mengetahui ada berapa baris data (row) yang didapatkan, digunakan fungsi: <b>mysqli_num_rows</b> ( resource <i>result</i>).</p>
+<pre class="lang:default decode:true " title="query.php">&lt;?php
+    $db = mysqli_connect("localhost", "root", "", "latihan");
+    $result = mysqli_query($db, "SELECT * FROM daftar_hobi");
+
+    if ($result &amp;&amp; mysqli_num_rows($result)) {
+        $numrows = mysqli_num_rows($result);
+        $rowcount = 1;
+        print "There are $numrows people in usertable:&lt;br /&gt;&lt;br /&gt;";
+    
+        while ($row = mysqli_fetch_assoc($result)) {
+            print "Row $rowcount&lt;br /&gt;";
+    
+            while(list($var, $val) = each($row)) {
+                print "&lt;B&gt;$var&lt;/B&gt;: $val&lt;br /&gt;";
+            }
+    
+            print "&lt;br /&gt;";
+            ++$rowcount;
+        }
+    }
+?&gt;</pre>
+<p>Hasil Running query.php:</p>
+<p><a href="/wp-content/uploads/2015/11/PHP5.png"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-24" src="/wp-content/uploads/2015/11/PHP5.png" alt="PHP5" width="391" height="263" srcset="/wp-content/uploads/2015/11/PHP5.png 391w, /wp-content/uploads/2015/11/PHP5-300x202.png 300w" sizes="(max-width: 391px) 100vw, 391px" /></a></p>
+<p><b>PENUTUP</b></p>
+<p>?PHP dan MySQL dimanfaatkan untuk membentuk web HTML menjadi dinamis. ?Lebih lanjut, anda bisa mencoba bagaimana cara meng-update dan delete data pada MySQL.</p>
+<p><strong>DOWNLOAD SOURCE CODE DAN MATERI PDF</strong></p>
+<p>Jika anda ingin mendapatkan source code lengkap dari project di atas, silahkan unduh secara gratis di <a href="http://adf.ly/4392232/latihan-php-mysql" target="_blank">sini</a>.</p>
+<p>Selain itu, jika anda tertarik untuk mendownload dan membaca materi ini dalam bentuk PDF/Power Point, silahkan unduh secara gratis di <a href="http://adf.ly/1Rf9PR" target="_blank">sini</a>. Terima kasih.</p>
+<p><strong>NEXT . . .</strong></p>
+<p><a href="/2015/11/15/kolaborasi-jquery-ajax-php-mysql/" target="_blank">?Kombinasi JQuery, AJAX, dan PHP</a></p>
+<p><strong>REFERENSI</strong></p>
+<p>?<a href="http://www.webmonkey.com/2010/02/php_tutorial_for_beginners/">http://www.webmonkey.com/2010/02/php_tutorial_for_beginners</a><a href="http://www.webmonkey.com/2010/02/php_tutorial_for_beginners/">/</a></p>
+<p>?<a href="http://www.hackingwithphp.com/">http://www.hackingwithphp.com/</a><a href="http://www.hackingwithphp.com/">/</a></p>
+<p>?<a href="http://www.w3schools.com/">http://</a><a href="http://www.w3schools.com/">www.w3schools.com</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2015/11/06/koneksi-php-dan-mysql/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

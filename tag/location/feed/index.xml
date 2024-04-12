@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>location &#8211; Catatan Kecil</title>
+	<atom:link href="/tag/location/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Arya Dharmaadi&#039;s Blog</description>
+	<lastBuildDate>Fri, 27 Nov 2015 02:50:20 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/02/cropped-java-65x65.png</url>
+	<title>location &#8211; Catatan Kecil</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Pengenalan Android Location</title>
+		<link>/2015/11/27/pengenalan-android-location/</link>
+					<comments>/2015/11/27/pengenalan-android-location/#respond</comments>
+		
+		<dc:creator><![CDATA[aryadharmaadi]]></dc:creator>
+		<pubDate>Fri, 27 Nov 2015 02:50:20 +0000</pubDate>
+				<category><![CDATA[Kuliah]]></category>
+		<category><![CDATA[Pemrograman Android Lanjut]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[gps]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[location]]></category>
+		<category><![CDATA[network]]></category>
+		<category><![CDATA[provider]]></category>
+		<guid isPermaLink="false">/?p=58</guid>
+
+					<description><![CDATA[Pengaksesan lokasi terkini pengguna smartphone Android akan memberikan nilai tambah pada aplikasi untuk memberikan konten yang sesuai dan lebih baik. LOCATION PERMISSION ?Oleh karena melacak <a class="mh-excerpt-more" href="/2015/11/27/pengenalan-android-location/" title="Pengenalan Android Location">[...]</a>]]></description>
+										<content:encoded><![CDATA[<p>Pengaksesan lokasi terkini pengguna smartphone Android akan memberikan nilai tambah pada aplikasi untuk memberikan konten yang sesuai dan lebih baik.</p>
+<p><strong>LOCATION PERMISSION</strong></p>
+<p>?Oleh karena melacak lokasi terkini pengguna bisa menyebabkan masalah privasi, pemanfaatan API lokasi dilindungi oleh beberapa permission. ?Hanya aplikasi dengan permission yang benar saja diijinkan untuk mengakses lokasi pengguna.</p>
+<p>?Android menyediakan 2 permission untuk lokasi:</p>
+<ul>
+<li>?android.permission.ACCESS_COARSE_LOCATION</li>
+</ul>
+<p>mengijinkan aplikasi untuk mengakses perkiraan lokasi dari pengguna. Informasi lokasi didapatkan dari lokasi jaringan, seperti WiFi dan BTS</p>
+<ul>
+<li>?android.permission.ACCESS_FINE_LOCATION</li>
+</ul>
+<p>mengijinkan aplikasi untuk mengakses lokasi yang tepat dari pengguna. Informasi lokasi didapatkan dari kombinasi GPS dan lokasi jaringan</p>
+<p><strong>LOCATION MANAGER</strong></p>
+<p>?Developer bisa mengakses ke sensor lokasi pada device melalui <i>Android location service. </i>?Location service diakses melalui <i>API Location Manager</i>, yang dipanggil dengan cara sebagai berikut:</p>
+<pre class="lang:default decode:true " title="location_manager">LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);</pre>
+<p><strong>LOCATION PROVIDER</strong></p>
+<p>?<i>Location service </i>bergantung pada <i>location provider </i>untuk mengakses lokasi terkini dari pengguna. ?Android mendukung 3 <i>location provider </i>berikut:</p>
+<ul>
+<li>?GPS_PROVIDER</li>
+</ul>
+<p>Menentukan lokasi menggunakan satelit GPS. Tergantung dari kondisi lingkungan, provider ini membutuhkan waktu beberapa saat untuk mendapatkan lokasi yang fix dari pengguna. Membutuhkan ACCESS_FINE_LOCATION permission</p>
+<ul>
+<li>?NETWORK_PROVIDER</li>
+</ul>
+<p>Menentukan lokasi melalui ketersediaan BTS dan WiFi access point. Membutuhkan ACCESS_COARSE_LOCATION permission</p>
+<ul>
+<li>?PASSIVE_PROVIDER</li>
+</ul>
+<p>Menentukan lokasi tanpa meminta lokasi fix saat ini. Artinya, provider ini bergantung pada lokasi yang pernah diminta oleh aplikasi lainnya. Membutuhkan ACCESS_FINE_LOCATION permission.</p>
+<p><strong>MEMERIKSA KETERSEDIAAN <i>LOCATION PROVIDER</i></strong></p>
+<p>?Tidak semua <i>location provider </i>selalu tersedia di setiap waktu. ?Hal ini disebabkan karena  android mengijinkan pengguna untuk menghidupkan atau mematikan <i>location provider </i>melalui menu pengaturan. ?Artinya, location provider tidak bisa digunakan ketika misalnya WiFi pada device android dimatikan atau ketika mode pesawat diaktifkan.</p>
+<p>?Untuk itu, diperlukan pengecekan status dari location provider sebagai berikut:</p>
+<pre class="lang:default decode:true " title="location_provider">if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+	// Use the GPS provider
+} else {
+	// Use an other provider
+}
+</pre>
+<p><strong>LISTENING STATE CHANGES</strong></p>
+<p>?Ketika pengguna memutuskan untuk mematikan atau menghidupkan <i>location provider </i>melalui menu pengaturan, maka aplikasi akan mendapatakan <i>broadcast message </i>dengan aksi android.location.PROVIDERS_CHANGED</p>
+<p>?Dengan demikian, aplikasi bisa melakukan aksi berdasarkan event tersebut, misalnya berpindah untuk menggunakan <i>GPS location provider </i>ketika layanan tersebut diaktifkan oleh pengguna.</p>
+<pre class="lang:default decode:true " title="broadcast_receiver">private final BroadcastReceiver providerChangedListener = new BroadcastReceiver() {
+	@Override
+	public void onReceive(Context context, Intent intent) {
+		LocationManager locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
+		if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+			// Use the GPS provider
+		} else {
+			// Use an other provider
+		}
+	}
+};</pre>
+<pre class="lang:default decode:true " title="register_receiver">registerReceiver(providerChangedListener, new IntentFilter(LocationManager.PROVIDERS_CHANGED_ACTION));</pre>
+<p><strong>LOCATION UPDATE</strong></p>
+<p>?Android menyediakan cara untuk mendapatkan update lokasi terkini dari pengguna. ?Untuk mendapatkan update lokasi, aplikasi melakukan register pada <i>location listener </i>melalui kelas <i>LocationManager. </i>?Berikut merupakan contoh untuk implementasi <i>LocationListener.</i></p>
+<pre class="lang:default decode:true " title="location_listener">private final LocationListener locationListener = new LocationListener() {
+	@Override
+	public void onLocationChanged(Location location) {
+		// Location update
+	}
+	@Override
+	public void onStatusChanged(String provider, int status, Bundle extras) {
+		// Provider status has changed
+	}
+	@Override
+	public void onProviderEnabled(String provider) {
+		// Provider enabled
+	}
+	@Override
+	public void onProviderDisabled(String provider) {
+		// Provider disabled
+	}
+};</pre>
+<p><strong>INFORMASI PADA <i>LOCATION UPDATE</i></strong></p>
+<p>?Objek <em>location</em> pada saat mendapatkan location update mengandung informasi sebagai berikut:</p>
+<ul>
+<li>?Accuracy : perkiraan akurasi dalam satuan meter</li>
+<li>?Altitude : hasil pengukuran berdasarkan World Geodetic System (WGS) 84 dengan satuan meter</li>
+<li>?Bearing : arah / haluan dalam satuan derajat</li>
+<li>?Latitude dan longitude : posisi koordinat dalam derajat</li>
+<li>?Provider : nama location provider</li>
+<li>?Time : waktu</li>
+</ul>
+<p><strong>REGISTER UNTUK UPDATE LOKASI</strong></p>
+<pre class="lang:default decode:true " title="request_location_update">locationManager.requestLocationUpdates(
+	LocationManager.GPS_PROVIDER,
+	1000, // minimum 1 sec updates
+	1, // minimum 1m changes
+	locationListener
+);</pre>
+<p><strong>UNREGISTERING</strong></p>
+<p>?Oleh karena penggunaan location akan membuat baterai device berkurang secara signifikan, aplikasi sebaiknya melakukan unregister dari location update ketika memang sudah tidak dibutuhkan.</p>
+<p>?Caranya adalah:</p>
+<pre class="lang:default decode:true " title="unregister">locationManager.removeUpdates(locationListener);</pre>
+<p><strong>SINGLE LOCATION UPDATE</strong></p>
+<p>?Aplikasi juga bisa hanya meminta single location update pada Android. ?Setelah mendapatkan single location update, fitur lokasi pada device otomatis akan dimatikan.</p>
+<p>?Caranya adalah sebagai berikut:</p>
+<pre class="lang:default decode:true " title="single_update">locationManager.requestSingleUpdate(
+	LocationManager.GPS_PROVIDER,
+	locationListener,
+	Looper.myLooper()
+);</pre>
+<p><strong>MENGGUNAKAN <i>LAST KNOWN LOCATION</i></strong></p>
+<p>?Untuk mendapatkan lokasi yang fix melalui GPS akan memakan waktu yang cukup lama. ?Oleh karena itu, developer bisa mensiasati waktu yang lama tersebut dengan memanfaatkan <i>last known location</i> untuk mendapatkan lokasi terakhir yang pernah di-request oleh aplikasi Android.</p>
+<p>?Caranya adalah:</p>
+<pre class="lang:default decode:true " title="get_last_known_location">Location location = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);</pre>
+<p><strong>PENUTUP</strong></p>
+<p>?Platform Android menyediakan informasi lokasi kepada aplikasi yang berjalan di atasnya. ?Dalam rangka pemenuhan informasi lokasi, platform Android mendukung penggunaan GPS location provider dan network location provider. ?Atas alasan privasi, aplikasi wajib mendapatkan permission untuk bisa mengakses lokasi terkini dari pengguna</p>
+<p><strong>DOWNLOAD PDF</strong></p>
+<p>Jika anda tertarik untuk membaca materi ini dalam bentuk powerpoint atau PDF, silahkan download secara GRATIS di <a href="http://www.slideshare.net/IPutuAryaDharmaadi/android-location-55564203" target="_blank">sini</a>.</p>
+<p><strong>REFERENSI</strong></p>
+<p>e-book:  ?Cinar, Onur. 2015. <i>Android Quick APIs Reference</i>. Appres</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2015/11/27/pengenalan-android-location/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
