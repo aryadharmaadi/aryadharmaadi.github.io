@@ -253,7 +253,7 @@
 <p>&nbsp;</p>
 <p><strong>GET VERSUS POST</strong></p>
 <p>?Method GET diproses lebih sederhana karena permintaan dikirim melalui alamat URL</p>
-<p>?Contoh: <i><a href="http://aryadharmaadi.com/index.php?nama=arya&amp;hobi=futsal">http://aryadharmaadi.com/index.php?nama=arya&amp;hobi=futsal</a></i></p>
+<p>?Contoh: <i><a href="https://aryadharmaadi.github.io/index.php?nama=arya&amp;hobi=futsal">https://aryadharmaadi.github.io/index.php?nama=arya&amp;hobi=futsal</a></i></p>
 <p>?Method POST lebih tertutup dan data tersimpan lebih aman selama pengiriman karena data tidak terlihat. Data dikirimkan melalui <i>body of request</i>. ?Method POST bersifat non-cacheable.</p>
 <p><strong>HASIL RUNNING</strong></p>
 <p><figure id="attachment_21" aria-describedby="caption-attachment-21" style="width: 341px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2015/11/php3.png"><img loading="lazy" decoding="async" class="wp-image-21 size-full" src="/wp-content/uploads/2015/11/php3.png" alt="php3" width="341" height="148" srcset="/wp-content/uploads/2015/11/php3.png 341w, /wp-content/uploads/2015/11/php3-300x130.png 300w" sizes="(max-width: 341px) 100vw, 341px" /></a><figcaption id="caption-attachment-21" class="wp-caption-text">File input_nama.html setelah dijalankan</figcaption></figure></p>
